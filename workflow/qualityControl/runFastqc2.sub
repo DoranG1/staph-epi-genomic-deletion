@@ -1,0 +1,14 @@
+container_image = docker://staphb/fastqc
+
+arguments = $(sample)
+executable = fastqc2.sh
+
+log = WGS-260210-QUO1021220/log/fastqc2_$(sample).log
+error = WGS-260210-QUO1021220/err/fastqc2_$(sample).err
+output = WGS-260210-QUO1021220/out/fastqc2_$(sample).out
+
+request_cpus = 6
+request_memory = 16GB
+request_disk = 10GB
+
+queue sample from WGS-260210-QUO1021220/config/WGS-260210-QUO1021220_samplesheet_fastp.txt

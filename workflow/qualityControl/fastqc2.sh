@@ -1,0 +1,2 @@
+SAMPLE="$1"
+fastqc --extract --delete --nogroup -o /staging/groups/bacteriology_mo/dorang/WGS-260210-QUO1021220/output/fastqc2 /staging/groups/bacteriology_mo/dorang/WGS-260210-QUO1021220/output/fastp/${SAMPLE}*.fastp.fastq.gz

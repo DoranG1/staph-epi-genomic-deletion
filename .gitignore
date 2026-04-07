@@ -1,0 +1,4 @@
+# Ignore condor job log files.
+/workflow/*/*/out
+/workflow/*/*/log
+/workflow/*/*/err
