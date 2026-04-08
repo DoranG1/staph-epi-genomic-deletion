@@ -1,0 +1,46 @@
+Read1 before filtering:
+total reads: 1273328
+total bases: 189084357
+Q20 bases: 185894625(98.3131%)
+Q30 bases: 179543063(94.9539%)
+Q40 bases: 179543063(94.9539%)
+
+Read2 before filtering:
+total reads: 1273328
+total bases: 189078297
+Q20 bases: 185305287(98.0045%)
+Q30 bases: 177986845(94.1339%)
+Q40 bases: 177986845(94.1339%)
+
+Read1 after filtering:
+total reads: 1010137
+total bases: 149611813
+Q20 bases: 148245441(99.0867%)
+Q30 bases: 145040996(96.9449%)
+Q40 bases: 145040996(96.9449%)
+
+Read2 after filtering:
+total reads: 1010137
+total bases: 149608527
+Q20 bases: 148360015(99.1655%)
+Q30 bases: 145076556(96.9708%)
+Q40 bases: 145076556(96.9708%)
+
+Filtering result:
+reads passed filter: 2352924
+reads failed due to low quality: 183796
+reads failed due to too many N: 450
+reads failed due to too short: 9486
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 2702
+bases trimmed due to adapters: 136761
+
+Duplication rate: 13.1181%
+
+Insert size peak (evaluated by paired-end reads): 0
+
+JSON report: /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_PopulationB_Oxa_fastp.json
+HTML report: /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_PopulationB_Oxa_fastp.html
+
+fastp --dedup --trim_poly_g -q 28 -u 25 -i /staging/dagoldman2/staph-epi-genomic-deletion/RP62a_P12_PopulationB_Oxa_S437_R1_001.fastq.gz -I /staging/dagoldman2/staph-epi-genomic-deletion/RP62a_P12_PopulationB_Oxa_S437_R2_001.fastq.gz -o /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz -O /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz -h /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_PopulationB_Oxa_fastp.html -j /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_PopulationB_Oxa_fastp.json 
+fastp v1.3.1, time used: 12 seconds

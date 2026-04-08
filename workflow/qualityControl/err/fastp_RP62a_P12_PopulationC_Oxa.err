@@ -1,0 +1,46 @@
+Read1 before filtering:
+total reads: 4480359
+total bases: 577461238
+Q20 bases: 568157817(98.3889%)
+Q30 bases: 550490078(95.3294%)
+Q40 bases: 550490078(95.3294%)
+
+Read2 before filtering:
+total reads: 4480359
+total bases: 577315698
+Q20 bases: 569065214(98.5709%)
+Q30 bases: 553332920(95.8458%)
+Q40 bases: 553332920(95.8458%)
+
+Read1 after filtering:
+total reads: 3675958
+total bases: 469086651
+Q20 bases: 465417488(99.2178%)
+Q30 bases: 456783681(97.3773%)
+Q40 bases: 456783681(97.3773%)
+
+Read2 after filtering:
+total reads: 3675958
+total bases: 469015548
+Q20 bases: 466500261(99.4637%)
+Q30 bases: 459775216(98.0298%)
+Q40 bases: 459775216(98.0298%)
+
+Filtering result:
+reads passed filter: 8419118
+reads failed due to low quality: 511952
+reads failed due to too many N: 3850
+reads failed due to too short: 25798
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 27922
+bases trimmed due to adapters: 381346
+
+Duplication rate: 11.9578%
+
+Insert size peak (evaluated by paired-end reads): 105
+
+JSON report: /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_PopulationC_Oxa_fastp.json
+HTML report: /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_PopulationC_Oxa_fastp.html
+
+fastp --dedup --trim_poly_g -q 28 -u 25 -i /staging/dagoldman2/staph-epi-genomic-deletion/RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz -I /staging/dagoldman2/staph-epi-genomic-deletion/RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz -o /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_PopulationC_Oxa_R1.fastp.fastq.gz -O /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_PopulationC_Oxa_R2.fastp.fastq.gz -h /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_PopulationC_Oxa_fastp.html -j /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_PopulationC_Oxa_fastp.json 
+fastp v1.3.1, time used: 38 seconds

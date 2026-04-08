@@ -1,0 +1,46 @@
+Read1 before filtering:
+total reads: 1917542
+total bases: 284100045
+Q20 bases: 282745982(99.5234%)
+Q30 bases: 276025177(97.1577%)
+Q40 bases: 276025177(97.1577%)
+
+Read2 before filtering:
+total reads: 1917542
+total bases: 284098334
+Q20 bases: 281172335(98.9701%)
+Q30 bases: 272642289(95.9676%)
+Q40 bases: 272642289(95.9676%)
+
+Read1 after filtering:
+total reads: 1300599
+total bases: 191583678
+Q20 bases: 191081527(99.7379%)
+Q30 bases: 187434818(97.8344%)
+Q40 bases: 187434818(97.8344%)
+
+Read2 after filtering:
+total reads: 1300599
+total bases: 191575842
+Q20 bases: 190909493(99.6522%)
+Q30 bases: 186941753(97.5811%)
+Q40 bases: 186941753(97.5811%)
+
+Filtering result:
+reads passed filter: 3678580
+reads failed due to low quality: 138186
+reads failed due to too many N: 1992
+reads failed due to too short: 16326
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 5154
+bases trimmed due to adapters: 70912
+
+Duplication rate: 28.2095%
+
+Insert size peak (evaluated by paired-end reads): 0
+
+JSON report: /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P15_C_fastp.json
+HTML report: /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P15_C_fastp.html
+
+fastp --dedup --trim_poly_g -q 28 -u 25 -i /staging/dagoldman2/staph-epi-genomic-deletion/RP62a_P15_C_S448_R1_001.fastq.gz -I /staging/dagoldman2/staph-epi-genomic-deletion/RP62a_P15_C_S448_R2_001.fastq.gz -o /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P15_C_R1.fastp.fastq.gz -O /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P15_C_R2.fastp.fastq.gz -h /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P15_C_fastp.html -j /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P15_C_fastp.json 
+fastp v1.3.1, time used: 21 seconds

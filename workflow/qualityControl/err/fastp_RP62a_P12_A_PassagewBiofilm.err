@@ -1,0 +1,46 @@
+Read1 before filtering:
+total reads: 2096432
+total bases: 310217731
+Q20 bases: 305055680(98.336%)
+Q30 bases: 294146905(94.8195%)
+Q40 bases: 294146905(94.8195%)
+
+Read2 before filtering:
+total reads: 2096432
+total bases: 310216246
+Q20 bases: 303966756(97.9854%)
+Q30 bases: 291603504(94.0001%)
+Q40 bases: 291603504(94.0001%)
+
+Read1 after filtering:
+total reads: 1464944
+total bases: 215642746
+Q20 bases: 213703255(99.1006%)
+Q30 bases: 208902960(96.8746%)
+Q40 bases: 208902960(96.8746%)
+
+Read2 after filtering:
+total reads: 1464944
+total bases: 215633868
+Q20 bases: 214043170(99.2623%)
+Q30 bases: 209567890(97.1869%)
+Q40 bases: 209567890(97.1869%)
+
+Filtering result:
+reads passed filter: 3809452
+reads failed due to low quality: 345342
+reads failed due to too many N: 8028
+reads failed due to too short: 30042
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 8500
+bases trimmed due to adapters: 234904
+
+Duplication rate: 21.1343%
+
+Insert size peak (evaluated by paired-end reads): 0
+
+JSON report: /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_A_PassagewBiofilm_fastp.json
+HTML report: /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_A_PassagewBiofilm_fastp.html
+
+fastp --dedup --trim_poly_g -q 28 -u 25 -i /staging/dagoldman2/staph-epi-genomic-deletion/RP62a_P12_A_PassagewBiofilm_S197_R1_001.fastq.gz -I /staging/dagoldman2/staph-epi-genomic-deletion/RP62a_P12_A_PassagewBiofilm_S197_R2_001.fastq.gz -o /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_A_PassagewBiofilm_R1.fastp.fastq.gz -O /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_A_PassagewBiofilm_R2.fastp.fastq.gz -h /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_A_PassagewBiofilm_fastp.html -j /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastp/RP62a_P12_A_PassagewBiofilm_fastp.json 
+fastp v1.3.1, time used: 14 seconds

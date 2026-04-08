@@ -1,0 +1,185 @@
+Started analysis of RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+Failed to process file RP62a_P12_PopulationB_CNPx_R1.fastp.fastq.gz
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.base/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:467)
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:159)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.unzipZipFile(HTMLReportArchive.java:213)
+	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.<init>(HTMLReportArchive.java:185)
+	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.analysisComplete(OfflineRunner.java:189)
+	at uk.ac.babraham.FastQC.Analysis.AnalysisRunner.run(AnalysisRunner.java:123)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Started analysis of RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+Failed to process file RP62a_P12_PopulationB_CNPx_R2.fastp.fastq.gz
+java.io.EOFException: Unexpected end of ZLIB input stream
+	at java.base/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:467)
+	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:159)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.unzipZipFile(HTMLReportArchive.java:213)
+	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.<init>(HTMLReportArchive.java:185)
+	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.analysisComplete(OfflineRunner.java:189)
+	at uk.ac.babraham.FastQC.Analysis.AnalysisRunner.run(AnalysisRunner.java:123)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Started analysis of RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Approx 100% complete for RP62a_P12_PopulationB_JBug18_R1.fastp.fastq.gz
+Started analysis of RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationB_JBug18_R2.fastp.fastq.gz
+Started analysis of RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationB_Oxa_R1.fastp.fastq.gz
+Started analysis of RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationB_Oxa_R2.fastp.fastq.gz
+Started analysis of RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationB_R1.fastp.fastq.gz
+Started analysis of RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationB_R2.fastp.fastq.gz
