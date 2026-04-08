@@ -1,0 +1,176 @@
+Started analysis of RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+Failed to process file RP62a_P12_PopulationC_Biofilm_S440_R1_001.fastq.gz
+java.util.zip.ZipException: invalid CEN header (bad signature)
+	at java.base/java.util.zip.ZipFile$Source.zerror(ZipFile.java:1607)
+	at java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1557)
+	at java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1308)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1271)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:733)
+	at java.base/java.util.zip.ZipFile$CleanableResource.get(ZipFile.java:850)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:248)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:177)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:191)
+	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.unzipZipFile(HTMLReportArchive.java:193)
+	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.<init>(HTMLReportArchive.java:185)
+	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.analysisComplete(OfflineRunner.java:189)
+	at uk.ac.babraham.FastQC.Analysis.AnalysisRunner.run(AnalysisRunner.java:123)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Started analysis of RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationC_Biofilm_S440_R2_001.fastq.gz
+Started analysis of RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationC_Jbug18_S441_R1_001.fastq.gz
+Started analysis of RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationC_Jbug18_S441_R2_001.fastq.gz
+Started analysis of RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationC_Oxa_S442_R1_001.fastq.gz
+Started analysis of RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationC_Oxa_S442_R2_001.fastq.gz
+Started analysis of RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationC_S439_R1_001.fastq.gz
+Started analysis of RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 5% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 10% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 15% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 20% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 25% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 30% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 35% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 40% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 45% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 50% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 55% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 60% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 65% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 70% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 75% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 80% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 85% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 90% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
+Approx 95% complete for RP62a_P12_PopulationC_S439_R2_001.fastq.gz
