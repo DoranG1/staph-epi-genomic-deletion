@@ -1,0 +1,14 @@
+container_image = docker://jysgro/breseq
+
+arguments = $(sample) $(request_cpus)
+executable = breseq-clones.sh
+
+log = log/breseq_clone_$(sample).log
+error = err/breseq_clone_$(sample).err
+output = out/breseq_clone_$(sample).out
+
+request_cpus = 24
+request_memory = 256GB
+request_disk = 64GB
+
+queue sample from config/samplesheet-clones.txt

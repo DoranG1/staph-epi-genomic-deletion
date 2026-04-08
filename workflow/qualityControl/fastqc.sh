@@ -1,2 +1,2 @@
 SAMPLE="$1"
-fastqc --extract --delete --nogroup -o /staging/groups/bacteriology_mo/dorang/WGS-260210-QUO1021220/output/fastqc /staging/dagoldman2/WGS-260210-QUO1021220/${SAMPLE}*.fastq.gz
+fastqc --extract --delete --nogroup -o /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/fastqc /staging/dagoldman2/staph-epi-genomic-deletion/${SAMPLE}*.fastq.gz
