@@ -1,2 +1,48 @@
 000 (4844775.037.000) 2026-04-08 11:19:28 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_8274_dab1>
 ...
+040 (4844775.037.000) 2026-04-08 21:45:53 Started transferring input files
+	Transferring to host: <128.105.68.153:9618?addrs=128.105.68.153-9618&alias=mem2004.chtc.wisc.edu&noUDP&sock=slot2_3_2850716_0f4d_74786>
+...
+040 (4844775.037.000) 2026-04-08 21:45:53 Finished transferring input files
+...
+001 (4844775.037.000) 2026-04-08 21:45:55 Job executing on host: <128.105.68.153:9618?addrs=128.105.68.153-9618&alias=mem2004.chtc.wisc.edu&noUDP&sock=startd_9423_f903>
+	SlotName: slot2_3@mem2004.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot2/dir_2405492/scratch"
+	Cpus = 24
+	Disk = 67108864
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 262144
+...
+006 (4844775.037.000) 2026-04-08 21:46:03 Image size of job updated: 22
+	22  -  MemoryUsage of job (MB)
+	23220  -  ResidentSetSize of job (KB)
+...
+006 (4844775.037.000) 2026-04-08 22:31:09 Image size of job updated: 269
+	269  -  MemoryUsage of job (MB)
+	275636  -  ResidentSetSize of job (KB)
+...
+006 (4844775.037.000) 2026-04-08 22:36:10 Image size of job updated: 271
+	271  -  MemoryUsage of job (MB)
+	277952  -  ResidentSetSize of job (KB)
+...
+006 (4844775.037.000) 2026-04-08 22:41:11 Image size of job updated: 280
+	280  -  MemoryUsage of job (MB)
+	287052  -  ResidentSetSize of job (KB)
+...
+006 (4844775.037.000) 2026-04-08 22:46:12 Image size of job updated: 284
+	284  -  MemoryUsage of job (MB)
+	291644  -  ResidentSetSize of job (KB)
+...
+006 (4844775.037.000) 2026-04-08 23:06:15 Image size of job updated: 1590
+	1590  -  MemoryUsage of job (MB)
+	1628708  -  ResidentSetSize of job (KB)
+...
+006 (4844775.037.000) 2026-04-08 23:21:16 Image size of job updated: 2014
+	2014  -  MemoryUsage of job (MB)
+	2063156  -  ResidentSetSize of job (KB)
+...
+006 (4844775.037.000) 2026-04-08 23:26:16 Image size of job updated: 2078
+	2078  -  MemoryUsage of job (MB)
+	2127972  -  ResidentSetSize of job (KB)
+...
