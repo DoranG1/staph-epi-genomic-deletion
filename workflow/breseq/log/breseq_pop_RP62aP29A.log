@@ -22,3 +22,38 @@
 	391  -  MemoryUsage of job (MB)
 	400812  -  ResidentSetSize of job (KB)
 ...
+006 (4844775.040.000) 2026-04-08 23:59:51 Image size of job updated: 1382
+	1382  -  MemoryUsage of job (MB)
+	1416116  -  ResidentSetSize of job (KB)
+...
+006 (4844775.040.000) 2026-04-09 00:04:51 Image size of job updated: 1683
+	1683  -  MemoryUsage of job (MB)
+	1723912  -  ResidentSetSize of job (KB)
+...
+006 (4844775.040.000) 2026-04-09 00:09:51 Image size of job updated: 2077
+	2077  -  MemoryUsage of job (MB)
+	2127420  -  ResidentSetSize of job (KB)
+...
+040 (4844775.040.000) 2026-04-09 00:20:29 Started transferring output files
+...
+040 (4844775.040.000) 2026-04-09 00:20:29 Finished transferring output files
+...
+005 (4844775.040.000) 2026-04-09 00:20:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:23:07, Sys 0 00:14:53  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:23:07, Sys 0 00:14:53  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	88890  -  Run Bytes Sent By Job
+	385  -  Run Bytes Received By Job
+	88890  -  Total Bytes Sent By Job
+	385  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.00       24        24 
+	   Disk (KB)            :   116    67108864  67108864 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :  2077      262144    262144 
+	   TimeExecute (s)      :  3650                       
+	   TimeSlotBusy (s)     :  3652                       
+...

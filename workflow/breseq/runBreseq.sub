@@ -8,7 +8,7 @@ error = err/breseq_pop_$(sample).err
 output = out/breseq_pop_$(sample).out
 
 request_cpus = 24
-request_memory = 256GB
-request_disk = 64GB
+request_memory = 512GB
+request_disk = 128GB
 
 queue sample from config/samplesheet.txt
