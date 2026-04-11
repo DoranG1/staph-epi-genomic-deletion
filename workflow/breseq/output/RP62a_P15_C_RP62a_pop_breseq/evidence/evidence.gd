@@ -1,0 +1,1482 @@
+#=GENOME_DIFF	1.0
+RA	16	.	NC_002976	354012	0	G	C	bias_e_value=1794590	bias_p_value=0.685867	consensus_score=7.2	fisher_strand_p_value=0.716292	frequency=5.51721096e-01	ks_quality_p_value=0.448276	major_base=C	major_cov=10/6	major_frequency=5.51721096e-01	minor_base=G	minor_cov=7/6	new_cov=10/6	polymorphism_frequency=5.51721096e-01	polymorphism_score=50.6	prediction=polymorphism	ref_cov=7/6	total_cov=17/12
+RA	17	.	NC_002976	354013	0	T	G	bias_e_value=2499560	bias_p_value=0.955295	consensus_score=9.7	fisher_strand_p_value=0.716292	frequency=5.51730633e-01	ks_quality_p_value=1	major_base=G	major_cov=10/6	major_frequency=5.51730633e-01	minor_base=T	minor_cov=7/6	new_cov=10/6	polymorphism_frequency=5.51730633e-01	polymorphism_score=45.9	prediction=polymorphism	ref_cov=7/6	total_cov=17/12
+RA	18	.	NC_002976	354031	0	A	T	bias_e_value=2516250	bias_p_value=0.961676	consensus_score=44.4	fisher_strand_p_value=0.73624	frequency=6.57158375e-01	ks_quality_p_value=1	major_base=T	major_cov=13/10	major_frequency=6.57158375e-01	minor_base=A	minor_cov=6/6	new_cov=13/10	polymorphism_frequency=6.57158375e-01	polymorphism_score=39.3	prediction=polymorphism	ref_cov=6/6	total_cov=19/16
+RA	19	.	NC_002976	354041	0	G	T	bias_e_value=2231570	bias_p_value=0.852874	consensus_score=55.0	fisher_strand_p_value=0.509211	frequency=6.75004482e-01	ks_quality_p_value=1	major_base=T	major_cov=16/11	major_frequency=6.75004482e-01	minor_base=G	minor_cov=6/7	new_cov=16/11	polymorphism_frequency=6.75004482e-01	polymorphism_score=45.3	prediction=polymorphism	ref_cov=6/7	total_cov=22/18
+RA	20	.	NC_002976	354042	0	A	C	bias_e_value=1211940	bias_p_value=0.463187	consensus_score=59.6	fisher_strand_p_value=0.509211	frequency=6.75010204e-01	ks_quality_p_value=0.325	major_base=C	major_cov=16/11	major_frequency=6.75010204e-01	minor_base=A	minor_cov=6/7	new_cov=16/11	polymorphism_frequency=6.75010204e-01	polymorphism_score=43.2	prediction=polymorphism	ref_cov=6/7	total_cov=22/18
+RA	21	.	NC_002976	354059	0	C	A	bias_e_value=1803950	bias_p_value=0.689442	consensus_score=100.7	fisher_strand_p_value=0.324258	frequency=7.50007153e-01	ks_quality_p_value=1	major_base=A	major_cov=19/17	major_frequency=7.50007153e-01	minor_base=C	minor_cov=4/8	new_cov=19/17	polymorphism_frequency=7.50007153e-01	polymorphism_score=40.2	prediction=polymorphism	ref_cov=4/8	total_cov=23/25
+RA	22	.	NC_002976	354061	0	A	G	bias_e_value=1803950	bias_p_value=0.689442	consensus_score=82.9	fisher_strand_p_value=0.324258	frequency=7.50040531e-01	ks_quality_p_value=1	major_base=G	major_cov=19/17	major_frequency=7.50040531e-01	minor_base=A	minor_cov=4/8	new_cov=19/17	polymorphism_frequency=7.50040531e-01	polymorphism_score=31.0	prediction=polymorphism	ref_cov=4/8	total_cov=23/25
+RA	23	.	NC_002976	354064	0	A	G	bias_e_value=512265	bias_p_value=0.19578	consensus_score=78.8	fisher_strand_p_value=0.324258	frequency=7.49963760e-01	ks_quality_p_value=0.150093	major_base=G	major_cov=19/17	major_frequency=7.49963760e-01	minor_base=A	minor_cov=4/8	new_cov=19/17	polymorphism_frequency=7.49963760e-01	polymorphism_score=31.0	prediction=polymorphism	ref_cov=4/8	total_cov=23/25
+RA	24	.	NC_002976	354067	0	T	G	bias_e_value=1803950	bias_p_value=0.689442	consensus_score=104.2	fisher_strand_p_value=0.324258	frequency=7.50062943e-01	ks_quality_p_value=1	major_base=G	major_cov=19/17	major_frequency=7.50062943e-01	minor_base=T	minor_cov=4/8	new_cov=19/17	polymorphism_frequency=7.50062943e-01	polymorphism_score=36.2	prediction=polymorphism	ref_cov=4/8	total_cov=23/25
+RA	25	.	NC_002976	354070	0	G	T	bias_e_value=1803950	bias_p_value=0.689442	consensus_score=100.9	fisher_strand_p_value=0.324258	frequency=7.50009060e-01	ks_quality_p_value=1	major_base=T	major_cov=19/17	major_frequency=7.50009060e-01	minor_base=G	minor_cov=4/8	new_cov=19/17	polymorphism_frequency=7.50009060e-01	polymorphism_score=39.4	prediction=polymorphism	ref_cov=4/8	total_cov=23/25
+RA	26	.	NC_002976	354085	0	A	G	bias_e_value=1050440	bias_p_value=0.401462	consensus_score=109.3	fisher_strand_p_value=0.133073	frequency=7.62756348e-01	ks_quality_p_value=1	major_base=G	major_cov=24/21	major_frequency=7.62756348e-01	minor_base=A	minor_cov=4/10	new_cov=24/21	polymorphism_frequency=7.62756348e-01	polymorphism_score=36.7	prediction=polymorphism	ref_cov=4/10	total_cov=28/31
+RA	27	.	NC_002976	354116	0	T	C	bias_e_value=1396070	bias_p_value=0.53356	consensus_score=97.8	fisher_strand_p_value=0.207335	frequency=7.59300709e-01	ks_quality_p_value=1	major_base=C	major_cov=22/19	major_frequency=7.59300709e-01	minor_base=T	minor_cov=4/9	new_cov=22/19	polymorphism_frequency=7.59300709e-01	polymorphism_score=33.9	prediction=polymorphism	ref_cov=4/9	total_cov=26/28
+RA	28	.	NC_002976	354119	0	G	A	bias_e_value=804875	bias_p_value=0.307612	consensus_score=102.4	fisher_strand_p_value=0.355036	frequency=7.45539188e-01	ks_quality_p_value=0.254545	major_base=A	major_cov=22/19	major_frequency=7.45539188e-01	minor_base=G	minor_cov=5/9	new_cov=22/19	polymorphism_frequency=7.45539188e-01	polymorphism_score=34.8	prediction=polymorphism	ref_cov=5/9	total_cov=27/28
+RA	29	.	NC_002976	354121	0	T	C	bias_e_value=2529930	bias_p_value=0.966904	consensus_score=99.6	fisher_strand_p_value=0.754009	frequency=7.63149738e-01	ks_quality_p_value=1	major_base=C	major_cov=22/19	major_frequency=7.63149738e-01	minor_base=T	minor_cov=6/7	new_cov=22/19	polymorphism_frequency=7.63149738e-01	polymorphism_score=31.0	prediction=polymorphism	ref_cov=6/7	total_cov=28/26
+RA	30	.	NC_002976	354135	0	T	C	bias_e_value=1116000	bias_p_value=0.42652	consensus_score=77.3	fisher_strand_p_value=0.531089	frequency=7.25498199e-01	ks_quality_p_value=0.27451	major_base=C	major_cov=21/16	major_frequency=7.25498199e-01	minor_base=T	minor_cov=6/8	new_cov=21/16	polymorphism_frequency=7.25498199e-01	polymorphism_score=37.8	prediction=polymorphism	ref_cov=6/8	total_cov=27/24
+RA	31	.	NC_002976	354139	0	A	T	bias_e_value=341654	bias_p_value=0.130575	consensus_score=93.0	fisher_strand_p_value=0.362318	frequency=7.11549282e-01	ks_quality_p_value=0.0791855	major_base=T	major_cov=21/16	major_frequency=7.11549282e-01	minor_base=A	minor_cov=6/9	new_cov=21/16	polymorphism_frequency=7.11549282e-01	polymorphism_score=50.0	prediction=polymorphism	ref_cov=6/9	total_cov=27/25
+RA	32	.	NC_002976	354157	0	C	G	bias_e_value=2233550	bias_p_value=0.853632	consensus_score=52.8	fisher_strand_p_value=0.510336	frequency=6.50003433e-01	ks_quality_p_value=1	major_base=G	major_cov=13/13	major_frequency=6.50003433e-01	minor_base=C	minor_cov=5/9	new_cov=13/13	polymorphism_frequency=6.50003433e-01	polymorphism_score=53.3	prediction=polymorphism	ref_cov=5/9	total_cov=18/22
+RA	33	.	NC_002976	354176	1	.	A	bias_e_value=2616530	bias_p_value=1	consensus_score=79.1	fisher_strand_p_value=1	frequency=5.75760841e-01	ks_quality_p_value=1	major_base=A	major_cov=8/11	major_frequency=5.75760841e-01	minor_base=.	minor_cov=5/9	new_cov=8/11	polymorphism_frequency=5.75760841e-01	polymorphism_score=58.2	prediction=polymorphism	ref_cov=5/9	total_cov=13/20
+RA	34	.	NC_002976	354183	0	C	T	bias_e_value=999788	bias_p_value=0.382104	consensus_score=-5.6	fisher_strand_p_value=0.2568	frequency=4.81541634e-01	ks_quality_p_value=0.481481	major_base=C	major_cov=5/9	major_frequency=5.18458366e-01	minor_base=T	minor_cov=8/5	new_cov=8/5	polymorphism_frequency=4.81541634e-01	polymorphism_score=38.7	prediction=polymorphism	ref_cov=5/9	total_cov=13/14
+RA	35	.	NC_002976	354192	0	G	T	bias_e_value=2455060	bias_p_value=0.938288	consensus_score=8.7	fisher_strand_p_value=0.669921	frequency=4.28564548e-01	ks_quality_p_value=1	major_base=G	major_cov=5/7	major_frequency=5.71435452e-01	minor_base=T	minor_cov=5/4	new_cov=5/4	polymorphism_frequency=4.28564548e-01	polymorphism_score=29.8	prediction=polymorphism	ref_cov=5/7	total_cov=10/11
+RA	36	.	NC_002976	354192	1	.	T	bias_e_value=2455060	bias_p_value=0.938288	consensus_score=2.4	fisher_strand_p_value=0.669921	frequency=4.28573608e-01	ks_quality_p_value=1	major_base=.	major_cov=5/7	major_frequency=5.71426392e-01	minor_base=T	minor_cov=5/4	new_cov=5/4	polymorphism_frequency=4.28573608e-01	polymorphism_score=42.3	prediction=polymorphism	ref_cov=5/7	total_cov=10/11
+RA	37	.	NC_002976	359668	0	C	T	bias_e_value=16153.1	bias_p_value=0.00617346	consensus_score=283.5	fisher_strand_p_value=0.000753738	frequency=8.46271992e-01	ks_quality_p_value=1	major_base=T	major_cov=28/71	major_frequency=8.46271992e-01	minor_base=C	minor_cov=13/5	new_cov=28/71	polymorphism_frequency=8.46271992e-01	polymorphism_score=41.7	prediction=polymorphism	ref_cov=13/5	total_cov=41/76
+RA	38	.	NC_002976	360197	0	C	T	bias_e_value=719198	bias_p_value=0.274867	consensus_score=17.0	fisher_strand_p_value=0.0771728	frequency=4.22175407e-01	ks_quality_p_value=1	major_base=C	major_cov=14/12	major_frequency=5.77824593e-01	minor_base=T	minor_cov=5/14	new_cov=5/14	polymorphism_frequency=4.22175407e-01	polymorphism_score=56.3	prediction=polymorphism	ref_cov=14/12	total_cov=19/26
+RA	39	.	NC_002976	360228	0	C	T	bias_e_value=37266	bias_p_value=0.0142425	consensus_score=51.0	fisher_strand_p_value=0.00197	frequency=6.10225677e-01	ks_quality_p_value=1	major_base=T	major_cov=7/29	major_frequency=6.10225677e-01	minor_base=C	minor_cov=14/9	new_cov=7/29	polymorphism_frequency=6.10225677e-01	polymorphism_score=65.5	prediction=polymorphism	ref_cov=14/9	total_cov=21/38
+RA	40	.	NC_002976	360255	0	A	G	bias_e_value=864765	bias_p_value=0.330501	consensus_score=150.9	fisher_strand_p_value=0.100105	frequency=7.18811512e-01	ks_quality_p_value=1	major_base=G	major_cov=22/47	major_frequency=7.18811512e-01	minor_base=A	minor_cov=14/13	new_cov=22/47	polymorphism_frequency=7.18811512e-01	polymorphism_score=76.6	prediction=polymorphism	ref_cov=14/13	total_cov=36/60
+RA	41	.	NC_002976	401478	1	.	T	consensus_score=461.0	frequency=1	major_base=T	major_cov=51/67	major_frequency=1.00000000e+00	minor_base=N	minor_cov=0/0	new_cov=51/67	polymorphism_frequency=1.00000000e+00	polymorphism_reject=FREQUENCY_CUTOFF,VARIANT_STRAND_COVERAGE	polymorphism_score=NA	prediction=consensus	ref_cov=0/0	total_cov=51/67
+RA	42	.	NC_002976	626695	1	.	A	consensus_score=558.5	frequency=1	major_base=A	major_cov=72/71	major_frequency=1.00000000e+00	minor_base=N	minor_cov=0/0	new_cov=72/71	polymorphism_frequency=1.00000000e+00	polymorphism_reject=FREQUENCY_CUTOFF,VARIANT_STRAND_COVERAGE	polymorphism_score=NA	prediction=consensus	ref_cov=0/0	total_cov=72/71
+RA	43	.	NC_002976	1006623	0	C	T	bias_e_value=2616530	bias_p_value=1	consensus_score=65.4	fisher_strand_p_value=1	frequency=3.65316391e-01	ks_quality_p_value=1	major_base=C	major_cov=17/16	major_frequency=6.34683609e-01	minor_base=T	minor_cov=10/9	new_cov=10/9	polymorphism_frequency=3.65316391e-01	polymorphism_score=54.7	prediction=polymorphism	ref_cov=17/16	total_cov=27/25
+RA	44	.	NC_002976	1006669	0	G	A	bias_e_value=2282170	bias_p_value=0.872212	consensus_score=46.0	fisher_strand_p_value=0.539143	frequency=4.22225952e-01	ks_quality_p_value=1	major_base=G	major_cov=17/9	major_frequency=5.77774048e-01	minor_base=A	minor_cov=10/9	new_cov=10/9	polymorphism_frequency=4.22225952e-01	polymorphism_score=57.4	prediction=polymorphism	ref_cov=17/9	total_cov=27/18
+RA	45	.	NC_002976	1006855	0	G	A	bias_e_value=1597440	bias_p_value=0.610517	consensus_score=198.5	fisher_strand_p_value=1	frequency=1.42846107e-01	ks_quality_p_value=0.260207	major_base=G	major_cov=44/16	major_frequency=8.57153893e-01	minor_base=A	minor_cov=7/3	new_cov=7/3	polymorphism_frequency=1.42846107e-01	polymorphism_score=22.4	prediction=polymorphism	ref_cov=44/16	total_cov=51/19
+RA	46	.	NC_002976	1031111	0	T	.	consensus_score=704.3	frequency=1	major_base=.	major_cov=68/69	major_frequency=1.00000000e+00	minor_base=N	minor_cov=0/0	new_cov=68/69	polymorphism_frequency=1.00000000e+00	polymorphism_reject=FREQUENCY_CUTOFF,VARIANT_STRAND_COVERAGE,INDEL_HOMOPOLYMER	polymorphism_score=NA	prediction=consensus	ref_cov=0/0	total_cov=68/69
+RA	47	.	NC_002976	1068626	0	G	A	bias_e_value=435950	bias_p_value=0.166614	consensus_score=538.5	fisher_strand_p_value=0.0393365	frequency=5.86380959e-02	ks_quality_p_value=1	major_base=G	major_cov=70/89	major_frequency=9.41361904e-01	minor_base=A	minor_cov=10/3	new_cov=10/3	polymorphism_frequency=5.86380959e-02	polymorphism_score=11.3	prediction=polymorphism	ref_cov=70/89	total_cov=80/92
+RA	48	.	NC_002976	1070152	0	T	C	bias_e_value=1898220	bias_p_value=0.725474	consensus_score=354.4	fisher_strand_p_value=0.357735	frequency=7.81178474e-02	ks_quality_p_value=1	major_base=T	major_cov=48/66	major_frequency=9.21882153e-01	minor_base=C	minor_cov=3/9	new_cov=3/9	polymorphism_frequency=7.81178474e-02	polymorphism_score=9.3	prediction=polymorphism	ref_cov=48/66	total_cov=51/75
+RA	49	.	NC_002976	1070458	0	G	A	bias_e_value=2158770	bias_p_value=0.82505	consensus_score=559.3	fisher_strand_p_value=0.78596	frequency=7.71069527e-02	ks_quality_p_value=0.598314	major_base=G	major_cov=80/87	major_frequency=9.22893047e-01	minor_base=A	minor_cov=6/8	new_cov=6/8	polymorphism_frequency=7.71069527e-02	polymorphism_score=26.4	prediction=polymorphism	ref_cov=80/87	total_cov=86/95
+RA	50	.	NC_002976	1088754	0	C	A	bias_e_value=2385230	bias_p_value=0.911602	consensus_score=61.4	fisher_strand_p_value=0.610164	frequency=4.80293751e-01	ks_quality_p_value=1	major_base=C	major_cov=75/57	major_frequency=5.19706249e-01	minor_base=A	minor_cov=74/48	new_cov=74/48	polymorphism_frequency=4.80293751e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=75/57	total_cov=149/105
+RA	51	.	NC_002976	1088765	0	T	C	bias_e_value=2599900	bias_p_value=0.993643	consensus_score=94.6	fisher_strand_p_value=0.895776	frequency=4.55168724e-01	ks_quality_p_value=0.992861	major_base=T	major_cov=67/60	major_frequency=5.44831276e-01	minor_base=C	minor_cov=57/49	new_cov=57/49	polymorphism_frequency=4.55168724e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=67/60	total_cov=124/109
+RA	52	.	NC_002976	1088766	0	G	C	bias_e_value=2229510	bias_p_value=0.852085	consensus_score=120.5	fisher_strand_p_value=0.515916	frequency=4.45377350e-01	ks_quality_p_value=0.984743	major_base=G	major_cov=65/67	major_frequency=5.54622650e-01	minor_base=C	minor_cov=57/49	new_cov=57/49	polymorphism_frequency=4.45377350e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=65/67	total_cov=122/116
+RA	53	.	NC_002976	1088769	0	T	C	bias_e_value=2240670	bias_p_value=0.856353	consensus_score=98.6	fisher_strand_p_value=0.51566	frequency=4.53341007e-01	ks_quality_p_value=0.997566	major_base=T	major_cov=63/66	major_frequency=5.46658993e-01	minor_base=C	minor_cov=57/50	new_cov=57/50	polymorphism_frequency=4.53341007e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=63/66	total_cov=120/116
+RA	54	.	NC_002976	1088776	0	T	C	bias_e_value=2603840	bias_p_value=0.99515	consensus_score=42.1	fisher_strand_p_value=0.903137	frequency=4.90349293e-01	ks_quality_p_value=1	major_base=T	major_cov=65/72	major_frequency=5.09650707e-01	minor_base=C	minor_cov=64/68	new_cov=64/68	polymorphism_frequency=4.90349293e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=65/72	total_cov=129/140
+RA	55	.	NC_002976	1088799	0	T	C	bias_e_value=2494860	bias_p_value=0.953501	consensus_score=168.1	fisher_strand_p_value=0.714851	frequency=4.29563046e-01	ks_quality_p_value=0.994577	major_base=T	major_cov=70/88	major_frequency=5.70436954e-01	minor_base=C	minor_cov=56/63	new_cov=56/63	polymorphism_frequency=4.29563046e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=70/88	total_cov=126/151
+RA	56	.	NC_002976	1088808	0	A	T	bias_e_value=2616530	bias_p_value=1	consensus_score=179.4	fisher_strand_p_value=1	frequency=4.27557468e-01	ks_quality_p_value=0.999452	major_base=A	major_cov=73/89	major_frequency=5.72442532e-01	minor_base=T	minor_cov=55/66	new_cov=55/66	polymorphism_frequency=4.27557468e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=73/89	total_cov=128/155
+RA	57	.	NC_002976	1088811	0	T	C	bias_e_value=2604260	bias_p_value=0.995312	consensus_score=188.0	fisher_strand_p_value=0.904743	frequency=4.24491405e-01	ks_quality_p_value=1	major_base=T	major_cov=76/88	major_frequency=5.75508595e-01	minor_base=C	minor_cov=55/66	new_cov=55/66	polymorphism_frequency=4.24491405e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=76/88	total_cov=131/154
+RA	58	.	NC_002976	1088852	0	T	C	bias_e_value=2560390	bias_p_value=0.978543	consensus_score=197.8	fisher_strand_p_value=0.800126	frequency=4.10747051e-01	ks_quality_p_value=1	major_base=T	major_cov=67/85	major_frequency=5.89252949e-01	minor_base=C	minor_cov=45/61	new_cov=45/61	polymorphism_frequency=4.10747051e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=67/85	total_cov=112/146
+RA	59	.	NC_002976	1088869	0	T	C	bias_e_value=2442810	bias_p_value=0.933607	consensus_score=127.2	fisher_strand_p_value=0.810221	frequency=4.46647167e-01	ks_quality_p_value=0.812716	major_base=T	major_cov=74/81	major_frequency=5.53352833e-01	minor_base=C	minor_cov=62/63	new_cov=62/63	polymorphism_frequency=4.46647167e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=74/81	total_cov=136/144
+RA	60	.	NC_002976	1088870	0	T	C	bias_e_value=2566110	bias_p_value=0.980731	consensus_score=137.5	fisher_strand_p_value=0.810221	frequency=4.46344376e-01	ks_quality_p_value=1	major_base=T	major_cov=74/81	major_frequency=5.53655624e-01	minor_base=C	minor_cov=62/63	new_cov=62/63	polymorphism_frequency=4.46344376e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=74/81	total_cov=136/144
+RA	61	.	NC_002976	1088889	0	T	A	bias_e_value=1850820	bias_p_value=0.707358	consensus_score=26.6	fisher_strand_p_value=0.38295	frequency=4.84375954e-01	ks_quality_p_value=0.889208	major_base=T	major_cov=66/66	major_frequency=5.15624046e-01	minor_base=A	minor_cov=69/55	new_cov=69/55	polymorphism_frequency=4.84375954e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=66/66	total_cov=135/121
+RA	62	.	NC_002976	1088944	0	T	C	bias_e_value=2382030	bias_p_value=0.910376	consensus_score=74.0	fisher_strand_p_value=0.607693	frequency=4.73208427e-01	ks_quality_p_value=1	major_base=T	major_cov=85/53	major_frequency=5.26791573e-01	minor_base=C	minor_cov=81/43	new_cov=81/43	polymorphism_frequency=4.73208427e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=85/53	total_cov=166/96
+RA	63	.	NC_002976	1088954	0	G	A	bias_e_value=925704	bias_p_value=0.353791	consensus_score=58.7	fisher_strand_p_value=0.113731	frequency=5.24212360e-01	ks_quality_p_value=0.971144	major_base=A	major_cov=76/54	major_frequency=5.24212360e-01	minor_base=G	minor_cov=81/37	new_cov=76/54	polymorphism_frequency=5.24212360e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=81/37	total_cov=157/91
+RA	64	.	NC_002976	1088961	0	A	G	bias_e_value=403188	bias_p_value=0.154093	consensus_score=3.5	fisher_strand_p_value=0.070311	frequency=5.24304390e-01	ks_quality_p_value=0.505265	major_base=G	major_cov=76/57	major_frequency=5.24304390e-01	minor_base=A	minor_cov=82/38	new_cov=76/57	polymorphism_frequency=5.24304390e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=82/38	total_cov=158/95
+RA	65	.	NC_002976	1088976	0	G	A	bias_e_value=256812	bias_p_value=0.0981498	consensus_score=97.8	fisher_strand_p_value=0.0199768	frequency=5.41824818e-01	ks_quality_p_value=1	major_base=A	major_cov=76/61	major_frequency=5.41824818e-01	minor_base=G	minor_cov=81/35	new_cov=76/61	polymorphism_frequency=5.41824818e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=81/35	total_cov=157/96
+RA	66	.	NC_002976	1088983	0	T	C	bias_e_value=549008	bias_p_value=0.209823	consensus_score=12.8	fisher_strand_p_value=0.0536455	frequency=5.21725655e-01	ks_quality_p_value=0.995195	major_base=C	major_cov=75/59	major_frequency=5.21725655e-01	minor_base=T	minor_cov=84/39	new_cov=75/59	polymorphism_frequency=5.21725655e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=84/39	total_cov=160/98
+RA	67	.	NC_002976	1089015	0	A	T	bias_e_value=14944.8	bias_p_value=0.0057117	consensus_score=25.7	fisher_strand_p_value=0.00503065	frequency=4.78082180e-01	ks_quality_p_value=0.13714	major_base=A	major_cov=78/41	major_frequency=5.21917820e-01	minor_base=T	minor_cov=51/58	new_cov=51/58	polymorphism_frequency=4.78082180e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=78/41	total_cov=129/99
+RA	68	.	NC_002976	1089021	0	A	G	bias_e_value=115801	bias_p_value=0.0442574	consensus_score=61.2	fisher_strand_p_value=0.00751248	frequency=4.75880146e-01	ks_quality_p_value=1	major_base=A	major_cov=78/42	major_frequency=5.24119854e-01	minor_base=G	minor_cov=51/58	new_cov=51/58	polymorphism_frequency=4.75880146e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=78/42	total_cov=129/100
+RA	69	.	NC_002976	1089026	0	T	C	bias_e_value=115801	bias_p_value=0.0442574	consensus_score=55.9	fisher_strand_p_value=0.00751248	frequency=4.75950241e-01	ks_quality_p_value=1	major_base=T	major_cov=78/42	major_frequency=5.24049759e-01	minor_base=C	minor_cov=51/58	new_cov=51/58	polymorphism_frequency=4.75950241e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=78/42	total_cov=129/100
+RA	70	.	NC_002976	1089069	0	G	A	bias_e_value=41994.8	bias_p_value=0.0160498	consensus_score=59.1	fisher_strand_p_value=0.00255687	frequency=5.27668476e-01	ks_quality_p_value=0.885242	major_base=A	major_cov=53/71	major_frequency=5.27668476e-01	minor_base=G	minor_cov=70/41	new_cov=53/71	polymorphism_frequency=5.27668476e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=70/41	total_cov=123/112
+RA	71	.	NC_002976	1089084	0	C	T	bias_e_value=39214.5	bias_p_value=0.0149872	consensus_score=40.3	fisher_strand_p_value=0.00274951	frequency=5.18351078e-01	ks_quality_p_value=0.760174	major_base=T	major_cov=57/66	major_frequency=5.18351078e-01	minor_base=C	minor_cov=75/39	new_cov=57/66	polymorphism_frequency=5.18351078e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=75/39	total_cov=132/105
+RA	72	.	NC_002976	1089132	0	T	C	bias_e_value=516567	bias_p_value=0.197424	consensus_score=18.5	fisher_strand_p_value=0.0492136	frequency=5.22528648e-01	ks_quality_p_value=1	major_base=C	major_cov=58/81	major_frequency=5.22528648e-01	minor_base=T	minor_cov=69/58	new_cov=58/81	polymorphism_frequency=5.22528648e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=69/58	total_cov=127/139
+RA	73	.	NC_002976	1089165	0	C	T	bias_e_value=2249080	bias_p_value=0.859566	consensus_score=12.2	fisher_strand_p_value=0.523494	frequency=4.97992039e-01	ks_quality_p_value=0.991936	major_base=C	major_cov=67/56	major_frequency=5.02007961e-01	minor_base=T	minor_cov=61/61	new_cov=61/61	polymorphism_frequency=4.97992039e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=67/56	total_cov=128/117
+RA	74	.	NC_002976	1089167	0	A	G	bias_e_value=2382870	bias_p_value=0.910699	consensus_score=7.7	fisher_strand_p_value=0.608341	frequency=5.00578880e-01	ks_quality_p_value=1	major_base=G	major_cov=61/61	major_frequency=5.00578880e-01	minor_base=A	minor_cov=65/56	new_cov=61/61	polymorphism_frequency=5.00578880e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=65/56	total_cov=127/117
+RA	75	.	NC_002976	1089170	0	T	C	bias_e_value=2095990	bias_p_value=0.801056	consensus_score=7.9	fisher_strand_p_value=0.443376	frequency=5.04092216e-01	ks_quality_p_value=0.991904	major_base=C	major_cov=61/61	major_frequency=5.04092216e-01	minor_base=T	minor_cov=66/54	new_cov=61/61	polymorphism_frequency=5.04092216e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=66/54	total_cov=127/115
+RA	76	.	NC_002976	1089176	0	A	G	bias_e_value=2370220	bias_p_value=0.905864	consensus_score=5.7	fisher_strand_p_value=0.704738	frequency=5.18219948e-01	ks_quality_p_value=0.849629	major_base=G	major_cov=66/65	major_frequency=5.18219948e-01	minor_base=A	minor_cov=64/56	new_cov=66/65	polymorphism_frequency=5.18219948e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=64/56	total_cov=132/121
+RA	77	.	NC_002976	1089182	0	T	G	bias_e_value=2264650	bias_p_value=0.865515	consensus_score=34.9	fisher_strand_p_value=0.531859	frequency=5.09869576e-01	ks_quality_p_value=0.993637	major_base=G	major_cov=63/67	major_frequency=5.09869576e-01	minor_base=T	minor_cov=66/59	new_cov=63/67	polymorphism_frequency=5.09869576e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=66/59	total_cov=129/126
+RA	78	.	NC_002976	1089188	0	T	C	bias_e_value=2595880	bias_p_value=0.992106	consensus_score=15.7	fisher_strand_p_value=0.903088	frequency=5.01810074e-01	ks_quality_p_value=0.971125	major_base=C	major_cov=64/71	major_frequency=5.01810074e-01	minor_base=T	minor_cov=65/69	new_cov=64/71	polymorphism_frequency=5.01810074e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=65/69	total_cov=129/140
+RA	79	.	NC_002976	1089204	0	G	A	bias_e_value=2602620	bias_p_value=0.994685	consensus_score=-4.9	fisher_strand_p_value=0.902618	frequency=4.87043381e-01	ks_quality_p_value=0.995646	major_base=G	major_cov=64/74	major_frequency=5.12956619e-01	minor_base=A	minor_cov=59/72	new_cov=59/72	polymorphism_frequency=4.87043381e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=64/74	total_cov=123/146
+RA	80	.	NC_002976	1089210	0	G	T	bias_e_value=2559690	bias_p_value=0.978277	consensus_score=29.0	fisher_strand_p_value=0.803819	frequency=4.92439270e-01	ks_quality_p_value=0.993928	major_base=G	major_cov=58/75	major_frequency=5.07560730e-01	minor_base=T	minor_cov=59/70	new_cov=59/70	polymorphism_frequency=4.92439270e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=58/75	total_cov=117/145
+RA	81	.	NC_002976	1089246	0	C	T	bias_e_value=2530000	bias_p_value=0.966928	consensus_score=302.3	fisher_strand_p_value=0.781329	frequency=3.19406509e-01	ks_quality_p_value=0.965141	major_base=C	major_cov=83/79	major_frequency=6.80593491e-01	minor_base=T	minor_cov=37/39	new_cov=37/39	polymorphism_frequency=3.19406509e-01	polymorphism_score=233.0	prediction=polymorphism	ref_cov=83/79	total_cov=120/118
+RA	82	.	NC_002976	1089247	0	T	G	bias_e_value=2437960	bias_p_value=0.931754	consensus_score=372.4	fisher_strand_p_value=0.677456	frequency=3.18021774e-01	ks_quality_p_value=0.965494	major_base=T	major_cov=85/78	major_frequency=6.81978226e-01	minor_base=G	minor_cov=37/39	new_cov=37/39	polymorphism_frequency=3.18021774e-01	polymorphism_score=287.6	prediction=polymorphism	ref_cov=85/78	total_cov=122/117
+RA	83	.	NC_002976	1089248	0	T	C	bias_e_value=2548560	bias_p_value=0.974022	consensus_score=343.4	fisher_strand_p_value=0.780897	frequency=3.21855545e-01	ks_quality_p_value=1	major_base=T	major_cov=82/78	major_frequency=6.78144455e-01	minor_base=C	minor_cov=37/39	new_cov=37/39	polymorphism_frequency=3.21855545e-01	polymorphism_score=215.0	prediction=polymorphism	ref_cov=82/78	total_cov=119/117
+RA	84	.	NC_002976	1089347	0	C	T	bias_e_value=2605000	bias_p_value=0.995592	consensus_score=155.3	fisher_strand_p_value=0.909272	frequency=4.22236443e-01	ks_quality_p_value=0.998151	major_base=C	major_cov=88/94	major_frequency=5.77763557e-01	minor_base=T	minor_cov=63/70	new_cov=63/70	polymorphism_frequency=4.22236443e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=88/94	total_cov=151/164
+RA	85	.	NC_002976	1089414	0	T	C	bias_e_value=1366510	bias_p_value=0.52226	consensus_score=187.7	fisher_strand_p_value=0.207577	frequency=4.14412498e-01	ks_quality_p_value=0.964614	major_base=T	major_cov=61/93	major_frequency=5.85587502e-01	minor_base=C	minor_cov=52/57	new_cov=52/57	polymorphism_frequency=4.14412498e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=61/93	total_cov=113/150
+RA	86	.	NC_002976	1089438	0	G	T	bias_e_value=655356	bias_p_value=0.250467	consensus_score=312.6	fisher_strand_p_value=0.067876	frequency=3.70034218e-01	ks_quality_p_value=1	major_base=G	major_cov=69/89	major_frequency=6.29965782e-01	minor_base=T	minor_cov=52/41	new_cov=52/41	polymorphism_frequency=3.70034218e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=69/89	total_cov=121/130
+RA	87	.	NC_002976	1089440	0	C	A	bias_e_value=655356	bias_p_value=0.250467	consensus_score=313.3	fisher_strand_p_value=0.067876	frequency=3.70501995e-01	ks_quality_p_value=1	major_base=C	major_cov=69/89	major_frequency=6.29498005e-01	minor_base=A	minor_cov=52/41	new_cov=52/41	polymorphism_frequency=3.70501995e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=69/89	total_cov=121/130
+RA	88	.	NC_002976	1089477	0	T	A	bias_e_value=121396	bias_p_value=0.0463958	consensus_score=320.2	fisher_strand_p_value=0.00813605	frequency=3.78372192e-01	ks_quality_p_value=0.977408	major_base=T	major_cov=75/109	major_frequency=6.21627808e-01	minor_base=A	minor_cov=64/48	new_cov=64/48	polymorphism_frequency=3.78372192e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=75/109	total_cov=139/157
+RA	89	.	NC_002976	1089483	0	G	A	bias_e_value=572780	bias_p_value=0.218908	consensus_score=165.0	fisher_strand_p_value=0.0566092	frequency=4.12383080e-01	ks_quality_p_value=0.998407	major_base=G	major_cov=78/93	major_frequency=5.87616920e-01	minor_base=A	minor_cov=69/51	new_cov=69/51	polymorphism_frequency=4.12383080e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=78/93	total_cov=147/144
+RA	90	.	NC_002976	1089494	0	T	G	bias_e_value=113704	bias_p_value=0.0434562	consensus_score=245.5	fisher_strand_p_value=0.00734903	frequency=3.96678925e-01	ks_quality_p_value=1	major_base=T	major_cov=78/92	major_frequency=6.03321075e-01	minor_base=G	minor_cov=70/42	new_cov=70/42	polymorphism_frequency=3.96678925e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=78/92	total_cov=148/134
+RA	91	.	NC_002976	1089518	0	T	C	bias_e_value=888337	bias_p_value=0.33951	consensus_score=237.9	fisher_strand_p_value=0.104555	frequency=3.94784451e-01	ks_quality_p_value=0.995197	major_base=T	major_cov=67/97	major_frequency=6.05215549e-01	minor_base=C	minor_cov=55/52	new_cov=55/52	polymorphism_frequency=3.94784451e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=67/97	total_cov=122/149
+RA	92	.	NC_002976	1089531	0	A	G	bias_e_value=797947	bias_p_value=0.304964	consensus_score=217.9	fisher_strand_p_value=0.0892739	frequency=4.09121037e-01	ks_quality_p_value=1	major_base=A	major_cov=73/93	major_frequency=5.90878963e-01	minor_base=G	minor_cov=63/52	new_cov=63/52	polymorphism_frequency=4.09121037e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=73/93	total_cov=136/145
+RA	93	.	NC_002976	1089544	0	G	T	bias_e_value=2483630	bias_p_value=0.949209	consensus_score=204.4	fisher_strand_p_value=1	frequency=4.10706997e-01	ks_quality_p_value=0.698705	major_base=G	major_cov=74/77	major_frequency=5.89293003e-01	minor_base=T	minor_cov=52/53	new_cov=52/53	polymorphism_frequency=4.10706997e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=74/77	total_cov=126/130
+RA	94	.	NC_002976	1089587	0	G	A	bias_e_value=2262400	bias_p_value=0.864656	consensus_score=53.8	fisher_strand_p_value=0.614066	frequency=4.54577446e-01	ks_quality_p_value=0.858427	major_base=G	major_cov=70/67	major_frequency=5.45422554e-01	minor_base=A	minor_cov=62/52	new_cov=62/52	polymorphism_frequency=4.54577446e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=70/67	total_cov=132/119
+RA	95	.	NC_002976	1089607	0	T	A	bias_e_value=2616050	bias_p_value=0.999815	consensus_score=115.5	fisher_strand_p_value=1	frequency=4.50300217e-01	ks_quality_p_value=0.980846	major_base=T	major_cov=71/75	major_frequency=5.49699783e-01	minor_base=A	minor_cov=57/62	new_cov=57/62	polymorphism_frequency=4.50300217e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=71/75	total_cov=129/137
+RA	96	.	NC_002976	1089637	0	T	C	bias_e_value=1953630	bias_p_value=0.746651	consensus_score=97.7	fisher_strand_p_value=0.424791	frequency=4.49767590e-01	ks_quality_p_value=0.892053	major_base=T	major_cov=72/54	major_frequency=5.50232410e-01	minor_base=C	minor_cov=53/50	new_cov=53/50	polymorphism_frequency=4.49767590e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=72/54	total_cov=125/104
+RA	97	.	NC_002976	1089642	0	C	T	bias_e_value=2077510	bias_p_value=0.793995	consensus_score=58.3	fisher_strand_p_value=0.431292	frequency=4.54958916e-01	ks_quality_p_value=1	major_base=C	major_cov=71/57	major_frequency=5.45041084e-01	minor_base=T	minor_cov=53/54	new_cov=53/54	polymorphism_frequency=4.54958916e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=71/57	total_cov=124/111
+RA	98	.	NC_002976	1089666	0	C	G	bias_e_value=2064940	bias_p_value=0.789192	consensus_score=128.2	fisher_strand_p_value=0.425624	frequency=4.42057610e-01	ks_quality_p_value=1	major_base=C	major_cov=76/54	major_frequency=5.57942390e-01	minor_base=G	minor_cov=54/49	new_cov=54/49	polymorphism_frequency=4.42057610e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=76/54	total_cov=130/103
+RA	99	.	NC_002976	1089668	0	C	T	bias_e_value=2039010	bias_p_value=0.77928	consensus_score=75.3	fisher_strand_p_value=0.425624	frequency=4.42651272e-01	ks_quality_p_value=0.973163	major_base=C	major_cov=76/54	major_frequency=5.57348728e-01	minor_base=T	minor_cov=54/49	new_cov=54/49	polymorphism_frequency=4.42651272e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=76/54	total_cov=130/103
+RA	100	.	NC_002976	1089675	0	A	T	bias_e_value=1346880	bias_p_value=0.514757	consensus_score=160.5	fisher_strand_p_value=0.242362	frequency=4.22776222e-01	ks_quality_p_value=0.807058	major_base=A	major_cov=84/58	major_frequency=5.77223778e-01	minor_base=T	minor_cov=53/51	new_cov=53/51	polymorphism_frequency=4.22776222e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=84/58	total_cov=137/109
+RA	101	.	NC_002976	1089690	0	T	A	bias_e_value=1318420	bias_p_value=0.503881	consensus_score=100.3	fisher_strand_p_value=0.189003	frequency=4.50211525e-01	ks_quality_p_value=1	major_base=T	major_cov=71/56	major_frequency=5.49788475e-01	minor_base=A	minor_cov=49/55	new_cov=49/55	polymorphism_frequency=4.50211525e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=71/56	total_cov=120/111
+RA	102	.	NC_002976	1089705	0	T	C	bias_e_value=17189.8	bias_p_value=0.00656968	consensus_score=85.7	fisher_strand_p_value=0.000809117	frequency=4.65226173e-01	ks_quality_p_value=1	major_base=T	major_cov=72/59	major_frequency=5.34773827e-01	minor_base=C	minor_cov=38/76	new_cov=38/76	polymorphism_frequency=4.65226173e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=72/59	total_cov=110/135
+RA	103	.	NC_002976	1089706	0	G	A	bias_e_value=57221	bias_p_value=0.021869	consensus_score=63.9	fisher_strand_p_value=0.00330346	frequency=4.52404499e-01	ks_quality_p_value=0.983788	major_base=G	major_cov=72/66	major_frequency=5.47595501e-01	minor_base=A	minor_cov=38/76	new_cov=38/76	polymorphism_frequency=4.52404499e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=72/66	total_cov=110/142
+RA	104	.	NC_002976	1089717	0	G	A	bias_e_value=84213.2	bias_p_value=0.0321851	consensus_score=-2.6	fisher_strand_p_value=0.00513121	frequency=4.88307476e-01	ks_quality_p_value=1	major_base=G	major_cov=65/66	major_frequency=5.11692524e-01	minor_base=A	minor_cov=40/85	new_cov=40/85	polymorphism_frequency=4.88307476e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=65/66	total_cov=105/151
+RA	105	.	NC_002976	1089721	0	T	C	bias_e_value=29206.1	bias_p_value=0.0111621	consensus_score=52.5	fisher_strand_p_value=0.00149506	frequency=4.80445862e-01	ks_quality_p_value=0.993921	major_base=T	major_cov=69/64	major_frequency=5.19554138e-01	minor_base=C	minor_cov=39/84	new_cov=39/84	polymorphism_frequency=4.80445862e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=69/64	total_cov=108/148
+RA	106	.	NC_002976	1089733	0	A	G	bias_e_value=70459.7	bias_p_value=0.0269287	consensus_score=80.5	fisher_strand_p_value=0.00415317	frequency=4.70493793e-01	ks_quality_p_value=1	major_base=A	major_cov=74/63	major_frequency=5.29506207e-01	minor_base=G	minor_cov=44/78	new_cov=44/78	polymorphism_frequency=4.70493793e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=74/63	total_cov=118/141
+RA	107	.	NC_002976	1089766	0	T	G	bias_e_value=57948.5	bias_p_value=0.0221471	consensus_score=20.6	fisher_strand_p_value=0.0032985	frequency=4.81671810e-01	ks_quality_p_value=1	major_base=T	major_cov=66/50	major_frequency=5.18328190e-01	minor_base=G	minor_cov=40/68	new_cov=40/68	polymorphism_frequency=4.81671810e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=66/50	total_cov=106/118
+RA	108	.	NC_002976	1089780	0	C	T	bias_e_value=21231.2	bias_p_value=0.00811425	consensus_score=12.6	fisher_strand_p_value=0.00102996	frequency=4.83748436e-01	ks_quality_p_value=1	major_base=C	major_cov=71/61	major_frequency=5.16251564e-01	minor_base=T	minor_cov=41/83	new_cov=41/83	polymorphism_frequency=4.83748436e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=71/61	total_cov=112/144
+RA	109	.	NC_002976	1089806	0	T	G	bias_e_value=44185.2	bias_p_value=0.0168869	consensus_score=0.1	fisher_strand_p_value=0.00240157	frequency=4.92118835e-01	ks_quality_p_value=1	major_base=T	major_cov=68/61	major_frequency=5.07881165e-01	minor_base=G	minor_cov=42/83	new_cov=42/83	polymorphism_frequency=4.92118835e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=68/61	total_cov=110/144
+RA	110	.	NC_002976	1089807	0	G	T	bias_e_value=97808.7	bias_p_value=0.0373811	consensus_score=77.0	fisher_strand_p_value=0.00630367	frequency=4.73485947e-01	ks_quality_p_value=0.973117	major_base=G	major_cov=70/69	major_frequency=5.26514053e-01	minor_base=T	minor_cov=42/83	new_cov=42/83	polymorphism_frequency=4.73485947e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=70/69	total_cov=112/152
+RA	111	.	NC_002976	1089835	0	C	G	bias_e_value=248015	bias_p_value=0.0947878	consensus_score=256.2	fisher_strand_p_value=0.0191447	frequency=3.95969868e-01	ks_quality_p_value=0.998839	major_base=C	major_cov=70/84	major_frequency=6.04030132e-01	minor_base=G	minor_cov=31/70	new_cov=31/70	polymorphism_frequency=3.95969868e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=70/84	total_cov=101/154
+RA	112	.	NC_002976	1089837	0	T	G	bias_e_value=523917	bias_p_value=0.200233	consensus_score=252.4	fisher_strand_p_value=0.0501888	frequency=3.85487080e-01	ks_quality_p_value=0.999211	major_base=T	major_cov=70/91	major_frequency=6.14512920e-01	minor_base=G	minor_cov=31/70	new_cov=31/70	polymorphism_frequency=3.85487080e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=70/91	total_cov=101/161
+RA	113	.	NC_002976	1089843	0	A	T	bias_e_value=788320	bias_p_value=0.301284	consensus_score=310.4	fisher_strand_p_value=0.088146	frequency=3.65378857e-01	ks_quality_p_value=0.995581	major_base=A	major_cov=72/93	major_frequency=6.34621143e-01	minor_base=T	minor_cov=31/64	new_cov=31/64	polymorphism_frequency=3.65378857e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=72/93	total_cov=103/157
+RA	114	.	NC_002976	1089858	0	C	T	bias_e_value=601623	bias_p_value=0.229931	consensus_score=326.5	fisher_strand_p_value=0.060401	frequency=3.21377754e-01	ks_quality_p_value=1	major_base=C	major_cov=83/90	major_frequency=6.78622246e-01	minor_base=T	minor_cov=29/53	new_cov=29/53	polymorphism_frequency=3.21377754e-01	polymorphism_score=247.4	prediction=polymorphism	ref_cov=83/90	total_cov=112/143
+RA	115	.	NC_002976	1089864	0	T	A	bias_e_value=272641	bias_p_value=0.1042	consensus_score=402.3	fisher_strand_p_value=0.021538	frequency=3.22696686e-01	ks_quality_p_value=1	major_base=T	major_cov=83/87	major_frequency=6.77303314e-01	minor_base=A	minor_cov=27/54	new_cov=27/54	polymorphism_frequency=3.22696686e-01	polymorphism_score=293.9	prediction=polymorphism	ref_cov=83/87	total_cov=110/141
+RA	116	.	NC_002976	1089880	0	T	A	bias_e_value=56416.2	bias_p_value=0.0215615	consensus_score=382.7	fisher_strand_p_value=0.0031963	frequency=3.14399719e-01	ks_quality_p_value=1	major_base=T	major_cov=70/87	major_frequency=6.85600281e-01	minor_base=A	minor_cov=17/55	new_cov=17/55	polymorphism_frequency=3.14399719e-01	polymorphism_score=260.5	prediction=polymorphism	ref_cov=70/87	total_cov=87/142
+RA	117	.	NC_002976	1089882	0	T	A	bias_e_value=56416.2	bias_p_value=0.0215615	consensus_score=384.8	fisher_strand_p_value=0.0031963	frequency=3.14394474e-01	ks_quality_p_value=1	major_base=T	major_cov=70/87	major_frequency=6.85605526e-01	minor_base=A	minor_cov=17/55	new_cov=17/55	polymorphism_frequency=3.14394474e-01	polymorphism_score=257.7	prediction=polymorphism	ref_cov=70/87	total_cov=87/142
+RA	118	.	NC_002976	1089895	0	T	G	bias_e_value=81968.7	bias_p_value=0.0313272	consensus_score=364.3	fisher_strand_p_value=0.00572672	frequency=3.19363117e-01	ks_quality_p_value=0.867688	major_base=T	major_cov=57/105	major_frequency=6.80636883e-01	minor_base=G	minor_cov=13/63	new_cov=13/63	polymorphism_frequency=3.19363117e-01	polymorphism_score=284.0	prediction=polymorphism	ref_cov=57/105	total_cov=70/168
+RA	119	.	NC_002976	1089907	0	G	T	bias_e_value=312166	bias_p_value=0.119305	consensus_score=409.1	fisher_strand_p_value=0.0255665	frequency=3.28743458e-01	ks_quality_p_value=1	major_base=G	major_cov=56/111	major_frequency=6.71256542e-01	minor_base=T	minor_cov=16/66	new_cov=16/66	polymorphism_frequency=3.28743458e-01	polymorphism_score=291.8	prediction=polymorphism	ref_cov=56/111	total_cov=72/177
+RA	120	.	NC_002976	1089908	0	A	C	bias_e_value=308458	bias_p_value=0.117888	consensus_score=360.6	fisher_strand_p_value=0.0255665	frequency=3.29326630e-01	ks_quality_p_value=0.984911	major_base=A	major_cov=56/111	major_frequency=6.70673370e-01	minor_base=C	minor_cov=16/66	new_cov=16/66	polymorphism_frequency=3.29326630e-01	polymorphism_score=314.1	prediction=polymorphism	ref_cov=56/111	total_cov=72/177
+RA	121	.	NC_002976	1089926	0	A	G	bias_e_value=1710490	bias_p_value=0.653726	consensus_score=436.7	fisher_strand_p_value=0.293852	frequency=2.66948223e-01	ks_quality_p_value=1	major_base=A	major_cov=71/101	major_frequency=7.33051777e-01	minor_base=G	minor_cov=21/42	new_cov=21/42	polymorphism_frequency=2.66948223e-01	polymorphism_score=170.1	prediction=polymorphism	ref_cov=71/101	total_cov=92/143
+RA	122	.	NC_002976	1089927	0	T	G	bias_e_value=1915990	bias_p_value=0.732263	consensus_score=471.4	fisher_strand_p_value=0.3644	frequency=2.70353794e-01	ks_quality_p_value=1	major_base=T	major_cov=69/101	major_frequency=7.29646206e-01	minor_base=G	minor_cov=21/42	new_cov=21/42	polymorphism_frequency=2.70353794e-01	polymorphism_score=228.9	prediction=polymorphism	ref_cov=69/101	total_cov=90/143
+RA	123	.	NC_002976	1089934	0	A	G	bias_e_value=2537210	bias_p_value=0.969685	consensus_score=392.8	fisher_strand_p_value=0.764096	frequency=2.84997463e-01	ks_quality_p_value=1	major_base=A	major_cov=65/98	major_frequency=7.15002537e-01	minor_base=G	minor_cov=24/41	new_cov=24/41	polymorphism_frequency=2.84997463e-01	polymorphism_score=182.3	prediction=polymorphism	ref_cov=65/98	total_cov=89/139
+RA	124	.	NC_002976	1089936	0	T	C	bias_e_value=2428430	bias_p_value=0.928112	consensus_score=404.9	fisher_strand_p_value=0.654445	frequency=2.81304836e-01	ks_quality_p_value=0.986531	major_base=T	major_cov=68/98	major_frequency=7.18695164e-01	minor_base=C	minor_cov=24/41	new_cov=24/41	polymorphism_frequency=2.81304836e-01	polymorphism_score=183.3	prediction=polymorphism	ref_cov=68/98	total_cov=92/139
+RA	125	.	NC_002976	1089942	0	T	C	bias_e_value=1568950	bias_p_value=0.599631	consensus_score=448.2	fisher_strand_p_value=1	frequency=2.52122879e-01	ks_quality_p_value=0.252212	major_base=T	major_cov=69/100	major_frequency=7.47877121e-01	minor_base=C	minor_cov=23/34	new_cov=23/34	polymorphism_frequency=2.52122879e-01	polymorphism_score=156.9	prediction=polymorphism	ref_cov=69/100	total_cov=92/134
+RA	126	.	NC_002976	1089944	0	C	A	bias_e_value=2616530	bias_p_value=1	consensus_score=483.9	fisher_strand_p_value=1	frequency=2.65142918e-01	ks_quality_p_value=1	major_base=C	major_cov=67/93	major_frequency=7.34857082e-01	minor_base=A	minor_cov=24/34	new_cov=24/34	polymorphism_frequency=2.65142918e-01	polymorphism_score=201.7	prediction=polymorphism	ref_cov=67/93	total_cov=91/127
+RA	127	.	NC_002976	1089960	0	T	C	bias_e_value=1996530	bias_p_value=0.763044	consensus_score=456.3	fisher_strand_p_value=0.39623	frequency=2.73856640e-01	ks_quality_p_value=1	major_base=T	major_cov=85/97	major_frequency=7.26143360e-01	minor_base=C	minor_cov=37/32	new_cov=37/32	polymorphism_frequency=2.73856640e-01	polymorphism_score=189.4	prediction=polymorphism	ref_cov=85/97	total_cov=122/129
+RA	128	.	NC_002976	1089972	0	T	A	bias_e_value=52557.8	bias_p_value=0.0200868	consensus_score=367.8	fisher_strand_p_value=0.00294147	frequency=3.37331295e-01	ks_quality_p_value=1	major_base=T	major_cov=84/83	major_frequency=6.62668705e-01	minor_base=A	minor_cov=60/25	new_cov=60/25	polymorphism_frequency=3.37331295e-01	polymorphism_score=313.2	prediction=polymorphism	ref_cov=84/83	total_cov=144/109
+RA	129	.	NC_002976	1089978	0	T	C	bias_e_value=602125	bias_p_value=0.230124	consensus_score=281.3	fisher_strand_p_value=0.0604694	frequency=3.62815857e-01	ks_quality_p_value=1	major_base=T	major_cov=85/73	major_frequency=6.37184143e-01	minor_base=C	minor_cov=60/30	new_cov=60/30	polymorphism_frequency=3.62815857e-01	polymorphism_score=265.4	prediction=polymorphism	ref_cov=85/73	total_cov=145/103
+RA	130	.	NC_002976	1089987	0	C	T	bias_e_value=378871	bias_p_value=0.144799	consensus_score=174.7	fisher_strand_p_value=0.0327739	frequency=3.94306183e-01	ks_quality_p_value=1	major_base=C	major_cov=82/67	major_frequency=6.05693817e-01	minor_base=T	minor_cov=67/30	new_cov=67/30	polymorphism_frequency=3.94306183e-01	polymorphism_score=308.0	prediction=polymorphism	ref_cov=82/67	total_cov=149/97
+RA	131	.	NC_002976	1090014	0	A	T	bias_e_value=137973	bias_p_value=0.0527312	consensus_score=191.0	fisher_strand_p_value=0.00933661	frequency=4.15682793e-01	ks_quality_p_value=0.994436	major_base=A	major_cov=79/70	major_frequency=5.84317207e-01	minor_base=T	minor_cov=74/32	new_cov=74/32	polymorphism_frequency=4.15682793e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=79/70	total_cov=153/102
+RA	132	.	NC_002976	1090047	0	A	G	bias_e_value=1269040	bias_p_value=0.485009	consensus_score=195.6	fisher_strand_p_value=0.189649	frequency=4.21556473e-01	ks_quality_p_value=0.937923	major_base=A	major_cov=121/52	major_frequency=5.78443527e-01	minor_base=G	minor_cov=97/29	new_cov=97/29	polymorphism_frequency=4.21556473e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=121/52	total_cov=218/81
+RA	133	.	NC_002976	1090074	0	A	G	bias_e_value=2236580	bias_p_value=0.854787	consensus_score=153.8	fisher_strand_p_value=0.512058	frequency=4.37234402e-01	ks_quality_p_value=1	major_base=A	major_cov=107/50	major_frequency=5.62765598e-01	minor_base=G	minor_cov=88/34	new_cov=88/34	polymorphism_frequency=4.37234402e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=107/50	total_cov=195/84
+RA	134	.	NC_002976	1090077	0	T	A	bias_e_value=2236580	bias_p_value=0.854787	consensus_score=154.0	fisher_strand_p_value=0.512058	frequency=4.37268257e-01	ks_quality_p_value=1	major_base=T	major_cov=107/50	major_frequency=5.62731743e-01	minor_base=A	minor_cov=88/34	new_cov=88/34	polymorphism_frequency=4.37268257e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=107/50	total_cov=195/84
+RA	135	.	NC_002976	1090080	0	T	C	bias_e_value=2565380	bias_p_value=0.98045	consensus_score=169.8	fisher_strand_p_value=0.808891	frequency=4.37984467e-01	ks_quality_p_value=1	major_base=T	major_cov=110/60	major_frequency=5.62015533e-01	minor_base=C	minor_cov=88/45	new_cov=88/45	polymorphism_frequency=4.37984467e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=110/60	total_cov=198/105
+RA	136	.	NC_002976	1090095	0	G	A	bias_e_value=2496690	bias_p_value=0.9542	consensus_score=159.1	fisher_strand_p_value=0.713032	frequency=4.20192719e-01	ks_quality_p_value=1	major_base=G	major_cov=117/61	major_frequency=5.79807281e-01	minor_base=A	minor_cov=88/41	new_cov=88/41	polymorphism_frequency=4.20192719e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=117/61	total_cov=205/102
+RA	137	.	NC_002976	1090106	0	A	G	bias_e_value=2552350	bias_p_value=0.97547	consensus_score=148.5	fisher_strand_p_value=0.804288	frequency=4.38983917e-01	ks_quality_p_value=0.978309	major_base=A	major_cov=103/57	major_frequency=5.61016083e-01	minor_base=G	minor_cov=78/47	new_cov=78/47	polymorphism_frequency=4.38983917e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=103/57	total_cov=181/104
+RA	138	.	NC_002976	1090125	0	T	C	bias_e_value=2602500	bias_p_value=0.994637	consensus_score=155.4	fisher_strand_p_value=0.898238	frequency=4.34335709e-01	ks_quality_p_value=1	major_base=T	major_cov=98/54	major_frequency=5.65664291e-01	minor_base=C	minor_cov=74/43	new_cov=74/43	polymorphism_frequency=4.34335709e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=98/54	total_cov=172/97
+RA	139	.	NC_002976	1090131	0	A	T	bias_e_value=2072920	bias_p_value=0.792239	consensus_score=148.7	fisher_strand_p_value=0.42921	frequency=4.35288429e-01	ks_quality_p_value=1	major_base=A	major_cov=96/48	major_frequency=5.64711571e-01	minor_base=T	minor_cov=68/43	new_cov=68/43	polymorphism_frequency=4.35288429e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=96/48	total_cov=164/91
+RA	140	.	NC_002976	1090147	0	A	G	bias_e_value=1506590	bias_p_value=0.575795	consensus_score=160.7	fisher_strand_p_value=0.235328	frequency=4.26227093e-01	ks_quality_p_value=1	major_base=A	major_cov=95/49	major_frequency=5.73772907e-01	minor_base=G	minor_cov=62/45	new_cov=62/45	polymorphism_frequency=4.26227093e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=95/49	total_cov=157/94
+RA	141	.	NC_002976	1090149	0	C	T	bias_e_value=1719290	bias_p_value=0.657089	consensus_score=124.5	fisher_strand_p_value=0.298286	frequency=4.23371792e-01	ks_quality_p_value=0.994375	major_base=C	major_cov=99/51	major_frequency=5.76628208e-01	minor_base=T	minor_cov=65/45	new_cov=65/45	polymorphism_frequency=4.23371792e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=99/51	total_cov=164/96
+RA	142	.	NC_002976	1090151	0	A	C	bias_e_value=1532380	bias_p_value=0.585653	consensus_score=154.6	fisher_strand_p_value=0.242211	frequency=4.24700260e-01	ks_quality_p_value=1	major_base=A	major_cov=99/50	major_frequency=5.75299740e-01	minor_base=C	minor_cov=65/45	new_cov=65/45	polymorphism_frequency=4.24700260e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=99/50	total_cov=164/95
+RA	143	.	NC_002976	1090164	0	T	C	bias_e_value=2268700	bias_p_value=0.867063	consensus_score=75.8	fisher_strand_p_value=0.530911	frequency=4.70293045e-01	ks_quality_p_value=1	major_base=T	major_cov=73/61	major_frequency=5.29706955e-01	minor_base=C	minor_cov=60/59	new_cov=60/59	polymorphism_frequency=4.70293045e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=73/61	total_cov=133/120
+RA	144	.	NC_002976	1090203	0	A	G	bias_e_value=2362890	bias_p_value=0.903061	consensus_score=161.8	fisher_strand_p_value=0.607033	frequency=4.27444935e-01	ks_quality_p_value=0.977459	major_base=A	major_cov=59/91	major_frequency=5.72555065e-01	minor_base=G	minor_cov=40/72	new_cov=40/72	polymorphism_frequency=4.27444935e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=59/91	total_cov=99/163
+RA	145	.	NC_002976	1090204	0	T	A	bias_e_value=2378070	bias_p_value=0.908865	consensus_score=164.1	fisher_strand_p_value=0.608168	frequency=4.29114819e-01	ks_quality_p_value=0.994257	major_base=T	major_cov=58/91	major_frequency=5.70885181e-01	minor_base=A	minor_cov=40/72	new_cov=40/72	polymorphism_frequency=4.29114819e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=58/91	total_cov=98/163
+RA	146	.	NC_002976	1090212	0	T	A	bias_e_value=2616530	bias_p_value=1	consensus_score=93.0	fisher_strand_p_value=1	frequency=4.60960865e-01	ks_quality_p_value=1	major_base=T	major_cov=58/87	major_frequency=5.39039135e-01	minor_base=A	minor_cov=50/74	new_cov=50/74	polymorphism_frequency=4.60960865e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=58/87	total_cov=108/161
+RA	147	.	NC_002976	1090236	0	A	G	bias_e_value=1550020	bias_p_value=0.592395	consensus_score=62.7	fisher_strand_p_value=0.246999	frequency=4.79332924e-01	ks_quality_p_value=1	major_base=A	major_cov=52/87	major_frequency=5.20667076e-01	minor_base=G	minor_cov=39/89	new_cov=39/89	polymorphism_frequency=4.79332924e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=52/87	total_cov=91/176
+RA	148	.	NC_002976	1090257	0	C	T	bias_e_value=2485440	bias_p_value=0.949898	consensus_score=64.7	fisher_strand_p_value=0.700632	frequency=4.57451820e-01	ks_quality_p_value=1	major_base=C	major_cov=50/103	major_frequency=5.42548180e-01	minor_base=T	minor_cov=39/90	new_cov=39/90	polymorphism_frequency=4.57451820e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=50/103	total_cov=89/193
+RA	149	.	NC_002976	1090262	0	T	C	bias_e_value=2552700	bias_p_value=0.975606	consensus_score=108.2	fisher_strand_p_value=0.787411	frequency=4.57190990e-01	ks_quality_p_value=1	major_base=T	major_cov=43/103	major_frequency=5.42809010e-01	minor_base=C	minor_cov=34/89	new_cov=34/89	polymorphism_frequency=4.57190990e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=43/103	total_cov=77/192
+RA	150	.	NC_002976	1090276	0	A	G	bias_e_value=2601200	bias_p_value=0.994139	consensus_score=127.6	fisher_strand_p_value=0.893706	frequency=4.48472023e-01	ks_quality_p_value=1	major_base=A	major_cov=45/105	major_frequency=5.51527977e-01	minor_base=G	minor_cov=35/87	new_cov=35/87	polymorphism_frequency=4.48472023e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=45/105	total_cov=80/192
+RA	151	.	NC_002976	1090280	0	A	T	bias_e_value=2601270	bias_p_value=0.994167	consensus_score=124.1	fisher_strand_p_value=0.893954	frequency=4.46878910e-01	ks_quality_p_value=1	major_base=A	major_cov=45/106	major_frequency=5.53121090e-01	minor_base=T	minor_cov=35/87	new_cov=35/87	polymorphism_frequency=4.46878910e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=45/106	total_cov=80/193
+RA	152	.	NC_002976	1090289	0	A	G	bias_e_value=2062350	bias_p_value=0.788201	consensus_score=108.3	fisher_strand_p_value=0.424466	frequency=4.58127499e-01	ks_quality_p_value=1	major_base=A	major_cov=40/109	major_frequency=5.41872501e-01	minor_base=G	minor_cov=40/86	new_cov=40/86	polymorphism_frequency=4.58127499e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=40/109	total_cov=80/195
+RA	153	.	NC_002976	1090311	0	C	T	bias_e_value=1354720	bias_p_value=0.517756	consensus_score=153.6	fisher_strand_p_value=0.197443	frequency=4.13280010e-01	ks_quality_p_value=1	major_base=C	major_cov=51/108	major_frequency=5.86719990e-01	minor_base=T	minor_cov=45/67	new_cov=45/67	polymorphism_frequency=4.13280010e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=51/108	total_cov=96/175
+RA	154	.	NC_002976	1090314	0	G	A	bias_e_value=2592150	bias_p_value=0.990681	consensus_score=269.5	fisher_strand_p_value=0.903809	frequency=3.69648933e-01	ks_quality_p_value=0.958857	major_base=G	major_cov=79/112	major_frequency=6.30351067e-01	minor_base=A	minor_cov=45/67	new_cov=45/67	polymorphism_frequency=3.69648933e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=79/112	total_cov=124/179
+RA	155	.	NC_002976	1090332	0	C	T	bias_e_value=2602100	bias_p_value=0.994485	consensus_score=122.5	fisher_strand_p_value=0.901161	frequency=4.24282074e-01	ks_quality_p_value=0.995198	major_base=C	major_cov=73/79	major_frequency=5.75717926e-01	minor_base=T	minor_cov=55/57	new_cov=55/57	polymorphism_frequency=4.24282074e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=73/79	total_cov=128/136
+RA	156	.	NC_002976	1090344	0	G	A	bias_e_value=2602260	bias_p_value=0.994546	consensus_score=114.9	fisher_strand_p_value=0.902411	frequency=4.29962158e-01	ks_quality_p_value=0.994436	major_base=G	major_cov=78/76	major_frequency=5.70037842e-01	minor_base=A	minor_cov=60/56	new_cov=60/56	polymorphism_frequency=4.29962158e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=78/76	total_cov=138/132
+RA	157	.	NC_002976	1090360	0	C	A	bias_e_value=1777360	bias_p_value=0.679283	consensus_score=389.1	fisher_strand_p_value=0.315347	frequency=3.57334137e-01	ks_quality_p_value=1	major_base=C	major_cov=78/100	major_frequency=6.42665863e-01	minor_base=A	minor_cov=50/49	new_cov=50/49	polymorphism_frequency=3.57334137e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=78/100	total_cov=128/149
+RA	158	.	NC_002976	1090365	0	T	C	bias_e_value=1555930	bias_p_value=0.594652	consensus_score=322.5	fisher_strand_p_value=0.252676	frequency=3.54185581e-01	ks_quality_p_value=0.983936	major_base=T	major_cov=76/99	major_frequency=6.45814419e-01	minor_base=C	minor_cov=49/47	new_cov=49/47	polymorphism_frequency=3.54185581e-01	polymorphism_score=283.9	prediction=polymorphism	ref_cov=76/99	total_cov=125/146
+RA	159	.	NC_002976	1090368	0	T	C	bias_e_value=1570620	bias_p_value=0.600269	consensus_score=326.3	fisher_strand_p_value=0.252676	frequency=3.54153156e-01	ks_quality_p_value=1	major_base=T	major_cov=76/99	major_frequency=6.45846844e-01	minor_base=C	minor_cov=49/47	new_cov=49/47	polymorphism_frequency=3.54153156e-01	polymorphism_score=282.6	prediction=polymorphism	ref_cov=76/99	total_cov=125/146
+RA	160	.	NC_002976	1090376	0	C	T	bias_e_value=1872610	bias_p_value=0.715683	consensus_score=173.9	fisher_strand_p_value=0.348333	frequency=4.12535667e-01	ks_quality_p_value=1	major_base=C	major_cov=76/102	major_frequency=5.87464333e-01	minor_base=T	minor_cov=61/64	new_cov=61/64	polymorphism_frequency=4.12535667e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=76/102	total_cov=137/166
+RA	161	.	NC_002976	1090386	0	T	C	bias_e_value=1871520	bias_p_value=0.715269	consensus_score=259.0	fisher_strand_p_value=0.361464	frequency=4.02474403e-01	ks_quality_p_value=0.962585	major_base=T	major_cov=92/98	major_frequency=5.97525597e-01	minor_base=C	minor_cov=69/59	new_cov=69/59	polymorphism_frequency=4.02474403e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=92/98	total_cov=161/157
+RA	162	.	NC_002976	1090393	0	C	T	bias_e_value=2303580	bias_p_value=0.880395	consensus_score=162.4	fisher_strand_p_value=0.555299	frequency=4.14291382e-01	ks_quality_p_value=0.995251	major_base=C	major_cov=89/85	major_frequency=5.85708618e-01	minor_base=T	minor_cov=68/55	new_cov=68/55	polymorphism_frequency=4.14291382e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=89/85	total_cov=157/140
+RA	163	.	NC_002976	1090401	0	A	T	bias_e_value=2179990	bias_p_value=0.833159	consensus_score=176.0	fisher_strand_p_value=0.481165	frequency=4.34772968e-01	ks_quality_p_value=1	major_base=A	major_cov=91/78	major_frequency=5.65227032e-01	minor_base=T	minor_cov=76/54	new_cov=76/54	polymorphism_frequency=4.34772968e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=91/78	total_cov=167/132
+RA	164	.	NC_002976	1090419	0	G	A	bias_e_value=2043300	bias_p_value=0.78092	consensus_score=107.5	fisher_strand_p_value=0.419012	frequency=4.39424992e-01	ks_quality_p_value=0.992971	major_base=G	major_cov=90/81	major_frequency=5.60575008e-01	minor_base=A	minor_cov=77/57	new_cov=77/57	polymorphism_frequency=4.39424992e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=90/81	total_cov=167/138
+RA	165	.	NC_002976	1090455	0	C	T	bias_e_value=1624940	bias_p_value=0.62103	consensus_score=179.9	fisher_strand_p_value=0.268103	frequency=4.04986382e-01	ks_quality_p_value=1	major_base=C	major_cov=101/65	major_frequency=5.95013618e-01	minor_base=T	minor_cov=61/52	new_cov=61/52	polymorphism_frequency=4.04986382e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=101/65	total_cov=162/117
+RA	166	.	NC_002976	1090485	0	G	A	bias_e_value=2354900	bias_p_value=0.900008	consensus_score=138.0	fisher_strand_p_value=0.60278	frequency=4.10031319e-01	ks_quality_p_value=0.974742	major_base=G	major_cov=75/69	major_frequency=5.89968681e-01	minor_base=A	minor_cov=48/52	new_cov=48/52	polymorphism_frequency=4.10031319e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=75/69	total_cov=123/121
+RA	167	.	NC_002976	1090486	0	T	A	bias_e_value=2096180	bias_p_value=0.801129	consensus_score=223.4	fisher_strand_p_value=0.439876	frequency=3.99992466e-01	ks_quality_p_value=1	major_base=T	major_cov=80/70	major_frequency=6.00007534e-01	minor_base=A	minor_cov=48/52	new_cov=48/52	polymorphism_frequency=3.99992466e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=80/70	total_cov=128/122
+RA	168	.	NC_002976	1090498	0	G	T	bias_e_value=2384040	bias_p_value=0.911147	consensus_score=183.9	fisher_strand_p_value=0.609245	frequency=4.27903652e-01	ks_quality_p_value=1	major_base=G	major_cov=74/69	major_frequency=5.72096348e-01	minor_base=T	minor_cov=51/56	new_cov=51/56	polymorphism_frequency=4.27903652e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=74/69	total_cov=125/125
+RA	169	.	NC_002976	1090509	0	T	C	bias_e_value=2600170	bias_p_value=0.993749	consensus_score=139.6	fisher_strand_p_value=0.890293	frequency=4.38156128e-01	ks_quality_p_value=1	major_base=T	major_cov=99/42	major_frequency=5.61843872e-01	minor_base=C	minor_cov=76/34	new_cov=76/34	polymorphism_frequency=4.38156128e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=99/42	total_cov=175/76
+RA	170	.	NC_002976	1090521	0	A	T	bias_e_value=2616500	bias_p_value=0.999988	consensus_score=297.2	fisher_strand_p_value=1	frequency=3.45785618e-01	ks_quality_p_value=0.995072	major_base=A	major_cov=99/41	major_frequency=6.54214382e-01	minor_base=T	minor_cov=53/21	new_cov=53/21	polymorphism_frequency=3.45785618e-01	polymorphism_score=272.4	prediction=polymorphism	ref_cov=99/41	total_cov=152/62
+RA	171	.	NC_002976	1090523	0	C	T	bias_e_value=2112470	bias_p_value=0.807355	consensus_score=207.0	fisher_strand_p_value=1	frequency=3.54150772e-01	ks_quality_p_value=0.447537	major_base=C	major_cov=95/39	major_frequency=6.45849228e-01	minor_base=T	minor_cov=53/21	new_cov=53/21	polymorphism_frequency=3.54150772e-01	polymorphism_score=229.6	prediction=polymorphism	ref_cov=95/39	total_cov=149/60
+RA	172	.	NC_002976	1090524	0	C	T	bias_e_value=2616530	bias_p_value=1	consensus_score=213.3	fisher_strand_p_value=1	frequency=3.53669167e-01	ks_quality_p_value=1	major_base=C	major_cov=96/39	major_frequency=6.46330833e-01	minor_base=T	minor_cov=53/21	new_cov=53/21	polymorphism_frequency=3.53669167e-01	polymorphism_score=226.5	prediction=polymorphism	ref_cov=96/39	total_cov=149/60
+RA	173	.	NC_002976	1090525	0	T	C	bias_e_value=2616530	bias_p_value=1	consensus_score=252.8	fisher_strand_p_value=1	frequency=3.52261066e-01	ks_quality_p_value=1	major_base=T	major_cov=97/39	major_frequency=6.47738934e-01	minor_base=C	minor_cov=53/21	new_cov=53/21	polymorphism_frequency=3.52261066e-01	polymorphism_score=214.7	prediction=polymorphism	ref_cov=97/39	total_cov=150/60
+RA	174	.	NC_002976	1090533	0	C	T	bias_e_value=678920	bias_p_value=0.259473	consensus_score=130.0	fisher_strand_p_value=0.0717176	frequency=4.04766560e-01	ks_quality_p_value=0.993545	major_base=C	major_cov=79/46	major_frequency=5.95233440e-01	minor_base=T	minor_cov=64/21	new_cov=64/21	polymorphism_frequency=4.04766560e-01	polymorphism_score=271.4	prediction=polymorphism	ref_cov=79/46	total_cov=143/67
+RA	175	.	NC_002976	1090536	0	C	T	bias_e_value=682116	bias_p_value=0.260695	consensus_score=132.2	fisher_strand_p_value=0.0717176	frequency=4.04469490e-01	ks_quality_p_value=1	major_base=C	major_cov=79/46	major_frequency=5.95530510e-01	minor_base=T	minor_cov=64/21	new_cov=64/21	polymorphism_frequency=4.04469490e-01	polymorphism_score=268.8	prediction=polymorphism	ref_cov=79/46	total_cov=143/67
+RA	176	.	NC_002976	1090572	0	A	G	bias_e_value=2615120	bias_p_value=0.999462	consensus_score=115.7	fisher_strand_p_value=1	frequency=4.56418514e-01	ks_quality_p_value=0.967371	major_base=A	major_cov=77/85	major_frequency=5.43581486e-01	minor_base=G	minor_cov=65/71	new_cov=65/71	polymorphism_frequency=4.56418514e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=77/85	total_cov=142/156
+RA	177	.	NC_002976	1090610	0	G	C	bias_e_value=2402010	bias_p_value=0.918014	consensus_score=48.0	fisher_strand_p_value=0.723461	frequency=4.79106903e-01	ks_quality_p_value=0.861738	major_base=G	major_cov=71/79	major_frequency=5.20893097e-01	minor_base=C	minor_cov=69/69	new_cov=69/69	polymorphism_frequency=4.79106903e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=71/79	total_cov=140/148
+RA	178	.	NC_002976	1090615	0	C	T	bias_e_value=2604790	bias_p_value=0.995515	consensus_score=-0.2	fisher_strand_p_value=0.906792	frequency=4.86339092e-01	ks_quality_p_value=1	major_base=C	major_cov=72/78	major_frequency=5.13660908e-01	minor_base=T	minor_cov=70/72	new_cov=70/72	polymorphism_frequency=4.86339092e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=72/78	total_cov=142/150
+RA	179	.	NC_002976	1090623	0	G	A	bias_e_value=2598140	bias_p_value=0.992971	consensus_score=3.6	fisher_strand_p_value=0.906214	frequency=4.93177414e-01	ks_quality_p_value=0.975266	major_base=G	major_cov=71/75	major_frequency=5.06822586e-01	minor_base=A	minor_cov=70/71	new_cov=70/71	polymorphism_frequency=4.93177414e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=71/75	total_cov=142/146
+RA	180	.	NC_002976	1090629	0	A	C	bias_e_value=2604810	bias_p_value=0.995522	consensus_score=32.0	fisher_strand_p_value=0.906871	frequency=4.77671623e-01	ks_quality_p_value=1	major_base=A	major_cov=73/79	major_frequency=5.22328377e-01	minor_base=C	minor_cov=68/71	new_cov=68/71	polymorphism_frequency=4.77671623e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=73/79	total_cov=141/150
+RA	181	.	NC_002976	1090640	0	T	C	bias_e_value=2303630	bias_p_value=0.880415	consensus_score=57.0	fisher_strand_p_value=0.552694	frequency=4.82356071e-01	ks_quality_p_value=1	major_base=T	major_cov=69/78	major_frequency=5.17643929e-01	minor_base=C	minor_cov=70/67	new_cov=70/67	polymorphism_frequency=4.82356071e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=69/78	total_cov=139/145
+RA	182	.	NC_002976	1090668	0	T	G	bias_e_value=2550880	bias_p_value=0.974908	consensus_score=156.9	fisher_strand_p_value=0.786355	frequency=4.25119877e-01	ks_quality_p_value=0.997656	major_base=T	major_cov=43/113	major_frequency=5.74880123e-01	minor_base=G	minor_cov=34/82	new_cov=34/82	polymorphism_frequency=4.25119877e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=43/113	total_cov=77/196
+RA	183	.	NC_002976	1090669	0	A	C	bias_e_value=2468780	bias_p_value=0.943533	consensus_score=176.1	fisher_strand_p_value=0.684731	frequency=4.20281410e-01	ks_quality_p_value=0.997978	major_base=A	major_cov=43/117	major_frequency=5.79718590e-01	minor_base=C	minor_cov=34/82	new_cov=34/82	polymorphism_frequency=4.20281410e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=43/117	total_cov=77/199
+RA	184	.	NC_002976	1090675	0	A	G	bias_e_value=2557840	bias_p_value=0.977568	consensus_score=174.2	fisher_strand_p_value=0.795806	frequency=4.32954788e-01	ks_quality_p_value=1	major_base=A	major_cov=47/119	major_frequency=5.67045212e-01	minor_base=G	minor_cov=38/89	new_cov=38/89	polymorphism_frequency=4.32954788e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=47/119	total_cov=85/208
+RA	185	.	NC_002976	1090695	0	A	G	bias_e_value=1381530	bias_p_value=0.528002	consensus_score=158.5	fisher_strand_p_value=0.204914	frequency=4.38396931e-01	ks_quality_p_value=0.994668	major_base=A	major_cov=46/118	major_frequency=5.61603069e-01	minor_base=G	minor_cov=45/83	new_cov=45/83	polymorphism_frequency=4.38396931e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=46/118	total_cov=91/201
+RA	186	.	NC_002976	1090708	0	T	A	bias_e_value=2002190	bias_p_value=0.765209	consensus_score=114.4	fisher_strand_p_value=0.43304	frequency=4.58719730e-01	ks_quality_p_value=0.920414	major_base=T	major_cov=72/105	major_frequency=5.41280270e-01	minor_base=A	minor_cov=68/82	new_cov=68/82	polymorphism_frequency=4.58719730e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=72/105	total_cov=140/187
+RA	187	.	NC_002976	1090740	0	A	G	bias_e_value=2369060	bias_p_value=0.90542	consensus_score=99.1	fisher_strand_p_value=0.614049	frequency=4.56316948e-01	ks_quality_p_value=0.973704	major_base=A	major_cov=73/64	major_frequency=5.43683052e-01	minor_base=G	minor_cov=65/50	new_cov=65/50	polymorphism_frequency=4.56316948e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=73/64	total_cov=138/114
+RA	188	.	NC_002976	1090742	0	G	A	bias_e_value=2256000	bias_p_value=0.862211	consensus_score=43.8	fisher_strand_p_value=0.523334	frequency=4.63396072e-01	ks_quality_p_value=1	major_base=G	major_cov=69/64	major_frequency=5.36603928e-01	minor_base=A	minor_cov=65/50	new_cov=65/50	polymorphism_frequency=4.63396072e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=69/64	total_cov=134/114
+RA	189	.	NC_002976	1090747	0	T	C	bias_e_value=1897790	bias_p_value=0.725309	consensus_score=65.1	fisher_strand_p_value=0.380669	frequency=4.73142624e-01	ks_quality_p_value=0.939333	major_base=T	major_cov=71/65	major_frequency=5.26857376e-01	minor_base=C	minor_cov=71/51	new_cov=71/51	polymorphism_frequency=4.73142624e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=71/65	total_cov=142/116
+RA	190	.	NC_002976	1090800	0	T	C	bias_e_value=1355030	bias_p_value=0.517874	consensus_score=19.3	fisher_strand_p_value=0.21802	frequency=4.99808788e-01	ks_quality_p_value=0.905955	major_base=T	major_cov=65/97	major_frequency=5.00191212e-01	minor_base=C	minor_cov=77/85	new_cov=77/85	polymorphism_frequency=4.99808788e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=65/97	total_cov=142/182
+RA	191	.	NC_002976	1090857	0	A	G	bias_e_value=2254510	bias_p_value=0.861642	consensus_score=-1.8	fisher_strand_p_value=0.526379	frequency=5.13388157e-01	ks_quality_p_value=0.992548	major_base=G	major_cov=60/70	major_frequency=5.13388157e-01	minor_base=A	minor_cov=51/72	new_cov=60/70	polymorphism_frequency=5.13388157e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=51/72	total_cov=111/142
+RA	192	.	NC_002976	1090881	0	C	T	bias_e_value=1629940	bias_p_value=0.622939	consensus_score=30.1	fisher_strand_p_value=0.269556	frequency=5.05614281e-01	ks_quality_p_value=1	major_base=T	major_cov=65/71	major_frequency=5.05614281e-01	minor_base=C	minor_cov=54/79	new_cov=65/71	polymorphism_frequency=5.05614281e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=54/79	total_cov=119/150
+RA	193	.	NC_002976	1090896	0	A	G	bias_e_value=2492600	bias_p_value=0.952636	consensus_score=44.1	fisher_strand_p_value=0.712409	frequency=4.87132072e-01	ks_quality_p_value=0.994444	major_base=A	major_cov=56/84	major_frequency=5.12867928e-01	minor_base=G	minor_cov=57/76	new_cov=57/76	polymorphism_frequency=4.87132072e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=56/84	total_cov=113/160
+RA	194	.	NC_002976	1090897	0	C	A	bias_e_value=2560530	bias_p_value=0.978599	consensus_score=27.0	fisher_strand_p_value=0.805703	frequency=4.94410992e-01	ks_quality_p_value=0.993392	major_base=C	major_cov=56/80	major_frequency=5.05589008e-01	minor_base=A	minor_cov=57/76	new_cov=57/76	polymorphism_frequency=4.94410992e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=56/80	total_cov=113/156
+RA	195	.	NC_002976	1090913	0	G	A	bias_e_value=1099740	bias_p_value=0.420305	consensus_score=9.6	fisher_strand_p_value=0.146577	frequency=4.95028019e-01	ks_quality_p_value=0.972732	major_base=G	major_cov=86/54	major_frequency=5.04971981e-01	minor_base=A	minor_cov=72/65	new_cov=72/65	polymorphism_frequency=4.95028019e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=86/54	total_cov=158/119
+RA	196	.	NC_002976	1090920	0	T	C	bias_e_value=1408740	bias_p_value=0.538401	consensus_score=54.2	fisher_strand_p_value=0.211889	frequency=4.81318474e-01	ks_quality_p_value=0.993098	major_base=T	major_cov=89/50	major_frequency=5.18681526e-01	minor_base=C	minor_cov=72/57	new_cov=72/57	polymorphism_frequency=4.81318474e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=89/50	total_cov=161/107
+RA	197	.	NC_002976	1090959	0	T	A	bias_e_value=1648520	bias_p_value=0.630042	consensus_score=12.8	fisher_strand_p_value=0.275016	frequency=4.92643833e-01	ks_quality_p_value=1	major_base=T	major_cov=74/64	major_frequency=5.07356167e-01	minor_base=A	minor_cov=62/72	new_cov=62/72	polymorphism_frequency=4.92643833e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=74/64	total_cov=136/136
+RA	198	.	NC_002976	1090974	0	T	G	bias_e_value=1511260	bias_p_value=0.57758	consensus_score=87.3	fisher_strand_p_value=0.236564	frequency=5.26322842e-01	ks_quality_p_value=1	major_base=G	major_cov=76/74	major_frequency=5.26322842e-01	minor_base=T	minor_cov=78/57	new_cov=76/74	polymorphism_frequency=5.26322842e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=78/57	total_cov=154/131
+RA	199	.	NC_002976	1090989	0	T	A	bias_e_value=2134240	bias_p_value=0.815677	consensus_score=5.0	fisher_strand_p_value=0.486069	frequency=5.05047321e-01	ks_quality_p_value=0.942335	major_base=A	major_cov=76/74	major_frequency=5.05047321e-01	minor_base=T	minor_cov=81/66	new_cov=76/74	polymorphism_frequency=5.05047321e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=81/66	total_cov=157/140
+RA	200	.	NC_002976	1091004	0	G	A	bias_e_value=2569700	bias_p_value=0.982103	consensus_score=-5.3	fisher_strand_p_value=0.816874	frequency=4.88560677e-01	ks_quality_p_value=1	major_base=G	major_cov=91/65	major_frequency=5.11439323e-01	minor_base=A	minor_cov=84/65	new_cov=84/65	polymorphism_frequency=4.88560677e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=91/65	total_cov=175/130
+RA	201	.	NC_002976	1091010	0	A	G	bias_e_value=2507550	bias_p_value=0.95835	consensus_score=67.3	fisher_strand_p_value=0.725629	frequency=4.79691505e-01	ks_quality_p_value=1	major_base=A	major_cov=90/64	major_frequency=5.20308495e-01	minor_base=G	minor_cov=80/62	new_cov=80/62	polymorphism_frequency=4.79691505e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=90/64	total_cov=170/126
+RA	202	.	NC_002976	1091016	0	C	T	bias_e_value=1832850	bias_p_value=0.70049	consensus_score=-3.9	fisher_strand_p_value=0.413009	frequency=4.83559132e-01	ks_quality_p_value=0.809187	major_base=C	major_cov=90/63	major_frequency=5.16440868e-01	minor_base=T	minor_cov=77/66	new_cov=77/66	polymorphism_frequency=4.83559132e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=90/63	total_cov=167/129
+RA	203	.	NC_002976	1091053	0	T	A	bias_e_value=2564960	bias_p_value=0.980292	consensus_score=29.7	fisher_strand_p_value=0.808149	frequency=4.85293388e-01	ks_quality_p_value=1	major_base=T	major_cov=75/65	major_frequency=5.14706612e-01	minor_base=A	minor_cov=68/64	new_cov=68/64	polymorphism_frequency=4.85293388e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=75/65	total_cov=143/129
+RA	204	.	NC_002976	1091056	0	T	C	bias_e_value=2551120	bias_p_value=0.975001	consensus_score=38.4	fisher_strand_p_value=0.80746	frequency=4.88867760e-01	ks_quality_p_value=0.972056	major_base=T	major_cov=74/64	major_frequency=5.11132240e-01	minor_base=C	minor_cov=68/64	new_cov=68/64	polymorphism_frequency=4.88867760e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=74/64	total_cov=142/128
+RA	205	.	NC_002976	1091071	0	T	G	bias_e_value=2132420	bias_p_value=0.81498	consensus_score=5.9	fisher_strand_p_value=0.460264	frequency=4.85617161e-01	ks_quality_p_value=0.993231	major_base=T	major_cov=84/59	major_frequency=5.14382839e-01	minor_base=G	minor_cov=86/49	new_cov=86/49	polymorphism_frequency=4.85617161e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=84/59	total_cov=170/108
+RA	206	.	NC_002976	1091073	0	T	G	bias_e_value=2616530	bias_p_value=1	consensus_score=20.7	fisher_strand_p_value=1	frequency=5.01865864e-01	ks_quality_p_value=1	major_base=G	major_cov=86/49	major_frequency=5.01865864e-01	minor_base=T	minor_cov=85/49	new_cov=86/49	polymorphism_frequency=5.01865864e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=85/49	total_cov=171/98
+RA	207	.	NC_002976	1091075	0	A	C	bias_e_value=2616530	bias_p_value=1	consensus_score=0.8	fisher_strand_p_value=1	frequency=4.98023987e-01	ks_quality_p_value=1	major_base=A	major_cov=87/49	major_frequency=5.01976013e-01	minor_base=C	minor_cov=86/49	new_cov=86/49	polymorphism_frequency=4.98023987e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=87/49	total_cov=173/98
+RA	208	.	NC_002976	1091104	0	A	G	bias_e_value=1691720	bias_p_value=0.646552	consensus_score=56.0	fisher_strand_p_value=0.296638	frequency=4.77888584e-01	ks_quality_p_value=0.971018	major_base=A	major_cov=86/44	major_frequency=5.22111416e-01	minor_base=G	minor_cov=71/48	new_cov=71/48	polymorphism_frequency=4.77888584e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=86/44	total_cov=157/92
+RA	209	.	NC_002976	1091109	0	T	C	bias_e_value=2229840	bias_p_value=0.852214	consensus_score=20.2	fisher_strand_p_value=0.512418	frequency=4.99998569e-01	ks_quality_p_value=0.991837	major_base=T	major_cov=77/45	major_frequency=5.00001431e-01	minor_base=C	minor_cov=71/51	new_cov=71/51	polymorphism_frequency=4.99998569e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=77/45	total_cov=148/96
+RA	210	.	NC_002976	1091125	0	G	A	bias_e_value=1296710	bias_p_value=0.495583	consensus_score=16.0	fisher_strand_p_value=0.184062	frequency=4.77197647e-01	ks_quality_p_value=1	major_base=G	major_cov=85/41	major_frequency=5.22802353e-01	minor_base=A	minor_cov=68/47	new_cov=68/47	polymorphism_frequency=4.77197647e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=85/41	total_cov=153/88
+RA	211	.	NC_002976	1091126	0	C	G	bias_e_value=754125	bias_p_value=0.288216	consensus_score=69.0	fisher_strand_p_value=0.0824525	frequency=4.69386101e-01	ks_quality_p_value=1	major_base=C	major_cov=91/39	major_frequency=5.30613899e-01	minor_base=G	minor_cov=68/47	new_cov=68/47	polymorphism_frequency=4.69386101e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=91/39	total_cov=159/86
+RA	212	.	NC_002976	1091134	0	T	A	bias_e_value=84623	bias_p_value=0.0323417	consensus_score=17.5	fisher_strand_p_value=0.00516093	frequency=5.08201599e-01	ks_quality_p_value=1	major_base=A	major_cov=68/56	major_frequency=5.08201599e-01	minor_base=T	minor_cov=87/33	new_cov=68/56	polymorphism_frequency=5.08201599e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=87/33	total_cov=155/89
+RA	213	.	NC_002976	1091181	0	A	T	bias_e_value=1250790	bias_p_value=0.478035	consensus_score=12.4	fisher_strand_p_value=0.174636	frequency=4.93444920e-01	ks_quality_p_value=0.995575	major_base=A	major_cov=77/82	major_frequency=5.06555080e-01	minor_base=T	minor_cov=63/92	new_cov=63/92	polymorphism_frequency=4.93444920e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=77/82	total_cov=140/175
+RA	214	.	NC_002976	1091220	0	T	A	bias_e_value=260834	bias_p_value=0.099687	consensus_score=172.4	fisher_strand_p_value=0.0335966	frequency=4.32800770e-01	ks_quality_p_value=0.60633	major_base=T	major_cov=62/111	major_frequency=5.67199230e-01	minor_base=A	minor_cov=32/100	new_cov=32/100	polymorphism_frequency=4.32800770e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=62/111	total_cov=94/211
+RA	215	.	NC_002976	1091222	0	A	C	bias_e_value=650422	bias_p_value=0.248582	consensus_score=136.6	fisher_strand_p_value=0.0754091	frequency=4.38541889e-01	ks_quality_p_value=0.890826	major_base=A	major_cov=58/111	major_frequency=5.61458111e-01	minor_base=C	minor_cov=32/100	new_cov=32/100	polymorphism_frequency=4.38541889e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=58/111	total_cov=90/211
+RA	216	.	NC_002976	1091229	0	A	T	bias_e_value=576563	bias_p_value=0.220354	consensus_score=122.8	fisher_strand_p_value=0.0573296	frequency=4.53075886e-01	ks_quality_p_value=0.994653	major_base=A	major_cov=56/113	major_frequency=5.46924114e-01	minor_base=T	minor_cov=32/108	new_cov=32/108	polymorphism_frequency=4.53075886e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=56/113	total_cov=88/221
+RA	217	.	NC_002976	1091244	0	G	A	bias_e_value=685185	bias_p_value=0.261868	consensus_score=135.0	fisher_strand_p_value=0.0721632	frequency=4.28574085e-01	ks_quality_p_value=1	major_base=G	major_cov=57/115	major_frequency=5.71425915e-01	minor_base=A	minor_cov=30/99	new_cov=30/99	polymorphism_frequency=4.28574085e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=57/115	total_cov=87/214
+RA	218	.	NC_002976	1091256	0	A	G	bias_e_value=950215	bias_p_value=0.363158	consensus_score=200.0	fisher_strand_p_value=0.117017	frequency=4.20295715e-01	ks_quality_p_value=0.980527	major_base=A	major_cov=55/116	major_frequency=5.79704285e-01	minor_base=G	minor_cov=29/95	new_cov=29/95	polymorphism_frequency=4.20295715e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=55/116	total_cov=84/211
+RA	219	.	NC_002976	1091268	0	T	G	bias_e_value=1545490	bias_p_value=0.590665	consensus_score=169.7	fisher_strand_p_value=0.282599	frequency=4.22902584e-01	ks_quality_p_value=0.869654	major_base=T	major_cov=48/120	major_frequency=5.77097416e-01	minor_base=G	minor_cov=28/95	new_cov=28/95	polymorphism_frequency=4.22902584e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=48/120	total_cov=76/215
+RA	220	.	NC_002976	1091275	0	T	C	bias_e_value=2549920	bias_p_value=0.974544	consensus_score=171.6	fisher_strand_p_value=0.787162	frequency=4.30095673e-01	ks_quality_p_value=0.994737	major_base=T	major_cov=42/121	major_frequency=5.69904327e-01	minor_base=C	minor_cov=34/89	new_cov=34/89	polymorphism_frequency=4.30095673e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=42/121	total_cov=76/210
+RA	221	.	NC_002976	1091313	0	A	G	bias_e_value=1916480	bias_p_value=0.73245	consensus_score=80.0	fisher_strand_p_value=0.367234	frequency=4.67113495e-01	ks_quality_p_value=0.992787	major_base=A	major_cov=55/74	major_frequency=5.32886505e-01	minor_base=G	minor_cov=55/58	new_cov=55/58	polymorphism_frequency=4.67113495e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=55/74	total_cov=110/132
+RA	222	.	NC_002976	1091371	0	T	G	bias_e_value=2185730	bias_p_value=0.835353	consensus_score=107.0	fisher_strand_p_value=0.484177	frequency=4.51761246e-01	ks_quality_p_value=1	major_base=T	major_cov=92/74	major_frequency=5.48238754e-01	minor_base=G	minor_cov=82/55	new_cov=82/55	polymorphism_frequency=4.51761246e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=92/74	total_cov=174/129
+RA	223	.	NC_002976	1091390	0	A	G	bias_e_value=1376270	bias_p_value=0.525991	consensus_score=174.1	fisher_strand_p_value=0.242348	frequency=4.31110859e-01	ks_quality_p_value=0.835819	major_base=A	major_cov=95/78	major_frequency=5.68889141e-01	minor_base=G	minor_cov=81/50	new_cov=81/50	polymorphism_frequency=4.31110859e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=95/78	total_cov=176/128
+RA	224	.	NC_002976	1091397	1	.	G	bias_e_value=1527690	bias_p_value=0.58386	consensus_score=167.2	fisher_strand_p_value=0.243038	frequency=4.28104877e-01	ks_quality_p_value=0.991405	major_base=.	major_cov=96/79	major_frequency=5.71895123e-01	minor_base=G	minor_cov=81/50	new_cov=81/50	polymorphism_frequency=4.28104877e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=96/79	total_cov=177/129
+RA	225	.	NC_002976	1091403	0	T	G	bias_e_value=1843810	bias_p_value=0.704678	consensus_score=173.7	fisher_strand_p_value=0.349636	frequency=4.25507069e-01	ks_quality_p_value=0.966842	major_base=T	major_cov=99/78	major_frequency=5.74492931e-01	minor_base=G	minor_cov=81/50	new_cov=81/50	polymorphism_frequency=4.25507069e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=99/78	total_cov=180/128
+RA	226	.	NC_002976	1091404	0	G	A	bias_e_value=1863640	bias_p_value=0.712256	consensus_score=143.9	fisher_strand_p_value=0.349636	frequency=4.25339699e-01	ks_quality_p_value=0.987019	major_base=G	major_cov=99/78	major_frequency=5.74660301e-01	minor_base=A	minor_cov=81/50	new_cov=81/50	polymorphism_frequency=4.25339699e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=99/78	total_cov=180/128
+RA	227	.	NC_002976	1091413	0	A	G	bias_e_value=1870020	bias_p_value=0.714697	consensus_score=176.9	fisher_strand_p_value=0.350731	frequency=4.33609486e-01	ks_quality_p_value=0.990497	major_base=A	major_cov=100/75	major_frequency=5.66390514e-01	minor_base=G	minor_cov=84/50	new_cov=84/50	polymorphism_frequency=4.33609486e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=100/75	total_cov=184/125
+RA	228	.	NC_002976	1091418	0	C	A	bias_e_value=2592870	bias_p_value=0.990959	consensus_score=337.2	fisher_strand_p_value=0.901964	frequency=3.77158165e-01	ks_quality_p_value=0.962986	major_base=C	major_cov=105/75	major_frequency=6.22841835e-01	minor_base=A	minor_cov=65/44	new_cov=65/44	polymorphism_frequency=3.77158165e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=105/75	total_cov=170/119
+RA	229	.	NC_002976	1091421	0	A	C	bias_e_value=2599150	bias_p_value=0.993359	consensus_score=294.8	fisher_strand_p_value=0.90212	frequency=3.78473282e-01	ks_quality_p_value=0.983227	major_base=A	major_cov=105/74	major_frequency=6.21526718e-01	minor_base=C	minor_cov=65/44	new_cov=65/44	polymorphism_frequency=3.78473282e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=105/74	total_cov=170/118
+RA	230	.	NC_002976	1091423	0	A	G	bias_e_value=2603480	bias_p_value=0.995013	consensus_score=292.4	fisher_strand_p_value=0.901804	frequency=3.78370762e-01	ks_quality_p_value=1	major_base=A	major_cov=104/74	major_frequency=6.21629238e-01	minor_base=G	minor_cov=65/44	new_cov=65/44	polymorphism_frequency=3.78370762e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=104/74	total_cov=170/118
+RA	231	.	NC_002976	1091516	0	A	G	bias_e_value=2344890	bias_p_value=0.896184	consensus_score=189.9	fisher_strand_p_value=0.703076	frequency=4.10165310e-01	ks_quality_p_value=0.825579	major_base=A	major_cov=86/68	major_frequency=5.89834690e-01	minor_base=G	minor_cov=63/44	new_cov=63/44	polymorphism_frequency=4.10165310e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=86/68	total_cov=149/112
+RA	232	.	NC_002976	1091554	0	G	A	bias_e_value=2496520	bias_p_value=0.954133	consensus_score=131.4	fisher_strand_p_value=0.716589	frequency=4.25688744e-01	ks_quality_p_value=0.99476	major_base=G	major_cov=93/69	major_frequency=5.74311256e-01	minor_base=A	minor_cov=66/54	new_cov=66/54	polymorphism_frequency=4.25688744e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=93/69	total_cov=159/123
+RA	233	.	NC_002976	1091564	0	A	T	bias_e_value=2496470	bias_p_value=0.954114	consensus_score=174.2	fisher_strand_p_value=0.712777	frequency=4.28565025e-01	ks_quality_p_value=1	major_base=A	major_cov=87/69	major_frequency=5.71434975e-01	minor_base=T	minor_cov=62/55	new_cov=62/55	polymorphism_frequency=4.28565025e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=87/69	total_cov=149/124
+RA	234	.	NC_002976	1091584	0	G	A	bias_e_value=2004830	bias_p_value=0.766215	consensus_score=173.3	fisher_strand_p_value=0.416472	frequency=4.11790848e-01	ks_quality_p_value=0.95966	major_base=G	major_cov=99/81	major_frequency=5.88209152e-01	minor_base=A	minor_cov=63/63	new_cov=63/63	polymorphism_frequency=4.11790848e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=99/81	total_cov=162/144
+RA	235	.	NC_002976	1091602	0	T	C	bias_e_value=679587	bias_p_value=0.259728	consensus_score=119.0	fisher_strand_p_value=0.0744087	frequency=4.59843159e-01	ks_quality_p_value=0.958909	major_base=T	major_cov=92/83	major_frequency=5.40156841e-01	minor_base=C	minor_cov=63/86	new_cov=63/86	polymorphism_frequency=4.59843159e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=92/83	total_cov=155/169
+RA	236	.	NC_002976	1091635	0	C	A	bias_e_value=202274	bias_p_value=0.0773062	consensus_score=173.2	fisher_strand_p_value=0.014854	frequency=4.42622662e-01	ks_quality_p_value=0.998794	major_base=C	major_cov=106/64	major_frequency=5.57377338e-01	minor_base=A	minor_cov=65/70	new_cov=65/70	polymorphism_frequency=4.42622662e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=106/64	total_cov=171/134
+RA	237	.	NC_002976	1091638	0	T	C	bias_e_value=258604	bias_p_value=0.0988346	consensus_score=156.9	fisher_strand_p_value=0.0202563	frequency=4.41308022e-01	ks_quality_p_value=0.994853	major_base=T	major_cov=106/65	major_frequency=5.58691978e-01	minor_base=C	minor_cov=65/70	new_cov=65/70	polymorphism_frequency=4.41308022e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=106/65	total_cov=171/135
+RA	238	.	NC_002976	1091643	0	A	C	bias_e_value=2209.79	bias_p_value=0.000844549	consensus_score=135.4	fisher_strand_p_value=8.89614e-05	frequency=4.28034782e-01	ks_quality_p_value=0.911035	major_base=A	major_cov=94/53	major_frequency=5.71965218e-01	minor_base=C	minor_cov=43/67	new_cov=43/67	polymorphism_frequency=4.28034782e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=94/53	total_cov=137/120
+RA	239	.	NC_002976	1091644	0	T	A	bias_e_value=2209.79	bias_p_value=0.000844549	consensus_score=159.3	fisher_strand_p_value=8.89614e-05	frequency=4.28012848e-01	ks_quality_p_value=0.911035	major_base=T	major_cov=94/53	major_frequency=5.71987152e-01	minor_base=A	minor_cov=43/67	new_cov=43/67	polymorphism_frequency=4.28012848e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=94/53	total_cov=137/120
+RA	240	.	NC_002976	1091645	0	A	G	bias_e_value=1515.32	bias_p_value=0.000579132	consensus_score=172.6	fisher_strand_p_value=5.34405e-05	frequency=4.23029900e-01	ks_quality_p_value=1	major_base=A	major_cov=97/53	major_frequency=5.76970100e-01	minor_base=G	minor_cov=43/67	new_cov=43/67	polymorphism_frequency=4.23029900e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=97/53	total_cov=140/120
+RA	241	.	NC_002976	1091647	0	T	G	bias_e_value=1482.84	bias_p_value=0.000566721	consensus_score=167.9	fisher_strand_p_value=5.21993e-05	frequency=4.21437263e-01	ks_quality_p_value=0.999638	major_base=T	major_cov=98/53	major_frequency=5.78562737e-01	minor_base=G	minor_cov=43/67	new_cov=43/67	polymorphism_frequency=4.21437263e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=98/53	total_cov=141/120
+RA	242	.	NC_002976	1091670	0	T	A	bias_e_value=37986.4	bias_p_value=0.0145179	consensus_score=119.7	fisher_strand_p_value=0.00209213	frequency=4.46108341e-01	ks_quality_p_value=0.962785	major_base=T	major_cov=92/57	major_frequency=5.53891659e-01	minor_base=A	minor_cov=51/69	new_cov=51/69	polymorphism_frequency=4.46108341e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=92/57	total_cov=143/126
+RA	243	.	NC_002976	1091683	0	T	C	bias_e_value=18128.9	bias_p_value=0.00692861	consensus_score=106.5	fisher_strand_p_value=0.00085975	frequency=4.60696697e-01	ks_quality_p_value=1	major_base=T	major_cov=84/48	major_frequency=5.39303303e-01	minor_base=C	minor_cov=48/66	new_cov=48/66	polymorphism_frequency=4.60696697e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=84/48	total_cov=132/114
+RA	244	.	NC_002976	1091723	0	T	C	bias_e_value=1588010	bias_p_value=0.606915	consensus_score=184.4	fisher_strand_p_value=0.281705	frequency=4.22572136e-01	ks_quality_p_value=0.914224	major_base=T	major_cov=85/80	major_frequency=5.77427864e-01	minor_base=C	minor_cov=54/67	new_cov=54/67	polymorphism_frequency=4.22572136e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=85/80	total_cov=139/147
+RA	245	.	NC_002976	1091737	0	T	C	bias_e_value=656310	bias_p_value=0.250832	consensus_score=165.9	fisher_strand_p_value=0.0683751	frequency=4.31658268e-01	ks_quality_p_value=0.994686	major_base=T	major_cov=89/73	major_frequency=5.68341732e-01	minor_base=C	minor_cov=81/42	new_cov=81/42	polymorphism_frequency=4.31658268e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=89/73	total_cov=170/115
+RA	246	.	NC_002976	1091755	0	T	G	bias_e_value=1969780	bias_p_value=0.752822	consensus_score=146.5	fisher_strand_p_value=0.386328	frequency=4.30144310e-01	ks_quality_p_value=0.997473	major_base=T	major_cov=85/70	major_frequency=5.69855690e-01	minor_base=G	minor_cov=71/46	new_cov=71/46	polymorphism_frequency=4.30144310e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=85/70	total_cov=156/116
+RA	247	.	NC_002976	1091833	0	A	G	bias_e_value=1467.88	bias_p_value=0.000561001	consensus_score=273.5	fisher_strand_p_value=5.16007e-05	frequency=3.57377529e-01	ks_quality_p_value=1	major_base=A	major_cov=45/106	major_frequency=6.42622471e-01	minor_base=G	minor_cov=48/36	new_cov=48/36	polymorphism_frequency=3.57377529e-01	polymorphism_score=247.7	prediction=polymorphism	ref_cov=45/106	total_cov=93/142
+RA	248	.	NC_002976	1091837	0	A	T	bias_e_value=1467.88	bias_p_value=0.000561001	consensus_score=298.9	fisher_strand_p_value=5.16007e-05	frequency=3.57437134e-01	ks_quality_p_value=1	major_base=A	major_cov=45/106	major_frequency=6.42562866e-01	minor_base=T	minor_cov=48/36	new_cov=48/36	polymorphism_frequency=3.57437134e-01	polymorphism_score=310.7	prediction=polymorphism	ref_cov=45/106	total_cov=93/142
+RA	249	.	NC_002976	1091842	0	T	G	bias_e_value=130746	bias_p_value=0.0499691	consensus_score=445.7	fisher_strand_p_value=0.00876256	frequency=2.85262108e-01	ks_quality_p_value=0.992682	major_base=T	major_cov=60/113	major_frequency=7.14737892e-01	minor_base=G	minor_cov=37/32	new_cov=37/32	polymorphism_frequency=2.85262108e-01	polymorphism_score=255.7	prediction=polymorphism	ref_cov=60/113	total_cov=97/145
+RA	250	.	NC_002976	1091846	0	G	T	bias_e_value=179461	bias_p_value=0.0685873	consensus_score=456.2	fisher_strand_p_value=0.0129808	frequency=2.92366505e-01	ks_quality_p_value=0.986092	major_base=G	major_cov=59/108	major_frequency=7.07633495e-01	minor_base=T	minor_cov=37/32	new_cov=37/32	polymorphism_frequency=2.92366505e-01	polymorphism_score=247.6	prediction=polymorphism	ref_cov=59/108	total_cov=96/140
+RA	251	.	NC_002976	1091848	0	G	T	bias_e_value=181516	bias_p_value=0.0693729	consensus_score=462.2	fisher_strand_p_value=0.0129808	frequency=2.92322636e-01	ks_quality_p_value=1	major_base=G	major_cov=59/108	major_frequency=7.07677364e-01	minor_base=T	minor_cov=37/32	new_cov=37/32	polymorphism_frequency=2.92322636e-01	polymorphism_score=241.9	prediction=polymorphism	ref_cov=59/108	total_cov=96/140
+RA	252	.	NC_002976	1091867	0	A	G	bias_e_value=12709.2	bias_p_value=0.00485727	consensus_score=442.3	fisher_strand_p_value=0.000573943	frequency=2.54321098e-01	ks_quality_p_value=1	major_base=A	major_cov=60/107	major_frequency=7.45678902e-01	minor_base=G	minor_cov=36/21	new_cov=36/21	polymorphism_frequency=2.54321098e-01	polymorphism_score=154.2	prediction=polymorphism	ref_cov=60/107	total_cov=96/128
+RA	253	.	NC_002976	1091872	0	T	C	bias_e_value=5686.16	bias_p_value=0.00217317	consensus_score=490.0	fisher_strand_p_value=0.000449883	frequency=1.87967777e-01	ks_quality_p_value=0.515587	major_base=T	major_cov=56/108	major_frequency=8.12032223e-01	minor_base=C	minor_cov=25/13	new_cov=25/13	polymorphism_frequency=1.87967777e-01	polymorphism_score=94.8	prediction=polymorphism	ref_cov=56/108	total_cov=81/121
+RA	254	.	NC_002976	1091877	0	T	C	bias_e_value=1097820	bias_p_value=0.419573	consensus_score=562.6	fisher_strand_p_value=0.466541	frequency=1.13392353e-01	ks_quality_p_value=0.304806	major_base=T	major_cov=55/109	major_frequency=8.86607647e-01	minor_base=C	minor_cov=9/12	new_cov=9/12	polymorphism_frequency=1.13392353e-01	polymorphism_score=46.8	prediction=polymorphism	ref_cov=55/109	total_cov=64/121
+RA	255	.	NC_002976	2067791	0	G	A	consensus_score=348.4	frequency=1	major_base=A	major_cov=99/52	major_frequency=1.00000000e+00	minor_base=N	minor_cov=0/0	new_cov=99/52	polymorphism_frequency=1.00000000e+00	polymorphism_reject=FREQUENCY_CUTOFF,VARIANT_STRAND_COVERAGE	polymorphism_score=NA	prediction=consensus	ref_cov=0/0	total_cov=99/52
+RA	256	.	NC_002976	2358681	0	C	T	bias_e_value=2616530	bias_p_value=1	consensus_score=513.1	fisher_strand_p_value=1	frequency=2.45386600e-01	ks_quality_p_value=1	major_base=C	major_cov=66/96	major_frequency=7.54613400e-01	minor_base=T	minor_cov=21/32	new_cov=21/32	polymorphism_frequency=2.45386600e-01	polymorphism_score=147.6	prediction=polymorphism	ref_cov=66/96	total_cov=87/128
+RA	257	.	NC_002976	2358700	0	A	G	bias_e_value=1527360	bias_p_value=0.583735	consensus_score=439.3	fisher_strand_p_value=0.241915	frequency=3.60559464e-01	ks_quality_p_value=0.99564	major_base=A	major_cov=84/81	major_frequency=6.39440536e-01	minor_base=G	minor_cov=55/38	new_cov=55/38	polymorphism_frequency=3.60559464e-01	polymorphism_score=271.8	prediction=polymorphism	ref_cov=84/81	total_cov=139/119
+RA	258	.	NC_002976	2358707	0	C	T	bias_e_value=2120470	bias_p_value=0.810414	consensus_score=404.1	fisher_strand_p_value=0.451362	frequency=3.77214909e-01	ks_quality_p_value=1	major_base=C	major_cov=87/81	major_frequency=6.22785091e-01	minor_base=T	minor_cov=58/44	new_cov=58/44	polymorphism_frequency=3.77214909e-01	polymorphism_score=311.4	prediction=polymorphism	ref_cov=87/81	total_cov=145/125
+RA	259	.	NC_002976	2358744	0	G	A	bias_e_value=1953100	bias_p_value=0.746445	consensus_score=645.6	fisher_strand_p_value=0.385567	frequency=2.17820168e-01	ks_quality_p_value=0.982253	major_base=G	major_cov=100/119	major_frequency=7.82179832e-01	minor_base=A	minor_cov=32/29	new_cov=32/29	polymorphism_frequency=2.17820168e-01	polymorphism_score=174.3	prediction=polymorphism	ref_cov=100/119	total_cov=132/148
+RA	260	.	NC_002976	2358771	0	G	A	bias_e_value=1824570	bias_p_value=0.697326	consensus_score=171.2	fisher_strand_p_value=0.331326	frequency=5.29784203e-01	ks_quality_p_value=1	major_base=A	major_cov=104/78	major_frequency=5.29784203e-01	minor_base=G	minor_cov=84/78	new_cov=104/78	polymorphism_frequency=5.29784203e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=84/78	total_cov=188/156
+RA	261	.	NC_002976	2358820	0	T	C	bias_e_value=2409700	bias_p_value=0.920953	consensus_score=1001.7	fisher_strand_p_value=0.665362	frequency=2.39950657e-01	ks_quality_p_value=0.946433	major_base=T	major_cov=230/145	major_frequency=7.60049343e-01	minor_base=C	minor_cov=76/43	new_cov=76/43	polymorphism_frequency=2.39950657e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=230/145	total_cov=307/189
+RA	262	.	NC_002976	2358891	0	A	G	bias_e_value=625148	bias_p_value=0.238923	consensus_score=-3.3	fisher_strand_p_value=0.0636646	frequency=5.72734356e-01	ks_quality_p_value=0.999531	major_base=G	major_cov=123/62	major_frequency=5.72734356e-01	minor_base=A	minor_cov=77/61	new_cov=123/62	polymorphism_frequency=5.72734356e-01	polymorphism_score=inf	prediction=polymorphism	ref_cov=77/61	total_cov=200/123
+RA	263	.	NC_002976	2359412	0	A	T	bias_e_value=5352	bias_p_value=0.00204546	consensus_score=533.1	fisher_strand_p_value=0.000216755	frequency=1.52025700e-01	ks_quality_p_value=1	major_base=A	major_cov=79/66	major_frequency=8.47974300e-01	minor_base=T	minor_cov=4/22	new_cov=4/22	polymorphism_frequency=1.52025700e-01	polymorphism_score=82.2	prediction=polymorphism	ref_cov=79/66	total_cov=83/88
+MC	264	.	NC_002976	35350	359602	0	0	left_inside_cov=13	left_outside_cov=133	right_inside_cov=21	right_outside_cov=144
+JC	1	.	NC_002976	1	1	NC_002976	2616530	-1	0	alignment_overlap=0	coverage_minus=44	coverage_plus=105	flanking_left=151	flanking_right=151	frequency=1	junction_possible_overlap_registers=136	key=NC_002976__1__1__NC_002976__2616530__-1__0____151__151__0__0	max_left=144	max_left_minus=138	max_left_plus=144	max_min_left=74	max_min_left_minus=69	max_min_left_plus=74	max_min_right=75	max_min_right_minus=74	max_min_right_plus=75	max_pos_hash_score=272	max_right=141	max_right_minus=134	max_right_plus=141	neg_log10_pos_hash_p_value=NT	new_junction_coverage=1.11	new_junction_read_count=149	polymorphism_frequency=1.00000000e+00	pos_hash_score=54	prediction=consensus	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.00	side_1_overlap=0	side_1_possible_overlap_registers=136	side_1_read_count=0	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.00	side_2_overlap=0	side_2_possible_overlap_registers=136	side_2_read_count=0	side_2_redundant=0	total_non_overlap_reads=149
+JC	2	.	NC_002976	35349	-1	NC_002976	360995	1	0	alignment_overlap=0	coverage_minus=50	coverage_plus=45	flanking_left=151	flanking_right=151	frequency=8.44262295e-01	junction_possible_overlap_registers=136	key=NC_002976__35349__-1__NC_002976__360995__1__0____151__151__0__0	max_left=145	max_left_minus=142	max_left_plus=145	max_min_left=72	max_min_left_minus=72	max_min_left_plus=46	max_min_right=73	max_min_right_minus=65	max_min_right_plus=73	max_pos_hash_score=272	max_right=143	max_right_minus=143	max_right_plus=135	neg_log10_pos_hash_p_value=NT	new_junction_coverage=0.76	new_junction_read_count=103	polymorphism_frequency=8.44262295e-01	pos_hash_score=42	prediction=polymorphism	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.08	side_1_overlap=0	side_1_possible_overlap_registers=136	side_1_read_count=11	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.20	side_2_overlap=0	side_2_possible_overlap_registers=136	side_2_read_count=27	side_2_redundant=0	total_non_overlap_reads=95
+JC	3	.	NC_002976	64680	1	NC_002976	587168	1	0	alignment_overlap=0	coverage_minus=2	coverage_plus=5	flanking_left=151	flanking_right=151	frequency=8.75000000e-01	junction_possible_overlap_registers=136	key=NC_002976__64680__1__NC_002976__587168__1__0____151__151__0__1	max_left=134	max_left_minus=119	max_left_plus=134	max_min_left=50	max_min_left_minus=45	max_min_left_plus=50	max_min_right=32	max_min_right_minus=32	max_min_right_plus=17	max_pos_hash_score=272	max_right=116	max_right_minus=105	max_right_plus=116	neg_log10_pos_hash_p_value=NT	new_junction_coverage=0.05	new_junction_read_count=7	polymorphism_frequency=8.75000000e-01	pos_hash_score=6	prediction=polymorphism	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.01	side_1_overlap=0	side_1_possible_overlap_registers=136	side_1_read_count=1	side_1_redundant=0	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=7
+JC	4	.	NC_002976	64688	-1	NC_002976	588490	-1	0	alignment_overlap=1	coverage_minus=2	coverage_plus=1	flanking_left=151	flanking_right=151	frequency=1	junction_possible_overlap_registers=135	key=NC_002976__64688__-1__NC_002976__588491__-1__1____151__151__0__1	max_left=88	max_left_minus=88	max_left_plus=36	max_min_left=36	max_min_left_minus=32	max_min_left_plus=36	max_min_right=62	max_min_right_minus=62	max_min_right_plus=0	max_pos_hash_score=270	max_right=117	max_right_minus=117	max_right_plus=114	neg_log10_pos_hash_p_value=NT	new_junction_coverage=0.02	new_junction_read_count=3	polymorphism_frequency=1.00000000e+00	pos_hash_score=3	prediction=consensus	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.00	side_1_overlap=1	side_1_possible_overlap_registers=136	side_1_read_count=0	side_1_redundant=0	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=3
+JC	5	.	NC_002976	359603	1	NC_002976	360273	-1	0	alignment_overlap=1	coverage_minus=30	coverage_plus=61	flanking_left=151	flanking_right=151	frequency=8.36519327e-01	junction_possible_overlap_registers=135	key=NC_002976__359603__1__NC_002976__360274__-1__1____151__151__0__0	max_left=143	max_left_minus=139	max_left_plus=143	max_min_left=71	max_min_left_minus=71	max_min_left_plus=64	max_min_right=75	max_min_right_minus=67	max_min_right_plus=75	max_pos_hash_score=270	max_right=101	max_right_minus=101	max_right_plus=97	neg_log10_pos_hash_p_value=NT	new_junction_coverage=0.76	new_junction_read_count=102	polymorphism_frequency=8.36519327e-01	pos_hash_score=31	prediction=polymorphism	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.13	side_1_overlap=1	side_1_possible_overlap_registers=136	side_1_read_count=18	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.16	side_2_overlap=0	side_2_possible_overlap_registers=135	side_2_read_count=22	side_2_redundant=0	total_non_overlap_reads=91
+JC	6	.	NC_002976	359603	1	NC_002976	1004108	-1	0	alignment_overlap=1	coverage_minus=11	coverage_plus=2	flanking_left=151	flanking_right=151	frequency=4.21152930e-01	junction_possible_overlap_registers=135	key=NC_002976__359603__1__NC_002976__1004109__-1__1____151__151__0__1	max_left=43	max_left_minus=43	max_left_plus=17	max_min_left=43	max_min_left_minus=43	max_min_left_plus=17	max_min_right=0	max_min_right_minus=0	max_min_right_plus=0	max_pos_hash_score=270	max_right=141	max_right_minus=140	max_right_plus=141	neg_log10_pos_hash_p_value=NT	new_junction_coverage=0.10	new_junction_read_count=13	polymorphism_frequency=4.21152930e-01	pos_hash_score=8	prediction=polymorphism	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.13	side_1_overlap=1	side_1_possible_overlap_registers=136	side_1_read_count=18	side_1_redundant=0	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=13
+JC	7	.	NC_002976	385915	1	NC_002976	1004226	-1	0	alignment_overlap=0	coverage_minus=2	coverage_plus=1	flanking_left=151	flanking_right=151	frequency=2.56410256e-02	junction_possible_overlap_registers=136	key=NC_002976__385915__1__NC_002976__1004226__-1__0____151__151__0__1	max_left=108	max_left_minus=108	max_left_plus=35	max_min_left=60	max_min_left_minus=60	max_min_left_plus=35	max_min_right=43	max_min_right_minus=43	max_min_right_plus=0	max_pos_hash_score=272	max_right=116	max_right_minus=91	max_right_plus=116	neg_log10_pos_hash_p_value=NT	new_junction_coverage=0.02	new_junction_read_count=3	polymorphism_frequency=2.56410256e-02	pos_hash_score=3	prediction=polymorphism	reject=FREQUENCY_CUTOFF	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.85	side_1_overlap=0	side_1_possible_overlap_registers=136	side_1_read_count=114	side_1_redundant=0	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=3
+JC	8	.	NC_002976	444925	1	NC_002976	588491	-1	0	alignment_overlap=0	coverage_minus=55	coverage_plus=102	flanking_left=151	flanking_right=151	frequency=1	junction_possible_overlap_registers=136	key=NC_002976__444925__1__NC_002976__588491__-1__0____151__151__0__1	max_left=142	max_left_minus=140	max_left_plus=142	max_min_left=74	max_min_left_minus=69	max_min_left_plus=74	max_min_right=68	max_min_right_minus=68	max_min_right_plus=56	max_pos_hash_score=272	max_right=144	max_right_minus=121	max_right_plus=144	neg_log10_pos_hash_p_value=NT	new_junction_coverage=1.19	new_junction_read_count=160	polymorphism_frequency=9.63855422e-01	pos_hash_score=57	prediction=consensus	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.04	side_1_overlap=0	side_1_possible_overlap_registers=136	side_1_read_count=6	side_1_redundant=0	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=157
+JC	9	.	NC_002976	444930	-1	NC_002976	587168	1	-1	alignment_overlap=-1	coverage_minus=81	coverage_plus=74	flanking_left=151	flanking_right=151	frequency=1	junction_possible_overlap_registers=135	key=NC_002976__444930__-1__NC_002976__587168__1__-1__C__151__151__0__1	max_left=144	max_left_minus=144	max_left_plus=141	max_min_left=73	max_min_left_minus=73	max_min_left_plus=64	max_min_right=70	max_min_right_minus=70	max_min_right_plus=67	max_pos_hash_score=270	max_right=141	max_right_minus=136	max_right_plus=141	neg_log10_pos_hash_p_value=NT	new_junction_coverage=1.17	new_junction_read_count=156	polymorphism_frequency=1.00000000e+00	pos_hash_score=61	prediction=consensus	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.00	side_1_overlap=0	side_1_possible_overlap_registers=136	side_1_read_count=0	side_1_redundant=0	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=155	unique_read_sequence=C
+JC	10	.	NC_002976	922369	1	NC_002976	1048835	-1	0	alignment_overlap=3	coverage_minus=1	coverage_plus=6	flanking_left=151	flanking_right=151	frequency=4.13140650e-02	junction_possible_overlap_registers=133	key=NC_002976__922369__1__NC_002976__1048838__-1__3____151__151__0__0	max_left=141	max_left_minus=10	max_left_plus=141	max_min_left=61	max_min_left_minus=10	max_min_left_plus=61	max_min_right=70	max_min_right_minus=0	max_min_right_plus=70	max_pos_hash_score=266	max_right=138	max_right_minus=138	max_right_plus=111	neg_log10_pos_hash_p_value=NT	new_junction_coverage=0.05	new_junction_read_count=7	polymorphism_frequency=4.13140650e-02	pos_hash_score=7	prediction=polymorphism	reject=FREQUENCY_CUTOFF	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=1.05	side_1_overlap=3	side_1_possible_overlap_registers=136	side_1_read_count=142	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=1.41	side_2_overlap=0	side_2_possible_overlap_registers=133	side_2_read_count=186	side_2_redundant=0	total_non_overlap_reads=7
+JC	11	.	NC_002976	1006960	-1	NC_002976	1088746	1	0	alignment_overlap=1	coverage_minus=70	coverage_plus=39	flanking_left=151	flanking_right=151	frequency=5.09420249e-01	junction_possible_overlap_registers=135	key=NC_002976__1006961__-1__NC_002976__1088746__1__1____151__151__1__0	max_left=141	max_left_minus=141	max_left_plus=111	max_min_left=71	max_min_left_minus=71	max_min_left_plus=70	max_min_right=71	max_min_right_minus=71	max_min_right_plus=60	max_pos_hash_score=270	max_right=141	max_right_minus=141	max_right_plus=137	neg_log10_pos_hash_p_value=NT	new_junction_coverage=1.00	new_junction_read_count=134	polymorphism_frequency=5.09420249e-01	pos_hash_score=42	prediction=polymorphism	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.96	side_2_overlap=1	side_2_possible_overlap_registers=136	side_2_read_count=130	side_2_redundant=0	total_non_overlap_reads=109
+JC	12	.	NC_002976	1317827	1	NC_002976	1317831	-1	0	alignment_overlap=0	coverage_minus=30	coverage_plus=61	flanking_left=151	flanking_right=151	frequency=5.05319149e-01	junction_possible_overlap_registers=136	key=NC_002976__1317827__1__NC_002976__1317831__-1__0____151__151__0__1	max_left=142	max_left_minus=130	max_left_plus=142	max_min_left=73	max_min_left_minus=73	max_min_left_plus=68	max_min_right=73	max_min_right_minus=73	max_min_right_plus=47	max_pos_hash_score=272	max_right=143	max_right_minus=142	max_right_plus=143	neg_log10_pos_hash_p_value=NT	new_junction_coverage=0.70	new_junction_read_count=95	polymorphism_frequency=5.05319149e-01	pos_hash_score=39	prediction=polymorphism	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=0.69	side_1_overlap=0	side_1_possible_overlap_registers=136	side_1_read_count=93	side_1_redundant=0	side_2_annotate_key=repeat	side_2_continuation=0	side_2_coverage=NA	side_2_overlap=0	side_2_possible_overlap_registers=NA	side_2_read_count=NA	side_2_redundant=1	total_non_overlap_reads=91
+JC	13	.	NC_002976	1691782	1	NC_002976	2253277	1	0	alignment_overlap=0	coverage_minus=91	coverage_plus=73	flanking_left=151	flanking_right=151	frequency=1	junction_possible_overlap_registers=136	key=NC_002976__1691782__1__NC_002976__2253277__1__0____151__151__1__0	max_left=144	max_left_minus=144	max_left_plus=144	max_min_left=75	max_min_left_minus=69	max_min_left_plus=75	max_min_right=74	max_min_right_minus=61	max_min_right_plus=74	max_pos_hash_score=272	max_right=143	max_right_minus=143	max_right_plus=127	neg_log10_pos_hash_p_value=NT	new_junction_coverage=1.25	new_junction_read_count=169	polymorphism_frequency=9.94117647e-01	pos_hash_score=55	prediction=consensus	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.01	side_2_overlap=0	side_2_possible_overlap_registers=136	side_2_read_count=1	side_2_redundant=0	total_non_overlap_reads=164
+JC	14	.	NC_002976	1693105	-1	NC_002976	2253284	-1	0	alignment_overlap=0	coverage_minus=85	coverage_plus=40	flanking_left=151	flanking_right=151	frequency=1	junction_possible_overlap_registers=136	key=NC_002976__1693105__-1__NC_002976__2253284__-1__0____151__151__1__0	max_left=145	max_left_minus=145	max_left_plus=145	max_min_left=73	max_min_left_minus=73	max_min_left_plus=69	max_min_right=70	max_min_right_minus=64	max_min_right_plus=70	max_pos_hash_score=272	max_right=137	max_right_minus=137	max_right_plus=126	neg_log10_pos_hash_p_value=NT	new_junction_coverage=0.93	new_junction_read_count=125	polymorphism_frequency=9.84251969e-01	pos_hash_score=59	prediction=consensus	side_1_annotate_key=repeat	side_1_continuation=0	side_1_coverage=NA	side_1_overlap=0	side_1_read_count=NA	side_1_redundant=1	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=0.01	side_2_overlap=0	side_2_possible_overlap_registers=136	side_2_read_count=2	side_2_redundant=0	total_non_overlap_reads=125
+JC	15	.	NC_002976	2358772	1	NC_002976	2359394	1	-23	alignment_overlap=-23	coverage_minus=15	coverage_plus=5	flanking_left=151	flanking_right=151	frequency=1.76476801e-01	junction_possible_overlap_registers=113	key=NC_002976__2358772__1__NC_002976__2359394__1__-23__TAGATCTGAAGAGACCTGCGGTT__151__151__0__0	max_left=118	max_left_minus=118	max_left_plus=97	max_min_left=0	max_min_left_minus=0	max_min_left_plus=0	max_min_right=44	max_min_right_minus=41	max_min_right_plus=44	max_pos_hash_score=226	max_right=44	max_right_minus=41	max_right_plus=44	neg_log10_pos_hash_p_value=NT	new_junction_coverage=0.38	new_junction_read_count=43	polymorphism_frequency=1.76476801e-01	pos_hash_score=14	prediction=polymorphism	side_1_annotate_key=gene	side_1_continuation=0	side_1_coverage=2.45	side_1_overlap=0	side_1_possible_overlap_registers=136	side_1_read_count=330	side_1_redundant=0	side_2_annotate_key=gene	side_2_continuation=0	side_2_coverage=1.14	side_2_overlap=0	side_2_possible_overlap_registers=136	side_2_read_count=153	side_2_redundant=0	total_non_overlap_reads=20	unique_read_sequence=TAGATCTGAAGAGACCTGCGGTT
+UN	265	.	NC_002976	34771	34984
+UN	266	.	NC_002976	36909	36950
+UN	267	.	NC_002976	39711	39734
+UN	268	.	NC_002976	39888	39893
+UN	269	.	NC_002976	40033	40039
+UN	270	.	NC_002976	40061	40078
+UN	271	.	NC_002976	40250	40274
+UN	272	.	NC_002976	40279	40285
+UN	273	.	NC_002976	40671	40671
+UN	274	.	NC_002976	40681	40686
+UN	275	.	NC_002976	40703	40703
+UN	276	.	NC_002976	41356	41444
+UN	277	.	NC_002976	41639	41725
+UN	278	.	NC_002976	41765	41866
+UN	279	.	NC_002976	42520	42524
+UN	280	.	NC_002976	42531	42547
+UN	281	.	NC_002976	43357	43440
+UN	282	.	NC_002976	43634	43657
+UN	283	.	NC_002976	45092	45098
+UN	284	.	NC_002976	45119	45165
+UN	285	.	NC_002976	45574	45581
+UN	286	.	NC_002976	45779	45931
+UN	287	.	NC_002976	46051	46073
+UN	288	.	NC_002976	46077	46092
+UN	289	.	NC_002976	46519	46538
+UN	290	.	NC_002976	46992	47024
+UN	291	.	NC_002976	47335	47404
+UN	292	.	NC_002976	47447	54041
+UN	293	.	NC_002976	54266	54291
+UN	294	.	NC_002976	54623	54635
+UN	295	.	NC_002976	55363	55388
+UN	296	.	NC_002976	55558	55567
+UN	297	.	NC_002976	55761	55767
+UN	298	.	NC_002976	56076	56201
+UN	299	.	NC_002976	56610	56610
+UN	300	.	NC_002976	56616	56624
+UN	301	.	NC_002976	56687	56687
+UN	302	.	NC_002976	57220	57231
+UN	303	.	NC_002976	57236	57251
+UN	304	.	NC_002976	57562	57574
+UN	305	.	NC_002976	57726	57752
+UN	306	.	NC_002976	57765	57779
+UN	307	.	NC_002976	57927	58104
+UN	308	.	NC_002976	58132	58137
+UN	309	.	NC_002976	58286	58329
+UN	310	.	NC_002976	58342	58370
+UN	311	.	NC_002976	58391	58391
+UN	312	.	NC_002976	58422	58458
+UN	313	.	NC_002976	58472	58490
+UN	314	.	NC_002976	58512	58699
+UN	315	.	NC_002976	58788	58795
+UN	316	.	NC_002976	59239	59239
+UN	317	.	NC_002976	59254	59254
+UN	318	.	NC_002976	59257	59322
+UN	319	.	NC_002976	59759	59775
+UN	320	.	NC_002976	60789	60789
+UN	321	.	NC_002976	61465	61467
+UN	322	.	NC_002976	61507	61507
+UN	323	.	NC_002976	61509	61579
+UN	324	.	NC_002976	61615	61647
+UN	325	.	NC_002976	61652	61896
+UN	326	.	NC_002976	61913	61929
+UN	327	.	NC_002976	62125	62229
+UN	328	.	NC_002976	62380	62383
+UN	329	.	NC_002976	62993	63078
+UN	330	.	NC_002976	63340	63350
+UN	331	.	NC_002976	63674	63723
+UN	332	.	NC_002976	63884	63884
+UN	333	.	NC_002976	63970	64029
+UN	334	.	NC_002976	64318	64322
+UN	335	.	NC_002976	64334	64334
+UN	336	.	NC_002976	64423	64528
+UN	337	.	NC_002976	64531	64539
+UN	338	.	NC_002976	64678	64679
+UN	339	.	NC_002976	65303	65346
+UN	340	.	NC_002976	65719	65728
+UN	341	.	NC_002976	66169	66300
+UN	342	.	NC_002976	66327	66351
+UN	343	.	NC_002976	66697	66699
+UN	344	.	NC_002976	66726	66729
+UN	345	.	NC_002976	66851	66856
+UN	346	.	NC_002976	66876	66916
+UN	347	.	NC_002976	67078	67109
+UN	348	.	NC_002976	67111	67214
+UN	349	.	NC_002976	67217	67226
+UN	350	.	NC_002976	68351	68352
+UN	351	.	NC_002976	69283	69394
+UN	352	.	NC_002976	69574	69829
+UN	353	.	NC_002976	70405	70456
+UN	354	.	NC_002976	70531	70531
+UN	355	.	NC_002976	70621	70624
+UN	356	.	NC_002976	70733	70775
+UN	357	.	NC_002976	70809	70817
+UN	358	.	NC_002976	71191	71193
+UN	359	.	NC_002976	71258	71263
+UN	360	.	NC_002976	71265	71268
+UN	361	.	NC_002976	71935	71952
+UN	362	.	NC_002976	72937	72937
+UN	363	.	NC_002976	72952	72959
+UN	364	.	NC_002976	72970	72992
+UN	365	.	NC_002976	73185	73214
+UN	366	.	NC_002976	74272	74294
+UN	367	.	NC_002976	74655	74655
+UN	368	.	NC_002976	74684	74730
+UN	369	.	NC_002976	74732	74809
+UN	370	.	NC_002976	74969	75084
+UN	371	.	NC_002976	75317	75317
+UN	372	.	NC_002976	75863	75873
+UN	373	.	NC_002976	76056	76071
+UN	374	.	NC_002976	76347	76368
+UN	375	.	NC_002976	76518	76566
+UN	376	.	NC_002976	76577	76577
+UN	377	.	NC_002976	77129	77190
+UN	378	.	NC_002976	77223	77223
+UN	379	.	NC_002976	77246	77269
+UN	380	.	NC_002976	77329	77337
+UN	381	.	NC_002976	77548	77551
+UN	382	.	NC_002976	77725	77760
+UN	383	.	NC_002976	77764	77764
+UN	384	.	NC_002976	78766	78771
+UN	385	.	NC_002976	78815	78815
+UN	386	.	NC_002976	78862	78862
+UN	387	.	NC_002976	78864	79020
+UN	388	.	NC_002976	79051	79117
+UN	389	.	NC_002976	79271	79295
+UN	390	.	NC_002976	79507	79529
+UN	391	.	NC_002976	79543	79548
+UN	392	.	NC_002976	79550	79550
+UN	393	.	NC_002976	80271	80278
+UN	394	.	NC_002976	80586	80587
+UN	395	.	NC_002976	80589	80662
+UN	396	.	NC_002976	80685	80973
+UN	397	.	NC_002976	81108	81257
+UN	398	.	NC_002976	81515	81528
+UN	399	.	NC_002976	82066	82070
+UN	400	.	NC_002976	82086	82086
+UN	401	.	NC_002976	82115	82138
+UN	402	.	NC_002976	82187	82233
+UN	403	.	NC_002976	82281	82291
+UN	404	.	NC_002976	82324	82324
+UN	405	.	NC_002976	82328	82331
+UN	406	.	NC_002976	82377	82516
+UN	407	.	NC_002976	82532	82571
+UN	408	.	NC_002976	82905	82915
+UN	409	.	NC_002976	82956	82969
+UN	410	.	NC_002976	83148	83230
+UN	411	.	NC_002976	83267	83267
+UN	412	.	NC_002976	83505	83643
+UN	413	.	NC_002976	84004	84004
+UN	414	.	NC_002976	84489	84489
+UN	415	.	NC_002976	84776	84836
+UN	416	.	NC_002976	85220	85500
+UN	417	.	NC_002976	86055	86055
+UN	418	.	NC_002976	86082	86183
+UN	419	.	NC_002976	86333	86476
+UN	420	.	NC_002976	86484	86484
+UN	421	.	NC_002976	86546	86559
+UN	422	.	NC_002976	86578	86610
+UN	423	.	NC_002976	86625	86666
+UN	424	.	NC_002976	86730	86830
+UN	425	.	NC_002976	86834	86859
+UN	426	.	NC_002976	86977	87160
+UN	427	.	NC_002976	87205	87205
+UN	428	.	NC_002976	87220	87300
+UN	429	.	NC_002976	87308	87349
+UN	430	.	NC_002976	87361	87361
+UN	431	.	NC_002976	87664	87725
+UN	432	.	NC_002976	87899	87985
+UN	433	.	NC_002976	88022	88034
+UN	434	.	NC_002976	88043	88043
+UN	435	.	NC_002976	88056	88083
+UN	436	.	NC_002976	88248	88248
+UN	437	.	NC_002976	88270	88325
+UN	438	.	NC_002976	88360	88401
+UN	439	.	NC_002976	88482	88493
+UN	440	.	NC_002976	88547	88624
+UN	441	.	NC_002976	89109	89110
+UN	442	.	NC_002976	89170	89238
+UN	443	.	NC_002976	89744	89755
+UN	444	.	NC_002976	89761	89774
+UN	445	.	NC_002976	89981	90157
+UN	446	.	NC_002976	90172	90234
+UN	447	.	NC_002976	90245	90245
+UN	448	.	NC_002976	90378	90399
+UN	449	.	NC_002976	90401	90401
+UN	450	.	NC_002976	90403	90403
+UN	451	.	NC_002976	90454	90470
+UN	452	.	NC_002976	90633	90713
+UN	453	.	NC_002976	90737	90752
+UN	454	.	NC_002976	90773	90773
+UN	455	.	NC_002976	91244	91249
+UN	456	.	NC_002976	91263	91264
+UN	457	.	NC_002976	91266	91271
+UN	458	.	NC_002976	91615	91682
+UN	459	.	NC_002976	91717	91875
+UN	460	.	NC_002976	91880	91888
+UN	461	.	NC_002976	91930	91930
+UN	462	.	NC_002976	91981	92014
+UN	463	.	NC_002976	92021	92126
+UN	464	.	NC_002976	92150	92203
+UN	465	.	NC_002976	92859	92859
+UN	466	.	NC_002976	92868	93348
+UN	467	.	NC_002976	93512	93536
+UN	468	.	NC_002976	93544	93609
+UN	469	.	NC_002976	93836	93839
+UN	470	.	NC_002976	93857	93929
+UN	471	.	NC_002976	93932	94060
+UN	472	.	NC_002976	94067	94078
+UN	473	.	NC_002976	94201	94214
+UN	474	.	NC_002976	94219	94239
+UN	475	.	NC_002976	94660	94674
+UN	476	.	NC_002976	95358	95391
+UN	477	.	NC_002976	95397	95397
+UN	478	.	NC_002976	95548	95579
+UN	479	.	NC_002976	95767	95799
+UN	480	.	NC_002976	95805	95883
+UN	481	.	NC_002976	95908	95996
+UN	482	.	NC_002976	96150	96165
+UN	483	.	NC_002976	96207	96207
+UN	484	.	NC_002976	96219	96224
+UN	485	.	NC_002976	96304	96304
+UN	486	.	NC_002976	96306	96320
+UN	487	.	NC_002976	96351	96423
+UN	488	.	NC_002976	96875	96886
+UN	489	.	NC_002976	97853	97853
+UN	490	.	NC_002976	97921	97953
+UN	491	.	NC_002976	99176	99206
+UN	492	.	NC_002976	99305	99354
+UN	493	.	NC_002976	99498	99674
+UN	494	.	NC_002976	100005	100083
+UN	495	.	NC_002976	100243	100336
+UN	496	.	NC_002976	100382	100399
+UN	497	.	NC_002976	100814	100814
+UN	498	.	NC_002976	101321	101329
+UN	499	.	NC_002976	101501	101564
+UN	500	.	NC_002976	101613	101667
+UN	501	.	NC_002976	101948	101948
+UN	502	.	NC_002976	101950	101996
+UN	503	.	NC_002976	102001	102001
+UN	504	.	NC_002976	102598	102655
+UN	505	.	NC_002976	103155	103184
+UN	506	.	NC_002976	103407	103407
+UN	507	.	NC_002976	103426	103426
+UN	508	.	NC_002976	103675	103723
+UN	509	.	NC_002976	104257	104262
+UN	510	.	NC_002976	104749	104749
+UN	511	.	NC_002976	104754	104834
+UN	512	.	NC_002976	104849	104863
+UN	513	.	NC_002976	104871	104935
+UN	514	.	NC_002976	104939	105038
+UN	515	.	NC_002976	105185	105225
+UN	516	.	NC_002976	105229	105298
+UN	517	.	NC_002976	105381	105382
+UN	518	.	NC_002976	105386	105386
+UN	519	.	NC_002976	105448	105567
+UN	520	.	NC_002976	105947	105964
+UN	521	.	NC_002976	105978	106046
+UN	522	.	NC_002976	106079	106084
+UN	523	.	NC_002976	106854	106869
+UN	524	.	NC_002976	106947	106955
+UN	525	.	NC_002976	107278	107469
+UN	526	.	NC_002976	107481	107481
+UN	527	.	NC_002976	107522	107522
+UN	528	.	NC_002976	107618	107620
+UN	529	.	NC_002976	107687	107696
+UN	530	.	NC_002976	107698	107721
+UN	531	.	NC_002976	107724	107732
+UN	532	.	NC_002976	107918	108039
+UN	533	.	NC_002976	108195	108278
+UN	534	.	NC_002976	108366	108398
+UN	535	.	NC_002976	108425	108563
+UN	536	.	NC_002976	108618	108797
+UN	537	.	NC_002976	109152	109185
+UN	538	.	NC_002976	109619	109620
+UN	539	.	NC_002976	109628	109673
+UN	540	.	NC_002976	109699	109706
+UN	541	.	NC_002976	109859	109921
+UN	542	.	NC_002976	109990	109990
+UN	543	.	NC_002976	110044	110059
+UN	544	.	NC_002976	110139	110233
+UN	545	.	NC_002976	110440	110647
+UN	546	.	NC_002976	110742	110742
+UN	547	.	NC_002976	111120	111138
+UN	548	.	NC_002976	111150	111156
+UN	549	.	NC_002976	111208	111208
+UN	550	.	NC_002976	111216	111216
+UN	551	.	NC_002976	111305	111347
+UN	552	.	NC_002976	111657	111675
+UN	553	.	NC_002976	111985	112001
+UN	554	.	NC_002976	112498	112506
+UN	555	.	NC_002976	112656	112662
+UN	556	.	NC_002976	112715	112772
+UN	557	.	NC_002976	113168	113306
+UN	558	.	NC_002976	113310	113320
+UN	559	.	NC_002976	113716	113746
+UN	560	.	NC_002976	113820	113859
+UN	561	.	NC_002976	113891	113966
+UN	562	.	NC_002976	114113	114124
+UN	563	.	NC_002976	114685	114770
+UN	564	.	NC_002976	115095	115108
+UN	565	.	NC_002976	115268	115303
+UN	566	.	NC_002976	115322	115335
+UN	567	.	NC_002976	115341	115356
+UN	568	.	NC_002976	116054	116069
+UN	569	.	NC_002976	116087	116104
+UN	570	.	NC_002976	116232	116232
+UN	571	.	NC_002976	116254	116295
+UN	572	.	NC_002976	116315	116322
+UN	573	.	NC_002976	117180	117202
+UN	574	.	NC_002976	117210	117228
+UN	575	.	NC_002976	117232	117245
+UN	576	.	NC_002976	118010	118010
+UN	577	.	NC_002976	118062	118082
+UN	578	.	NC_002976	118096	118142
+UN	579	.	NC_002976	118768	118790
+UN	580	.	NC_002976	118796	118798
+UN	581	.	NC_002976	118849	118904
+UN	582	.	NC_002976	119341	119365
+UN	583	.	NC_002976	119392	119408
+UN	584	.	NC_002976	119412	119422
+UN	585	.	NC_002976	119670	119760
+UN	586	.	NC_002976	119762	119799
+UN	587	.	NC_002976	119964	119972
+UN	588	.	NC_002976	120464	120505
+UN	589	.	NC_002976	121622	121683
+UN	590	.	NC_002976	121988	122058
+UN	591	.	NC_002976	122602	122611
+UN	592	.	NC_002976	122620	122633
+UN	593	.	NC_002976	122667	122676
+UN	594	.	NC_002976	122679	122734
+UN	595	.	NC_002976	122779	122930
+UN	596	.	NC_002976	123158	123158
+UN	597	.	NC_002976	123882	123903
+UN	598	.	NC_002976	124256	124303
+UN	599	.	NC_002976	124308	124393
+UN	600	.	NC_002976	124452	124471
+UN	601	.	NC_002976	125170	125170
+UN	602	.	NC_002976	125175	125175
+UN	603	.	NC_002976	125177	125256
+UN	604	.	NC_002976	125289	125289
+UN	605	.	NC_002976	125644	125647
+UN	606	.	NC_002976	125649	125652
+UN	607	.	NC_002976	125685	125693
+UN	608	.	NC_002976	125697	125752
+UN	609	.	NC_002976	125776	125792
+UN	610	.	NC_002976	125795	125850
+UN	611	.	NC_002976	126065	126090
+UN	612	.	NC_002976	126094	126096
+UN	613	.	NC_002976	126384	126420
+UN	614	.	NC_002976	126520	126520
+UN	615	.	NC_002976	126535	126563
+UN	616	.	NC_002976	126566	126795
+UN	617	.	NC_002976	126837	126844
+UN	618	.	NC_002976	126847	126849
+UN	619	.	NC_002976	126872	126872
+UN	620	.	NC_002976	126876	126886
+UN	621	.	NC_002976	126944	126986
+UN	622	.	NC_002976	126992	127038
+UN	623	.	NC_002976	127147	127209
+UN	624	.	NC_002976	127799	127863
+UN	625	.	NC_002976	127910	127910
+UN	626	.	NC_002976	128056	128064
+UN	627	.	NC_002976	128262	128268
+UN	628	.	NC_002976	128323	128360
+UN	629	.	NC_002976	129108	129138
+UN	630	.	NC_002976	129375	129375
+UN	631	.	NC_002976	129765	129766
+UN	632	.	NC_002976	129783	129902
+UN	633	.	NC_002976	130469	130512
+UN	634	.	NC_002976	130661	130710
+UN	635	.	NC_002976	131151	131239
+UN	636	.	NC_002976	131395	131412
+UN	637	.	NC_002976	131417	131521
+UN	638	.	NC_002976	131686	131700
+UN	639	.	NC_002976	131707	131723
+UN	640	.	NC_002976	131943	131965
+UN	641	.	NC_002976	132607	132684
+UN	642	.	NC_002976	133126	133210
+UN	643	.	NC_002976	133335	133394
+UN	644	.	NC_002976	133400	133424
+UN	645	.	NC_002976	134014	134059
+UN	646	.	NC_002976	134062	134300
+UN	647	.	NC_002976	134333	134745
+UN	648	.	NC_002976	134823	134955
+UN	649	.	NC_002976	135197	135336
+UN	650	.	NC_002976	135874	135879
+UN	651	.	NC_002976	135885	135888
+UN	652	.	NC_002976	135896	135904
+UN	653	.	NC_002976	135911	135975
+UN	654	.	NC_002976	136125	136145
+UN	655	.	NC_002976	136183	136183
+UN	656	.	NC_002976	136185	136220
+UN	657	.	NC_002976	136880	136884
+UN	658	.	NC_002976	137038	137081
+UN	659	.	NC_002976	137083	137128
+UN	660	.	NC_002976	137135	137138
+UN	661	.	NC_002976	137561	137562
+UN	662	.	NC_002976	137565	137579
+UN	663	.	NC_002976	137877	137987
+UN	664	.	NC_002976	139147	139151
+UN	665	.	NC_002976	140063	140080
+UN	666	.	NC_002976	140097	140131
+UN	667	.	NC_002976	140929	141010
+UN	668	.	NC_002976	141018	141055
+UN	669	.	NC_002976	141160	141250
+UN	670	.	NC_002976	141253	141261
+UN	671	.	NC_002976	141274	141279
+UN	672	.	NC_002976	141289	141289
+UN	673	.	NC_002976	141329	141337
+UN	674	.	NC_002976	141397	141413
+UN	675	.	NC_002976	141556	141564
+UN	676	.	NC_002976	141662	141662
+UN	677	.	NC_002976	141674	141675
+UN	678	.	NC_002976	141755	141839
+UN	679	.	NC_002976	142100	142155
+UN	680	.	NC_002976	142467	142472
+UN	681	.	NC_002976	142490	142493
+UN	682	.	NC_002976	142793	142854
+UN	683	.	NC_002976	143120	143142
+UN	684	.	NC_002976	143351	143354
+UN	685	.	NC_002976	143446	143446
+UN	686	.	NC_002976	143450	143451
+UN	687	.	NC_002976	143466	143472
+UN	688	.	NC_002976	143482	143482
+UN	689	.	NC_002976	143496	143595
+UN	690	.	NC_002976	143634	143635
+UN	691	.	NC_002976	143680	143683
+UN	692	.	NC_002976	144091	144156
+UN	693	.	NC_002976	144542	144542
+UN	694	.	NC_002976	144549	144560
+UN	695	.	NC_002976	144562	144569
+UN	696	.	NC_002976	144572	144576
+UN	697	.	NC_002976	144710	144711
+UN	698	.	NC_002976	144718	144943
+UN	699	.	NC_002976	144947	144980
+UN	700	.	NC_002976	145221	145239
+UN	701	.	NC_002976	145422	145440
+UN	702	.	NC_002976	145450	145450
+UN	703	.	NC_002976	145493	145517
+UN	704	.	NC_002976	145744	145760
+UN	705	.	NC_002976	145773	145794
+UN	706	.	NC_002976	145802	145817
+UN	707	.	NC_002976	145966	145999
+UN	708	.	NC_002976	146558	146594
+UN	709	.	NC_002976	146937	146941
+UN	710	.	NC_002976	147290	147290
+UN	711	.	NC_002976	147317	147324
+UN	712	.	NC_002976	147483	147483
+UN	713	.	NC_002976	147486	147505
+UN	714	.	NC_002976	147520	147535
+UN	715	.	NC_002976	147654	147664
+UN	716	.	NC_002976	147680	147689
+UN	717	.	NC_002976	148327	148339
+UN	718	.	NC_002976	148373	148404
+UN	719	.	NC_002976	148620	148620
+UN	720	.	NC_002976	148623	148653
+UN	721	.	NC_002976	149300	149323
+UN	722	.	NC_002976	149327	149369
+UN	723	.	NC_002976	149407	149407
+UN	724	.	NC_002976	149621	149621
+UN	725	.	NC_002976	149944	149961
+UN	726	.	NC_002976	150112	150112
+UN	727	.	NC_002976	150171	150289
+UN	728	.	NC_002976	150433	150439
+UN	729	.	NC_002976	150485	150527
+UN	730	.	NC_002976	150598	150635
+UN	731	.	NC_002976	150661	150740
+UN	732	.	NC_002976	151541	151606
+UN	733	.	NC_002976	152777	152788
+UN	734	.	NC_002976	152924	152927
+UN	735	.	NC_002976	153303	153303
+UN	736	.	NC_002976	153305	153391
+UN	737	.	NC_002976	153536	153636
+UN	738	.	NC_002976	153649	153655
+UN	739	.	NC_002976	154317	154345
+UN	740	.	NC_002976	154371	154626
+UN	741	.	NC_002976	154760	154808
+UN	742	.	NC_002976	154950	155109
+UN	743	.	NC_002976	155457	155489
+UN	744	.	NC_002976	155515	155515
+UN	745	.	NC_002976	155532	155701
+UN	746	.	NC_002976	155796	155808
+UN	747	.	NC_002976	155834	155899
+UN	748	.	NC_002976	155958	155958
+UN	749	.	NC_002976	156049	156076
+UN	750	.	NC_002976	156095	156191
+UN	751	.	NC_002976	156193	156193
+UN	752	.	NC_002976	156275	156386
+UN	753	.	NC_002976	156411	156411
+UN	754	.	NC_002976	156669	156821
+UN	755	.	NC_002976	157022	157055
+UN	756	.	NC_002976	157206	157206
+UN	757	.	NC_002976	157208	157268
+UN	758	.	NC_002976	157354	157376
+UN	759	.	NC_002976	157390	157390
+UN	760	.	NC_002976	157392	158466
+UN	761	.	NC_002976	158542	158795
+UN	762	.	NC_002976	158926	159582
+UN	763	.	NC_002976	159731	160141
+UN	764	.	NC_002976	160173	160350
+UN	765	.	NC_002976	160476	160660
+UN	766	.	NC_002976	160730	160730
+UN	767	.	NC_002976	160736	160837
+UN	768	.	NC_002976	160899	160899
+UN	769	.	NC_002976	160908	160908
+UN	770	.	NC_002976	160911	160983
+UN	771	.	NC_002976	160986	161021
+UN	772	.	NC_002976	161125	161140
+UN	773	.	NC_002976	161171	161971
+UN	774	.	NC_002976	161992	161999
+UN	775	.	NC_002976	162008	162008
+UN	776	.	NC_002976	162077	162146
+UN	777	.	NC_002976	162149	162176
+UN	778	.	NC_002976	162254	162264
+UN	779	.	NC_002976	162288	162288
+UN	780	.	NC_002976	162291	162291
+UN	781	.	NC_002976	162295	162356
+UN	782	.	NC_002976	162543	162550
+UN	783	.	NC_002976	162574	162621
+UN	784	.	NC_002976	162646	162684
+UN	785	.	NC_002976	162687	162987
+UN	786	.	NC_002976	163064	163129
+UN	787	.	NC_002976	163134	163148
+UN	788	.	NC_002976	163150	163150
+UN	789	.	NC_002976	163385	163390
+UN	790	.	NC_002976	163476	163499
+UN	791	.	NC_002976	163503	163515
+UN	792	.	NC_002976	163645	163671
+UN	793	.	NC_002976	163730	163730
+UN	794	.	NC_002976	163750	163750
+UN	795	.	NC_002976	163756	163944
+UN	796	.	NC_002976	163973	163983
+UN	797	.	NC_002976	164032	164225
+UN	798	.	NC_002976	164287	164306
+UN	799	.	NC_002976	164327	164342
+UN	800	.	NC_002976	164366	164397
+UN	801	.	NC_002976	165073	165087
+UN	802	.	NC_002976	165095	165154
+UN	803	.	NC_002976	165361	165414
+UN	804	.	NC_002976	165559	165594
+UN	805	.	NC_002976	165607	165627
+UN	806	.	NC_002976	165644	165644
+UN	807	.	NC_002976	165675	165828
+UN	808	.	NC_002976	166132	166138
+UN	809	.	NC_002976	166337	166391
+UN	810	.	NC_002976	166398	166430
+UN	811	.	NC_002976	166460	166857
+UN	812	.	NC_002976	167461	167533
+UN	813	.	NC_002976	167635	167733
+UN	814	.	NC_002976	167830	167830
+UN	815	.	NC_002976	167844	167945
+UN	816	.	NC_002976	167948	168020
+UN	817	.	NC_002976	168036	168130
+UN	818	.	NC_002976	168277	168301
+UN	819	.	NC_002976	168309	168335
+UN	820	.	NC_002976	168372	168384
+UN	821	.	NC_002976	168863	168877
+UN	822	.	NC_002976	168882	168895
+UN	823	.	NC_002976	168911	168948
+UN	824	.	NC_002976	168961	168961
+UN	825	.	NC_002976	169285	169285
+UN	826	.	NC_002976	169289	169289
+UN	827	.	NC_002976	169292	169292
+UN	828	.	NC_002976	169303	169594
+UN	829	.	NC_002976	169659	169662
+UN	830	.	NC_002976	169697	169702
+UN	831	.	NC_002976	169752	169861
+UN	832	.	NC_002976	169882	169911
+UN	833	.	NC_002976	169925	169937
+UN	834	.	NC_002976	170043	170043
+UN	835	.	NC_002976	170049	170049
+UN	836	.	NC_002976	170061	170114
+UN	837	.	NC_002976	170596	170602
+UN	838	.	NC_002976	170605	170605
+UN	839	.	NC_002976	170618	170637
+UN	840	.	NC_002976	171120	171129
+UN	841	.	NC_002976	171404	171490
+UN	842	.	NC_002976	171515	171523
+UN	843	.	NC_002976	171534	171575
+UN	844	.	NC_002976	171621	171842
+UN	845	.	NC_002976	172068	172093
+UN	846	.	NC_002976	172179	172193
+UN	847	.	NC_002976	172205	172210
+UN	848	.	NC_002976	172511	172511
+UN	849	.	NC_002976	172529	172674
+UN	850	.	NC_002976	172681	172681
+UN	851	.	NC_002976	172697	172697
+UN	852	.	NC_002976	172719	172719
+UN	853	.	NC_002976	172721	172721
+UN	854	.	NC_002976	172724	172724
+UN	855	.	NC_002976	172796	172874
+UN	856	.	NC_002976	173096	173202
+UN	857	.	NC_002976	173207	173207
+UN	858	.	NC_002976	173210	173210
+UN	859	.	NC_002976	173428	173603
+UN	860	.	NC_002976	173610	173610
+UN	861	.	NC_002976	173618	173618
+UN	862	.	NC_002976	174078	174097
+UN	863	.	NC_002976	174105	174105
+UN	864	.	NC_002976	174125	174172
+UN	865	.	NC_002976	174377	174555
+UN	866	.	NC_002976	174557	174623
+UN	867	.	NC_002976	174656	174737
+UN	868	.	NC_002976	174744	174744
+UN	869	.	NC_002976	174773	174859
+UN	870	.	NC_002976	175039	175126
+UN	871	.	NC_002976	175134	175219
+UN	872	.	NC_002976	175228	175355
+UN	873	.	NC_002976	175493	175530
+UN	874	.	NC_002976	175544	175544
+UN	875	.	NC_002976	175750	175793
+UN	876	.	NC_002976	176435	176456
+UN	877	.	NC_002976	176515	176578
+UN	878	.	NC_002976	176597	176654
+UN	879	.	NC_002976	176663	176663
+UN	880	.	NC_002976	176666	176724
+UN	881	.	NC_002976	176728	176754
+UN	882	.	NC_002976	177096	177140
+UN	883	.	NC_002976	177308	177320
+UN	884	.	NC_002976	177387	177420
+UN	885	.	NC_002976	177433	177445
+UN	886	.	NC_002976	178033	178069
+UN	887	.	NC_002976	178443	178443
+UN	888	.	NC_002976	178467	178507
+UN	889	.	NC_002976	178820	178827
+UN	890	.	NC_002976	179116	179165
+UN	891	.	NC_002976	179704	179744
+UN	892	.	NC_002976	180040	180113
+UN	893	.	NC_002976	180125	180130
+UN	894	.	NC_002976	180138	180138
+UN	895	.	NC_002976	180600	180687
+UN	896	.	NC_002976	181149	181271
+UN	897	.	NC_002976	181276	181281
+UN	898	.	NC_002976	182233	182259
+UN	899	.	NC_002976	182266	182323
+UN	900	.	NC_002976	182340	182363
+UN	901	.	NC_002976	182725	182748
+UN	902	.	NC_002976	183395	183408
+UN	903	.	NC_002976	183412	183469
+UN	904	.	NC_002976	183472	183472
+UN	905	.	NC_002976	183489	183494
+UN	906	.	NC_002976	183653	183654
+UN	907	.	NC_002976	183660	183696
+UN	908	.	NC_002976	183705	183771
+UN	909	.	NC_002976	183839	183842
+UN	910	.	NC_002976	183844	183858
+UN	911	.	NC_002976	183874	183969
+UN	912	.	NC_002976	184008	184030
+UN	913	.	NC_002976	184133	184171
+UN	914	.	NC_002976	184209	184252
+UN	915	.	NC_002976	184256	184296
+UN	916	.	NC_002976	184319	184426
+UN	917	.	NC_002976	184529	184529
+UN	918	.	NC_002976	184588	184593
+UN	919	.	NC_002976	185667	185733
+UN	920	.	NC_002976	185884	186072
+UN	921	.	NC_002976	186256	186310
+UN	922	.	NC_002976	186313	186337
+UN	923	.	NC_002976	186458	186471
+UN	924	.	NC_002976	186724	186812
+UN	925	.	NC_002976	187025	187046
+UN	926	.	NC_002976	187086	187094
+UN	927	.	NC_002976	187956	187982
+UN	928	.	NC_002976	188055	188063
+UN	929	.	NC_002976	188623	188650
+UN	930	.	NC_002976	188655	188759
+UN	931	.	NC_002976	188878	188894
+UN	932	.	NC_002976	188902	188958
+UN	933	.	NC_002976	189878	189893
+UN	934	.	NC_002976	190138	190291
+UN	935	.	NC_002976	190294	190313
+UN	936	.	NC_002976	190318	190376
+UN	937	.	NC_002976	190460	190470
+UN	938	.	NC_002976	191129	191269
+UN	939	.	NC_002976	191292	191316
+UN	940	.	NC_002976	191354	191354
+UN	941	.	NC_002976	191528	191677
+UN	942	.	NC_002976	191850	191852
+UN	943	.	NC_002976	192161	192231
+UN	944	.	NC_002976	192248	192273
+UN	945	.	NC_002976	192436	192555
+UN	946	.	NC_002976	192829	192833
+UN	947	.	NC_002976	193430	193547
+UN	948	.	NC_002976	193549	193549
+UN	949	.	NC_002976	193693	193733
+UN	950	.	NC_002976	193942	193960
+UN	951	.	NC_002976	194060	194063
+UN	952	.	NC_002976	194359	194359
+UN	953	.	NC_002976	194516	194516
+UN	954	.	NC_002976	194523	194565
+UN	955	.	NC_002976	194577	194577
+UN	956	.	NC_002976	194629	194631
+UN	957	.	NC_002976	194706	194795
+UN	958	.	NC_002976	194944	195012
+UN	959	.	NC_002976	195016	195063
+UN	960	.	NC_002976	195158	195192
+UN	961	.	NC_002976	195205	195222
+UN	962	.	NC_002976	195228	195230
+UN	963	.	NC_002976	195482	195576
+UN	964	.	NC_002976	195588	195618
+UN	965	.	NC_002976	195770	195992
+UN	966	.	NC_002976	196005	196013
+UN	967	.	NC_002976	196088	196088
+UN	968	.	NC_002976	196285	196426
+UN	969	.	NC_002976	196542	196542
+UN	970	.	NC_002976	196573	196602
+UN	971	.	NC_002976	196621	196655
+UN	972	.	NC_002976	196661	196705
+UN	973	.	NC_002976	196746	196746
+UN	974	.	NC_002976	196749	196785
+UN	975	.	NC_002976	196804	196811
+UN	976	.	NC_002976	197124	197129
+UN	977	.	NC_002976	197183	197188
+UN	978	.	NC_002976	197421	197426
+UN	979	.	NC_002976	197713	197725
+UN	980	.	NC_002976	197742	197825
+UN	981	.	NC_002976	197833	197833
+UN	982	.	NC_002976	197873	197931
+UN	983	.	NC_002976	197940	197955
+UN	984	.	NC_002976	197972	198016
+UN	985	.	NC_002976	198387	198411
+UN	986	.	NC_002976	198646	198646
+UN	987	.	NC_002976	198649	198660
+UN	988	.	NC_002976	199319	199509
+UN	989	.	NC_002976	199659	199668
+UN	990	.	NC_002976	199673	199673
+UN	991	.	NC_002976	199676	199676
+UN	992	.	NC_002976	199683	199717
+UN	993	.	NC_002976	201454	201491
+UN	994	.	NC_002976	201524	201618
+UN	995	.	NC_002976	202307	202308
+UN	996	.	NC_002976	202351	202370
+UN	997	.	NC_002976	202382	202384
+UN	998	.	NC_002976	202415	202426
+UN	999	.	NC_002976	202618	202692
+UN	1000	.	NC_002976	202933	202968
+UN	1001	.	NC_002976	203149	203156
+UN	1002	.	NC_002976	203172	203181
+UN	1003	.	NC_002976	203238	203254
+UN	1004	.	NC_002976	203372	203384
+UN	1005	.	NC_002976	203439	203441
+UN	1006	.	NC_002976	203550	203583
+UN	1007	.	NC_002976	203589	203598
+UN	1008	.	NC_002976	204259	204259
+UN	1009	.	NC_002976	204262	204298
+UN	1010	.	NC_002976	204305	204306
+UN	1011	.	NC_002976	204311	204575
+UN	1012	.	NC_002976	204583	204696
+UN	1013	.	NC_002976	204733	204745
+UN	1014	.	NC_002976	204842	204914
+UN	1015	.	NC_002976	205062	205066
+UN	1016	.	NC_002976	205077	205089
+UN	1017	.	NC_002976	205288	205365
+UN	1018	.	NC_002976	206349	206542
+UN	1019	.	NC_002976	206819	206982
+UN	1020	.	NC_002976	207070	207082
+UN	1021	.	NC_002976	207632	207651
+UN	1022	.	NC_002976	208171	208179
+UN	1023	.	NC_002976	208185	208211
+UN	1024	.	NC_002976	208713	208732
+UN	1025	.	NC_002976	208918	209085
+UN	1026	.	NC_002976	209091	209098
+UN	1027	.	NC_002976	209233	209314
+UN	1028	.	NC_002976	209355	209402
+UN	1029	.	NC_002976	209406	209406
+UN	1030	.	NC_002976	209466	209481
+UN	1031	.	NC_002976	209551	209568
+UN	1032	.	NC_002976	209593	209593
+UN	1033	.	NC_002976	209689	209856
+UN	1034	.	NC_002976	209953	209953
+UN	1035	.	NC_002976	210002	210146
+UN	1036	.	NC_002976	210182	210185
+UN	1037	.	NC_002976	210624	210653
+UN	1038	.	NC_002976	210898	210910
+UN	1039	.	NC_002976	211086	211096
+UN	1040	.	NC_002976	211103	211106
+UN	1041	.	NC_002976	211471	211474
+UN	1042	.	NC_002976	211477	211480
+UN	1043	.	NC_002976	211802	211827
+UN	1044	.	NC_002976	211970	211970
+UN	1045	.	NC_002976	211973	212022
+UN	1046	.	NC_002976	212170	212223
+UN	1047	.	NC_002976	212254	212270
+UN	1048	.	NC_002976	212288	212288
+UN	1049	.	NC_002976	212290	212290
+UN	1050	.	NC_002976	212385	212394
+UN	1051	.	NC_002976	212419	212424
+UN	1052	.	NC_002976	212551	212551
+UN	1053	.	NC_002976	213089	213093
+UN	1054	.	NC_002976	213371	213580
+UN	1055	.	NC_002976	213732	213805
+UN	1056	.	NC_002976	214202	214211
+UN	1057	.	NC_002976	214239	214244
+UN	1058	.	NC_002976	214246	214271
+UN	1059	.	NC_002976	214273	214273
+UN	1060	.	NC_002976	214275	214293
+UN	1061	.	NC_002976	214442	215007
+UN	1062	.	NC_002976	215087	215090
+UN	1063	.	NC_002976	215099	215099
+UN	1064	.	NC_002976	215140	215140
+UN	1065	.	NC_002976	215153	215192
+UN	1066	.	NC_002976	215361	215368
+UN	1067	.	NC_002976	215388	215454
+UN	1068	.	NC_002976	215466	215466
+UN	1069	.	NC_002976	215469	215470
+UN	1070	.	NC_002976	215711	215711
+UN	1071	.	NC_002976	216995	216995
+UN	1072	.	NC_002976	217179	217185
+UN	1073	.	NC_002976	217189	217189
+UN	1074	.	NC_002976	217232	217232
+UN	1075	.	NC_002976	217410	217414
+UN	1076	.	NC_002976	217632	217643
+UN	1077	.	NC_002976	217846	217906
+UN	1078	.	NC_002976	218204	218222
+UN	1079	.	NC_002976	218281	218308
+UN	1080	.	NC_002976	219034	219036
+UN	1081	.	NC_002976	219038	219038
+UN	1082	.	NC_002976	219040	219040
+UN	1083	.	NC_002976	219164	219164
+UN	1084	.	NC_002976	219183	219200
+UN	1085	.	NC_002976	219385	219386
+UN	1086	.	NC_002976	219885	219960
+UN	1087	.	NC_002976	219984	220024
+UN	1088	.	NC_002976	220067	220080
+UN	1089	.	NC_002976	220110	220184
+UN	1090	.	NC_002976	220293	220305
+UN	1091	.	NC_002976	220406	220410
+UN	1092	.	NC_002976	220434	220594
+UN	1093	.	NC_002976	221363	221558
+UN	1094	.	NC_002976	221566	221566
+UN	1095	.	NC_002976	221578	221609
+UN	1096	.	NC_002976	221616	221616
+UN	1097	.	NC_002976	222028	222028
+UN	1098	.	NC_002976	222032	222337
+UN	1099	.	NC_002976	223604	223609
+UN	1100	.	NC_002976	223729	223730
+UN	1101	.	NC_002976	224182	224185
+UN	1102	.	NC_002976	224575	224628
+UN	1103	.	NC_002976	224698	224760
+UN	1104	.	NC_002976	224766	224766
+UN	1105	.	NC_002976	224775	224809
+UN	1106	.	NC_002976	224814	224818
+UN	1107	.	NC_002976	224988	224991
+UN	1108	.	NC_002976	225345	225396
+UN	1109	.	NC_002976	225406	225418
+UN	1110	.	NC_002976	225725	225814
+UN	1111	.	NC_002976	225964	226071
+UN	1112	.	NC_002976	226098	226099
+UN	1113	.	NC_002976	226206	226342
+UN	1114	.	NC_002976	226386	226389
+UN	1115	.	NC_002976	226537	226638
+UN	1116	.	NC_002976	226979	226987
+UN	1117	.	NC_002976	227020	227032
+UN	1118	.	NC_002976	227034	227150
+UN	1119	.	NC_002976	227182	227183
+UN	1120	.	NC_002976	227843	227866
+UN	1121	.	NC_002976	229156	229195
+UN	1122	.	NC_002976	229504	229506
+UN	1123	.	NC_002976	229515	229528
+UN	1124	.	NC_002976	229747	229753
+UN	1125	.	NC_002976	229938	229982
+UN	1126	.	NC_002976	230256	230306
+UN	1127	.	NC_002976	230529	230529
+UN	1128	.	NC_002976	230883	230916
+UN	1129	.	NC_002976	231391	231408
+UN	1130	.	NC_002976	231424	231454
+UN	1131	.	NC_002976	231460	231461
+UN	1132	.	NC_002976	231827	231859
+UN	1133	.	NC_002976	232146	232155
+UN	1134	.	NC_002976	232393	232415
+UN	1135	.	NC_002976	232768	232832
+UN	1136	.	NC_002976	233054	233088
+UN	1137	.	NC_002976	233243	233440
+UN	1138	.	NC_002976	233476	233491
+UN	1139	.	NC_002976	233501	233572
+UN	1140	.	NC_002976	234226	234343
+UN	1141	.	NC_002976	234368	234381
+UN	1142	.	NC_002976	234580	234628
+UN	1143	.	NC_002976	234633	234665
+UN	1144	.	NC_002976	234779	234779
+UN	1145	.	NC_002976	234782	234782
+UN	1146	.	NC_002976	234786	234786
+UN	1147	.	NC_002976	234814	234845
+UN	1148	.	NC_002976	234895	234895
+UN	1149	.	NC_002976	234932	235156
+UN	1150	.	NC_002976	235370	235377
+UN	1151	.	NC_002976	235547	235560
+UN	1152	.	NC_002976	235615	235633
+UN	1153	.	NC_002976	235992	236042
+UN	1154	.	NC_002976	236044	236045
+UN	1155	.	NC_002976	236059	236059
+UN	1156	.	NC_002976	236102	236107
+UN	1157	.	NC_002976	236897	236912
+UN	1158	.	NC_002976	237124	237168
+UN	1159	.	NC_002976	237186	237197
+UN	1160	.	NC_002976	237419	237467
+UN	1161	.	NC_002976	237506	237535
+UN	1162	.	NC_002976	237682	237693
+UN	1163	.	NC_002976	238170	238175
+UN	1164	.	NC_002976	238213	238218
+UN	1165	.	NC_002976	238363	238380
+UN	1166	.	NC_002976	238400	238412
+UN	1167	.	NC_002976	238673	238673
+UN	1168	.	NC_002976	238675	238736
+UN	1169	.	NC_002976	238752	238771
+UN	1170	.	NC_002976	239235	239273
+UN	1171	.	NC_002976	239662	239690
+UN	1172	.	NC_002976	239861	239864
+UN	1173	.	NC_002976	239895	239899
+UN	1174	.	NC_002976	240416	240420
+UN	1175	.	NC_002976	240428	240428
+UN	1176	.	NC_002976	240487	240536
+UN	1177	.	NC_002976	240721	240812
+UN	1178	.	NC_002976	241622	241636
+UN	1179	.	NC_002976	241648	241648
+UN	1180	.	NC_002976	242243	242257
+UN	1181	.	NC_002976	242768	242888
+UN	1182	.	NC_002976	242913	242955
+UN	1183	.	NC_002976	243061	243061
+UN	1184	.	NC_002976	243099	243225
+UN	1185	.	NC_002976	243253	243401
+UN	1186	.	NC_002976	243550	243634
+UN	1187	.	NC_002976	243807	243824
+UN	1188	.	NC_002976	244150	244160
+UN	1189	.	NC_002976	244217	244217
+UN	1190	.	NC_002976	244460	244460
+UN	1191	.	NC_002976	244508	244620
+UN	1192	.	NC_002976	245284	245305
+UN	1193	.	NC_002976	245449	245506
+UN	1194	.	NC_002976	245748	245758
+UN	1195	.	NC_002976	245849	246245
+UN	1196	.	NC_002976	246437	246518
+UN	1197	.	NC_002976	246534	246565
+UN	1198	.	NC_002976	246905	246906
+UN	1199	.	NC_002976	247007	247027
+UN	1200	.	NC_002976	247070	247111
+UN	1201	.	NC_002976	247177	247356
+UN	1202	.	NC_002976	247640	247640
+UN	1203	.	NC_002976	247680	247684
+UN	1204	.	NC_002976	247995	247995
+UN	1205	.	NC_002976	248019	248019
+UN	1206	.	NC_002976	248023	248056
+UN	1207	.	NC_002976	248777	248777
+UN	1208	.	NC_002976	248780	248783
+UN	1209	.	NC_002976	249953	249967
+UN	1210	.	NC_002976	250002	250019
+UN	1211	.	NC_002976	250303	250328
+UN	1212	.	NC_002976	250511	250711
+UN	1213	.	NC_002976	250721	250735
+UN	1214	.	NC_002976	250740	250794
+UN	1215	.	NC_002976	250797	250806
+UN	1216	.	NC_002976	250968	250974
+UN	1217	.	NC_002976	251457	251467
+UN	1218	.	NC_002976	251477	251481
+UN	1219	.	NC_002976	251489	251518
+UN	1220	.	NC_002976	251523	251559
+UN	1221	.	NC_002976	251852	251852
+UN	1222	.	NC_002976	252540	252540
+UN	1223	.	NC_002976	252553	252603
+UN	1224	.	NC_002976	252650	252650
+UN	1225	.	NC_002976	252757	252762
+UN	1226	.	NC_002976	252910	252946
+UN	1227	.	NC_002976	253571	253759
+UN	1228	.	NC_002976	253785	253942
+UN	1229	.	NC_002976	253961	253961
+UN	1230	.	NC_002976	253984	254020
+UN	1231	.	NC_002976	254053	254057
+UN	1232	.	NC_002976	254206	254207
+UN	1233	.	NC_002976	254227	254227
+UN	1234	.	NC_002976	254234	254281
+UN	1235	.	NC_002976	254357	254357
+UN	1236	.	NC_002976	254428	254442
+UN	1237	.	NC_002976	254772	254772
+UN	1238	.	NC_002976	254805	254814
+UN	1239	.	NC_002976	256170	256253
+UN	1240	.	NC_002976	256494	256509
+UN	1241	.	NC_002976	256516	256642
+UN	1242	.	NC_002976	256658	256668
+UN	1243	.	NC_002976	256725	256727
+UN	1244	.	NC_002976	256933	257027
+UN	1245	.	NC_002976	257665	257957
+UN	1246	.	NC_002976	258300	258333
+UN	1247	.	NC_002976	258367	258407
+UN	1248	.	NC_002976	258834	258858
+UN	1249	.	NC_002976	259007	259112
+UN	1250	.	NC_002976	259320	259426
+UN	1251	.	NC_002976	259990	259994
+UN	1252	.	NC_002976	259996	260059
+UN	1253	.	NC_002976	260077	260081
+UN	1254	.	NC_002976	260643	260664
+UN	1255	.	NC_002976	261121	261339
+UN	1256	.	NC_002976	261349	261354
+UN	1257	.	NC_002976	261518	261522
+UN	1258	.	NC_002976	262724	262752
+UN	1259	.	NC_002976	262755	262761
+UN	1260	.	NC_002976	262798	262812
+UN	1261	.	NC_002976	263422	263471
+UN	1262	.	NC_002976	263630	263657
+UN	1263	.	NC_002976	263671	263679
+UN	1264	.	NC_002976	263830	263939
+UN	1265	.	NC_002976	264099	264381
+UN	1266	.	NC_002976	264408	264444
+UN	1267	.	NC_002976	264737	264795
+UN	1268	.	NC_002976	264805	264812
+UN	1269	.	NC_002976	265271	265359
+UN	1270	.	NC_002976	265650	265658
+UN	1271	.	NC_002976	266647	266839
+UN	1272	.	NC_002976	266877	267156
+UN	1273	.	NC_002976	267552	267565
+UN	1274	.	NC_002976	267607	267607
+UN	1275	.	NC_002976	267614	267630
+UN	1276	.	NC_002976	268322	268346
+UN	1277	.	NC_002976	268531	268943
+UN	1278	.	NC_002976	268950	268982
+UN	1279	.	NC_002976	268989	269047
+UN	1280	.	NC_002976	269221	269273
+UN	1281	.	NC_002976	269279	269395
+UN	1282	.	NC_002976	269412	269511
+UN	1283	.	NC_002976	269968	269971
+UN	1284	.	NC_002976	270024	270173
+UN	1285	.	NC_002976	270201	270212
+UN	1286	.	NC_002976	270245	270329
+UN	1287	.	NC_002976	270613	270618
+UN	1288	.	NC_002976	270624	270631
+UN	1289	.	NC_002976	270683	270693
+UN	1290	.	NC_002976	270698	270720
+UN	1291	.	NC_002976	270768	270806
+UN	1292	.	NC_002976	270980	271107
+UN	1293	.	NC_002976	271322	271323
+UN	1294	.	NC_002976	271326	271389
+UN	1295	.	NC_002976	271765	271771
+UN	1296	.	NC_002976	272029	272055
+UN	1297	.	NC_002976	272065	272131
+UN	1298	.	NC_002976	272296	272302
+UN	1299	.	NC_002976	273612	273625
+UN	1300	.	NC_002976	274259	274260
+UN	1301	.	NC_002976	274263	274282
+UN	1302	.	NC_002976	274340	274340
+UN	1303	.	NC_002976	274402	274415
+UN	1304	.	NC_002976	274417	274447
+UN	1305	.	NC_002976	274461	274462
+UN	1306	.	NC_002976	275120	275121
+UN	1307	.	NC_002976	275142	275203
+UN	1308	.	NC_002976	275220	275301
+UN	1309	.	NC_002976	275312	275319
+UN	1310	.	NC_002976	275343	275350
+UN	1311	.	NC_002976	275515	275519
+UN	1312	.	NC_002976	275697	275779
+UN	1313	.	NC_002976	276083	276160
+UN	1314	.	NC_002976	276183	276237
+UN	1315	.	NC_002976	276274	276358
+UN	1316	.	NC_002976	276747	276774
+UN	1317	.	NC_002976	276920	276931
+UN	1318	.	NC_002976	277263	277283
+UN	1319	.	NC_002976	277291	277340
+UN	1320	.	NC_002976	277357	277569
+UN	1321	.	NC_002976	277719	277733
+UN	1322	.	NC_002976	277735	277743
+UN	1323	.	NC_002976	279139	279149
+UN	1324	.	NC_002976	279157	279186
+UN	1325	.	NC_002976	279191	279194
+UN	1326	.	NC_002976	279257	279257
+UN	1327	.	NC_002976	279327	279450
+UN	1328	.	NC_002976	279488	279669
+UN	1329	.	NC_002976	279957	279964
+UN	1330	.	NC_002976	280109	280118
+UN	1331	.	NC_002976	280160	280162
+UN	1332	.	NC_002976	280208	280214
+UN	1333	.	NC_002976	280752	280957
+UN	1334	.	NC_002976	281106	281108
+UN	1335	.	NC_002976	281535	281687
+UN	1336	.	NC_002976	281715	281722
+UN	1337	.	NC_002976	281728	281735
+UN	1338	.	NC_002976	282216	282256
+UN	1339	.	NC_002976	282297	282325
+UN	1340	.	NC_002976	282869	282881
+UN	1341	.	NC_002976	283024	283075
+UN	1342	.	NC_002976	283279	283281
+UN	1343	.	NC_002976	283296	283366
+UN	1344	.	NC_002976	283391	283567
+UN	1345	.	NC_002976	283572	283602
+UN	1346	.	NC_002976	283965	283966
+UN	1347	.	NC_002976	284184	284184
+UN	1348	.	NC_002976	284186	284187
+UN	1349	.	NC_002976	284195	284200
+UN	1350	.	NC_002976	284218	284385
+UN	1351	.	NC_002976	284555	284574
+UN	1352	.	NC_002976	284599	284613
+UN	1353	.	NC_002976	284722	284733
+UN	1354	.	NC_002976	284759	284765
+UN	1355	.	NC_002976	284967	284980
+UN	1356	.	NC_002976	284997	284998
+UN	1357	.	NC_002976	286183	286189
+UN	1358	.	NC_002976	286524	286529
+UN	1359	.	NC_002976	286832	286899
+UN	1360	.	NC_002976	288320	288320
+UN	1361	.	NC_002976	288694	288722
+UN	1362	.	NC_002976	289986	290017
+UN	1363	.	NC_002976	290042	290042
+UN	1364	.	NC_002976	290166	290166
+UN	1365	.	NC_002976	290187	290343
+UN	1366	.	NC_002976	290404	290405
+UN	1367	.	NC_002976	290442	290460
+UN	1368	.	NC_002976	290492	290522
+UN	1369	.	NC_002976	291778	291843
+UN	1370	.	NC_002976	291845	291845
+UN	1371	.	NC_002976	292155	292243
+UN	1372	.	NC_002976	292394	292430
+UN	1373	.	NC_002976	292645	292741
+UN	1374	.	NC_002976	292966	292967
+UN	1375	.	NC_002976	293861	293924
+UN	1376	.	NC_002976	293939	293939
+UN	1377	.	NC_002976	293958	293981
+UN	1378	.	NC_002976	293984	294003
+UN	1379	.	NC_002976	295374	295386
+UN	1380	.	NC_002976	296399	296416
+UN	1381	.	NC_002976	300849	300869
+UN	1382	.	NC_002976	303153	303153
+UN	1383	.	NC_002976	303189	303213
+UN	1384	.	NC_002976	310097	310102
+UN	1385	.	NC_002976	311616	311629
+UN	1386	.	NC_002976	311637	311642
+UN	1387	.	NC_002976	311817	311825
+UN	1388	.	NC_002976	311853	311866
+UN	1389	.	NC_002976	315018	315018
+UN	1390	.	NC_002976	327006	327074
+UN	1391	.	NC_002976	339869	339878
+UN	1392	.	NC_002976	346324	346337
+UN	1393	.	NC_002976	347852	347957
+UN	1394	.	NC_002976	348119	348231
+UN	1395	.	NC_002976	348445	348464
+UN	1396	.	NC_002976	354012	354013
+UN	1397	.	NC_002976	354183	354183
+UN	1398	.	NC_002976	354192	354192
+UN	1399	.	NC_002976	359755	360046
+UN	1400	.	NC_002976	454790	455120
+UN	1401	.	NC_002976	587312	588350
+UN	1402	.	NC_002976	684070	685344
+UN	1403	.	NC_002976	711652	711979
+UN	1404	.	NC_002976	808432	808494
+UN	1405	.	NC_002976	808762	809253
+UN	1406	.	NC_002976	809545	809792
+UN	1407	.	NC_002976	810078	810284
+UN	1408	.	NC_002976	810569	813134
+UN	1409	.	NC_002976	847441	848715
+UN	1410	.	NC_002976	897701	897915
+UN	1411	.	NC_002976	898189	898539
+UN	1412	.	NC_002976	898832	899160
+UN	1413	.	NC_002976	899399	899610
+UN	1414	.	NC_002976	899757	900938
+UN	1415	.	NC_002976	901207	901207
+UN	1416	.	NC_002976	901211	902457
+UN	1417	.	NC_002976	999007	999020
+UN	1418	.	NC_002976	999450	1000487
+UN	1419	.	NC_002976	1002689	1003725
+UN	1420	.	NC_002976	1004004	1004085
+UN	1421	.	NC_002976	1004400	1004617
+UN	1422	.	NC_002976	1004913	1005227
+UN	1423	.	NC_002976	1005926	1005958
+UN	1424	.	NC_002976	1006310	1006330
+UN	1425	.	NC_002976	1006744	1006817
+UN	1426	.	NC_002976	1088961	1088961
+UN	1427	.	NC_002976	1089167	1089167
+UN	1428	.	NC_002976	1089170	1089170
+UN	1429	.	NC_002976	1089176	1089176
+UN	1430	.	NC_002976	1089204	1089204
+UN	1431	.	NC_002976	1089717	1089717
+UN	1432	.	NC_002976	1089806	1089806
+UN	1433	.	NC_002976	1090615	1090615
+UN	1434	.	NC_002976	1090620	1090620
+UN	1435	.	NC_002976	1090623	1090623
+UN	1436	.	NC_002976	1090857	1090857
+UN	1437	.	NC_002976	1090913	1090913
+UN	1438	.	NC_002976	1090989	1090989
+UN	1439	.	NC_002976	1091004	1091004
+UN	1440	.	NC_002976	1091016	1091016
+UN	1441	.	NC_002976	1091071	1091071
+UN	1442	.	NC_002976	1091075	1091075
+UN	1443	.	NC_002976	1154479	1155382
+UN	1444	.	NC_002976	1155669	1155712
+UN	1445	.	NC_002976	1156231	1156249
+UN	1446	.	NC_002976	1156537	1159202
+UN	1447	.	NC_002976	1210930	1211133
+UN	1448	.	NC_002976	1211707	1218130
+UN	1449	.	NC_002976	1218417	1218624
+UN	1450	.	NC_002976	1316643	1317678
+UN	1451	.	NC_002976	1358131	1364566
+UN	1452	.	NC_002976	1598171	1598388
+UN	1453	.	NC_002976	1598684	1599002
+UN	1454	.	NC_002976	1599701	1599729
+UN	1455	.	NC_002976	1606829	1608118
+UN	1456	.	NC_002976	1691922	1692971
+UN	1457	.	NC_002976	1921550	1922041
+UN	1458	.	NC_002976	1922045	1922045
+UN	1459	.	NC_002976	1922329	1922841
+UN	1460	.	NC_002976	2044127	2045404
+UN	1461	.	NC_002976	2056801	2058077
+UN	1462	.	NC_002976	2066681	2067634
+UN	1463	.	NC_002976	2067907	2067980
+UN	1464	.	NC_002976	2087882	2087926
+UN	1465	.	NC_002976	2088239	2088603
+UN	1466	.	NC_002976	2088991	2089179
+UN	1467	.	NC_002976	2236666	2237948
+UN	1468	.	NC_002976	2348108	2349379
+UN	1469	.	NC_002976	2358891	2358891
+UN	1470	.	NC_002976	2451257	2452551
+UN	1471	.	NC_002976	2456076	2459144
+UN	1472	.	NC_002976	2459507	2460909
+UN	1473	.	NC_002976	2461367	2464382
+UN	1474	.	NC_002976	2464635	2464635
+UN	1475	.	NC_002976	2464637	2464754
+UN	1476	.	NC_002976	2465013	2466127
+UN	1477	.	NC_002976	2505956	2508183
+UN	1478	.	NC_002976	2508448	2508448
+UN	1479	.	NC_002976	2508452	2508698
+UN	1480	.	NC_002976	2508961	2509023
+UN	1481	.	NC_002976	2509278	2510561

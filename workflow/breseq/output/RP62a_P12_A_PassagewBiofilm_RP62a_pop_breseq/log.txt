@@ -1,0 +1,4 @@
+Thu Apr  9 00:28:13 2026
+
+breseq -j 24 -p -k -o /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/breseq/pops/RP62a_P12_A_PassagewBiofilm_RP62a_pop_breseq -r /staging/dagoldman2/ref_genomes/RP62a.gb /staging/dagoldman2/staph-epi-genomic-deletion/fastp/RP62a_P12_A_PassagewBiofilm_R1.fastp.fastq.gz /staging/dagoldman2/staph-epi-genomic-deletion/fastp/RP62a_P12_A_PassagewBiofilm_R2.fastp.fastq.gz
+

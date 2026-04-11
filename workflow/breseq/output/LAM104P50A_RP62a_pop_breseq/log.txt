@@ -1,0 +1,4 @@
+Wed Apr  8 18:55:45 2026
+
+breseq -j 24 -p -k -o /staging/groups/bacteriology_mo/dorang/staph-epi-genomic-deletion/output/breseq/pops/LAM104P50A_RP62a_pop_breseq -r /staging/dagoldman2/ref_genomes/RP62a.gb /staging/dagoldman2/staph-epi-genomic-deletion/fastp/LAM104P50A_R1.fastp.fastq.gz /staging/dagoldman2/staph-epi-genomic-deletion/fastp/LAM104P50A_R2.fastp.fastq.gz
+

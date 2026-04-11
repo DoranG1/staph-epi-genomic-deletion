@@ -1,0 +1,255 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html>
+<head>
+<title>BRESEQ :: Marginal Predictions</title>
+<style type = "text/css">
+body {font-family: sans-serif; font-size: 11pt;}
+th {background-color: rgb(0,0,0); color: rgb(255,255,255);}
+table {background-color: rgb(1,0,0); color: rgb(0,0,0);}
+tr {background-color: rgb(255,255,255);}
+.mutation_in_codon {color:red; text-decoration : underline;}
+.snp_type_synonymous{color:green;}
+.snp_type_nonsynonymous{color:blue;}
+.snp_type_nonsense{color:red;}
+.mutation_header_row {background-color: rgb(0,130,0);}
+.read_alignment_header_row {background-color: rgb(255,0,0);}
+.missing_coverage_header_row {background-color: rgb(0,100,100);}
+.new_junction_header_row {background-color: rgb(0,0,155);}
+.copy_number_header_row {background-color: rgb(153,102,0);}
+.alternate_table_row_0 {background-color: rgb(255,255,255);}
+.alternate_table_row_1 {background-color: rgb(235,235,235);}
+.gray_table_row {background-color: rgb(230,230,245);}
+.polymorphism_table_row {background-color: rgb(160,255,160);}
+.highlight_table_row {background-color: rgb(192,255,255);}
+.reject_table_row {background-color: rgb(255,200,165);}
+.user_defined_table_row {background-color: rgb(255,255,0);}
+.information_table_row {background-color: rgb(200,255,255);}
+.junction_repeat {background-color: rgb(255,165,0)}
+.junction_gene {}
+.hidden { display: none; }
+.unhidden { display: block; }
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript">
+  function hideTog(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+  function showTog(butID) {
+    var button = document.getElementById(butID);
+    if (button) {
+      button.value=(button.value=='Show')?'Hide':'Show';
+    }
+  }
+</script>
+
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+<tr>
+<td><a href="http://barricklab.org/breseq"><img src="evidence/breseq_small.png" /></a></td>
+<td width="100%">
+<b><i>breseq</i></b>&nbsp;&nbsp;version 0.38.1&nbsp;&nbsp;revision 0f01f7b949a1
+<br><a href="index.html">mutation predictions</a> | 
+<a href="marginal.html">marginal predictions</a> | 
+<a href="summary.html">summary statistics</a> | 
+<a href="output.gd">genome diff</a> | 
+<a href="log.txt">command line log</a>
+</td></tr></table>
+
+<p>
+<p>
+<table border="0" cellspacing="1" cellpadding="3">
+<tr><th colspan="12" align="left" class="new_junction_header_row">Marginal new junction evidence (sorted from low to high skew)</th></tr>
+<!-- Header Lines for New Junction -->
+<tr>
+<th colspan="2">&nbsp;</th>
+<th>seq&nbsp;id</th>
+<th>position</th>
+<th>reads&nbsp;(cov)</th>
+<th>reads&nbsp;(cov)</th>
+<th>score</th>
+<th>skew</th>
+<th>freq</th>
+<th>annotation</th>
+<th>gene</th>
+<th width="100%">product</th>
+</tr>
+
+<!-- Item Lines for New Junction -->
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_596.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_596.html">?</a></td>
+<td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">2607755&nbsp;=</td><td align="center" class="junction_gene">128 (0.980)</td><td rowspan="2" align="center">3 (0.020)</td>
+<td rowspan="2" align="center">3/258</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">2.5%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(+137/+51)</td>
+<td align="center" class="junction_gene"><i>SERP_RS00245/SERP_RS00240</i></td>
+<td class="junction_gene">YIP1 family protein/helix&#8209;turn&#8209;helix transcriptional regulator</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_596.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">2607791&nbsp;=</td>
+<td align="center" class="junction_gene">117 (0.950)</td><td align="center" class="junction_gene">intergenic&nbsp;(+173/+15)</td>
+<td align="center" class="junction_gene"><i>SERP_RS00245/SERP_RS00240</i></td>
+<td class="junction_gene">YIP1 family protein/helix&#8209;turn&#8209;helix transcriptional regulator</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_593.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_593.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NC_002976</td>
+<td align="center" class="junction_repeat">=&nbsp;1693105</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">4 (0.030)</td>
+<td rowspan="2" align="center">3/274</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">2.8%</td>
+<td align="center" class="junction_repeat">intergenic&nbsp;(&#8209;101/+112)</td>
+<td align="center" class="junction_repeat"><i>SERP_RS04595/SERP_RS04590</i></td>
+<td class="junction_repeat">IS256&#8209;like element IS256 family transposase/YneF family protein</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_593.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;2091519</td>
+<td align="center" class="junction_gene">140 (1.070)</td><td align="center" class="junction_gene">intergenic&nbsp;(&#8209;143/+178)</td>
+<td align="center" class="junction_gene"><i>SERP_RS02775/ygs</i></td>
+<td class="junction_gene">NADH&#8209;dependent flavin oxidoreductase/S1 domain&#8209;containing post&#8209;transcriptional regulator Ygs</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_589.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_589.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NC_002976</td>
+<td align="center" class="junction_repeat">1691782&nbsp;=</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">5 (0.040)</td>
+<td rowspan="2" align="center">4/274</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">3.8%</td>
+<td align="center" class="junction_repeat">intergenic&nbsp;(&#8209;129/+50)</td>
+<td align="center" class="junction_repeat"><i>SERP_RS04600/SERP_RS04595</i></td>
+<td class="junction_repeat">CcdC family protein/IS256&#8209;like element IS256 family transposase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_589.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">1746390&nbsp;=</td>
+<td align="center" class="junction_gene">127 (0.970)</td><td align="center" class="junction_gene">intergenic&nbsp;(&#8209;68/+518)</td>
+<td align="center" class="junction_gene"><i>SERP_RS04320/SERP_RS04315</i></td>
+<td class="junction_gene">poly&#8209;gamma&#8209;glutamate hydrolase family protein/2&#8209;oxoacid:ferredoxin oxidoreductase subunit beta</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_583.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_583.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NC_002976</td>
+<td align="center" class="junction_repeat">1316502&nbsp;=</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">3 (0.020)</td>
+<td rowspan="2" align="center">3/272</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">2.0%</td>
+<td align="center" class="junction_repeat">intergenic&nbsp;(&#8209;278/&#8209;101)</td>
+<td align="center" class="junction_repeat"><i>SERP_RS06230/SERP_RS06225</i></td>
+<td class="junction_repeat">amino acid permease/IS256&#8209;like element IS256 family transposase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_583.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">2045752&nbsp;=</td>
+<td align="center" class="junction_gene">146 (1.120)</td><td align="center" class="junction_gene">coding&nbsp;(371/396&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>spxA</i></td>
+<td class="junction_gene">transcriptional regulator SpxA</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_580.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_580.html">?</a></td>
+<td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">1166162&nbsp;=</td><td align="center" class="junction_gene">93 (0.710)</td><td rowspan="2" align="center">3 (0.020)</td>
+<td rowspan="2" align="center">3/270</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">3.2%</td>
+<td align="center" class="junction_gene">coding&nbsp;(229/723&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>SERP_RS06910</i></td>
+<td class="junction_gene">amino acid ABC transporter ATP&#8209;binding protein</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_580.html">?</a></td><td rowspan="1" class="junction_repeat">NC_002976</td>
+<td align="center" class="junction_repeat">=&nbsp;1693104</td>
+<td align="center" class="junction_repeat">NA (NA)</td><td align="center" class="junction_repeat">intergenic&nbsp;(&#8209;100/+113)</td>
+<td align="center" class="junction_repeat"><i>SERP_RS04595/SERP_RS04590</i></td>
+<td class="junction_repeat">IS256&#8209;like element IS256 family transposase/YneF family protein</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_578.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_578.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NC_002976</td>
+<td align="center" class="junction_repeat">1002548&nbsp;=</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">5 (0.040)</td>
+<td rowspan="2" align="center">4/272</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">4.5%</td>
+<td align="center" class="junction_repeat">intergenic&nbsp;(+81/+49)</td>
+<td align="center" class="junction_repeat"><i>aph(2'')&#8209;Ia/SERP_RS07945</i></td>
+<td class="junction_repeat">aminoglycoside N&#8209;acetyltransferase AAC(6')&#8209;Ie/IS256&#8209;like element IS256 family transposase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_578.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">1074236&nbsp;=</td>
+<td align="center" class="junction_gene">107 (0.820)</td><td align="center" class="junction_gene">intergenic&nbsp;(+107/&#8209;210)</td>
+<td align="center" class="junction_gene"><i>SERP_RS07470/pmtR</i></td>
+<td class="junction_gene">SE1626 family protein/PSM export ABC transporter transcriptional regulator PmtR</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_569.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_569.html">?</a></td>
+<td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;580309</td><td align="center" class="junction_gene">106 (0.810)</td><td rowspan="2" align="center">3 (0.020)</td>
+<td rowspan="2" align="center">3/272</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">2.8%</td>
+<td align="center" class="junction_gene">coding&nbsp;(1306/1377&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>SERP_RS10045</i></td>
+<td class="junction_gene">amino acid permease</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_569.html">?</a></td><td rowspan="1" class="junction_repeat">NC_002976</td>
+<td align="center" class="junction_repeat">587168&nbsp;=</td>
+<td align="center" class="junction_repeat">NA (NA)</td><td align="center" class="junction_repeat">intergenic&nbsp;(&#8209;103/&#8209;101)</td>
+<td align="center" class="junction_repeat"><i>SERP_RS10020/SERP_RS10015</i></td>
+<td class="junction_repeat">glycerate kinase/IS256&#8209;like element IS256 family transposase</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_568.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_568.html">?</a></td>
+<td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">537667&nbsp;=</td><td align="center" class="junction_gene">103 (0.790)</td><td rowspan="2" align="center">4 (0.030)</td>
+<td rowspan="2" align="center">3/274</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">3.7%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(&#8209;100/&#8209;118)</td>
+<td align="center" class="junction_gene"><i>SERP_RS10225/SERP_RS10220</i></td>
+<td class="junction_gene">phospho&#8209;sugar mutase/glycosyltransferase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_568.html">?</a></td><td rowspan="1" class="junction_repeat">NC_002976</td>
+<td align="center" class="junction_repeat">999305&nbsp;=</td>
+<td align="center" class="junction_repeat">NA (NA)</td><td align="center" class="junction_repeat">intergenic&nbsp;(&#8209;1/&#8209;101)</td>
+<td align="center" class="junction_repeat"><i>SERP_RS07965/SERP_RS07960</i></td>
+<td class="junction_repeat">IS6&#8209;like element IS257 family transposase/IS256&#8209;like element IS256 family transposase</td>
+</tr>
+</table>
+</body></html>

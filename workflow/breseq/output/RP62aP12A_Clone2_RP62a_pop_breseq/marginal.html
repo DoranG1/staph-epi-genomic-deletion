@@ -1,0 +1,234 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html>
+<head>
+<title>BRESEQ :: Marginal Predictions</title>
+<style type = "text/css">
+body {font-family: sans-serif; font-size: 11pt;}
+th {background-color: rgb(0,0,0); color: rgb(255,255,255);}
+table {background-color: rgb(1,0,0); color: rgb(0,0,0);}
+tr {background-color: rgb(255,255,255);}
+.mutation_in_codon {color:red; text-decoration : underline;}
+.snp_type_synonymous{color:green;}
+.snp_type_nonsynonymous{color:blue;}
+.snp_type_nonsense{color:red;}
+.mutation_header_row {background-color: rgb(0,130,0);}
+.read_alignment_header_row {background-color: rgb(255,0,0);}
+.missing_coverage_header_row {background-color: rgb(0,100,100);}
+.new_junction_header_row {background-color: rgb(0,0,155);}
+.copy_number_header_row {background-color: rgb(153,102,0);}
+.alternate_table_row_0 {background-color: rgb(255,255,255);}
+.alternate_table_row_1 {background-color: rgb(235,235,235);}
+.gray_table_row {background-color: rgb(230,230,245);}
+.polymorphism_table_row {background-color: rgb(160,255,160);}
+.highlight_table_row {background-color: rgb(192,255,255);}
+.reject_table_row {background-color: rgb(255,200,165);}
+.user_defined_table_row {background-color: rgb(255,255,0);}
+.information_table_row {background-color: rgb(200,255,255);}
+.junction_repeat {background-color: rgb(255,165,0)}
+.junction_gene {}
+.hidden { display: none; }
+.unhidden { display: block; }
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript">
+  function hideTog(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+  function showTog(butID) {
+    var button = document.getElementById(butID);
+    if (button) {
+      button.value=(button.value=='Show')?'Hide':'Show';
+    }
+  }
+</script>
+
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+<tr>
+<td><a href="http://barricklab.org/breseq"><img src="evidence/breseq_small.png" /></a></td>
+<td width="100%">
+<b><i>breseq</i></b>&nbsp;&nbsp;version 0.38.1&nbsp;&nbsp;revision 0f01f7b949a1
+<br><a href="index.html">mutation predictions</a> | 
+<a href="marginal.html">marginal predictions</a> | 
+<a href="summary.html">summary statistics</a> | 
+<a href="output.gd">genome diff</a> | 
+<a href="log.txt">command line log</a>
+</td></tr></table>
+
+<p>
+<p>
+<table border="0" cellspacing="1" cellpadding="3">
+<tr><th colspan="12" align="left" class="new_junction_header_row">Marginal new junction evidence (sorted from low to high skew)</th></tr>
+<!-- Header Lines for New Junction -->
+<tr>
+<th colspan="2">&nbsp;</th>
+<th>seq&nbsp;id</th>
+<th>position</th>
+<th>reads&nbsp;(cov)</th>
+<th>reads&nbsp;(cov)</th>
+<th>score</th>
+<th>skew</th>
+<th>freq</th>
+<th>annotation</th>
+<th>gene</th>
+<th width="100%">product</th>
+</tr>
+
+<!-- Item Lines for New Junction -->
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_561.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_561.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NC_002976</td>
+<td align="center" class="junction_repeat">=&nbsp;1693105</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">3 (0.020)</td>
+<td rowspan="2" align="center">3/272</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">2.5%</td>
+<td align="center" class="junction_repeat">intergenic&nbsp;(&#8209;101/+112)</td>
+<td align="center" class="junction_repeat"><i>SERP_RS04595/SERP_RS04590</i></td>
+<td class="junction_repeat">IS256&#8209;like element IS256 family transposase/YneF family protein</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_561.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;2195649</td>
+<td align="center" class="junction_gene">117 (0.740)</td><td align="center" class="junction_gene">intergenic&nbsp;(&#8209;202/+464)</td>
+<td align="center" class="junction_gene"><i>secA/hpf</i></td>
+<td class="junction_gene">preprotein translocase subunit SecA/ribosome hibernation&#8209;promoting factor, HPF/YfiA family</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_558.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_558.html">?</a></td>
+<td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">1672379&nbsp;=</td><td align="center" class="junction_gene">148 (0.940)</td><td rowspan="2" align="center">5 (0.030)</td>
+<td rowspan="2" align="center">5/272</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">3.3%</td>
+<td align="center" class="junction_gene">coding&nbsp;(841/849&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>glcT</i></td>
+<td class="junction_gene">glucose PTS transporter transcription antiterminator GlcT</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_558.html">?</a></td><td rowspan="1" class="junction_repeat">NC_002976</td>
+<td align="center" class="junction_repeat">1691782&nbsp;=</td>
+<td align="center" class="junction_repeat">NA (NA)</td><td align="center" class="junction_repeat">intergenic&nbsp;(&#8209;129/+50)</td>
+<td align="center" class="junction_repeat"><i>SERP_RS04600/SERP_RS04595</i></td>
+<td class="junction_repeat">CcdC family protein/IS256&#8209;like element IS256 family transposase</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_553.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_553.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NC_002976</td>
+<td align="center" class="junction_repeat">999305&nbsp;=</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">4 (0.030)</td>
+<td rowspan="2" align="center">4/272</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">2.7%</td>
+<td align="center" class="junction_repeat">intergenic&nbsp;(&#8209;1/&#8209;101)</td>
+<td align="center" class="junction_repeat"><i>SERP_RS07965/SERP_RS07960</i></td>
+<td class="junction_repeat">IS6&#8209;like element IS257 family transposase/IS256&#8209;like element IS256 family transposase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_553.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;1042910</td>
+<td align="center" class="junction_gene">142 (0.900)</td><td align="center" class="junction_gene">coding&nbsp;(388/1023&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>nrdF</i></td>
+<td class="junction_gene">class 1b ribonucleoside&#8209;diphosphate reductase subunit beta</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_550.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_550.html">?</a></td>
+<td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;805487</td><td align="center" class="junction_gene">178 (1.130)</td><td rowspan="2" align="center">7 (0.050)</td>
+<td rowspan="2" align="center">3/250</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">4.2%</td>
+<td align="center" class="junction_gene">coding&nbsp;(254/1440&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>SERP_RS08865</i></td>
+<td class="junction_gene">MDR family MFS transporter</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_550.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;805521</td>
+<td align="center" class="junction_gene">157 (1.090)</td><td align="center" class="junction_gene">coding&nbsp;(288/1440&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>SERP_RS08865</i></td>
+<td class="junction_gene">MDR family MFS transporter</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_549.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_549.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NC_002976</td>
+<td align="center" class="junction_repeat">=&nbsp;588490</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">8 (0.050)</td>
+<td rowspan="2" align="center">8/270</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">4.9%</td>
+<td align="center" class="junction_repeat">intergenic&nbsp;(+49/&#8209;202)</td>
+<td align="center" class="junction_repeat"><i>SERP_RS10015/SERP_RS10010</i></td>
+<td class="junction_repeat">IS256&#8209;like element IS256 family transposase/hypothetical protein</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_549.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;635148</td>
+<td align="center" class="junction_gene">156 (0.990)</td><td align="center" class="junction_gene">intergenic&nbsp;(&#8209;88/&#8209;153)</td>
+<td align="center" class="junction_gene"><i>SERP_RS09790/SERP_RS09785</i></td>
+<td class="junction_gene">NADPH:quinone oxidoreductase family protein/GNAT family N&#8209;acetyltransferase</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_548.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_548.html">?</a></td>
+<td rowspan="1" class="junction_repeat">NC_002976</td>
+<td align="center" class="junction_repeat">587169&nbsp;=</td><td align="center" class="junction_repeat">NA (NA)</td><td rowspan="2" align="center">3 (0.020)</td>
+<td rowspan="2" align="center">3/270</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">1.9%</td>
+<td align="center" class="junction_repeat">intergenic&nbsp;(&#8209;104/&#8209;100)</td>
+<td align="center" class="junction_repeat"><i>SERP_RS10020/SERP_RS10015</i></td>
+<td class="junction_repeat">glycerate kinase/IS256&#8209;like element IS256 family transposase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_548.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">635139&nbsp;=</td>
+<td align="center" class="junction_gene">157 (1.000)</td><td align="center" class="junction_gene">intergenic&nbsp;(&#8209;79/&#8209;162)</td>
+<td align="center" class="junction_gene"><i>SERP_RS09790/SERP_RS09785</i></td>
+<td class="junction_gene">NADPH:quinone oxidoreductase family protein/GNAT family N&#8209;acetyltransferase</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_547.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_547.html">?</a></td>
+<td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">546394&nbsp;=</td><td align="center" class="junction_gene">170 (1.080)</td><td rowspan="2" align="center">3 (0.020)</td>
+<td rowspan="2" align="center">3/264</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">1.7%</td>
+<td align="center" class="junction_gene">coding&nbsp;(1911/2166&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>SERP_RS10185</i></td>
+<td class="junction_gene">RNA degradosome polyphosphate kinase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_547.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">546479&nbsp;=</td>
+<td align="center" class="junction_gene">172 (1.130)</td><td align="center" class="junction_gene">coding&nbsp;(1826/2166&nbsp;nt)</td>
+<td align="center" class="junction_gene"><i>SERP_RS10185</i></td>
+<td class="junction_gene">RNA degradosome polyphosphate kinase</td>
+</tr>
+</table>
+</body></html>

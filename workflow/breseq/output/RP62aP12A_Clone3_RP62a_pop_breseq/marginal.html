@@ -1,0 +1,171 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html>
+<head>
+<title>BRESEQ :: Marginal Predictions</title>
+<style type = "text/css">
+body {font-family: sans-serif; font-size: 11pt;}
+th {background-color: rgb(0,0,0); color: rgb(255,255,255);}
+table {background-color: rgb(1,0,0); color: rgb(0,0,0);}
+tr {background-color: rgb(255,255,255);}
+.mutation_in_codon {color:red; text-decoration : underline;}
+.snp_type_synonymous{color:green;}
+.snp_type_nonsynonymous{color:blue;}
+.snp_type_nonsense{color:red;}
+.mutation_header_row {background-color: rgb(0,130,0);}
+.read_alignment_header_row {background-color: rgb(255,0,0);}
+.missing_coverage_header_row {background-color: rgb(0,100,100);}
+.new_junction_header_row {background-color: rgb(0,0,155);}
+.copy_number_header_row {background-color: rgb(153,102,0);}
+.alternate_table_row_0 {background-color: rgb(255,255,255);}
+.alternate_table_row_1 {background-color: rgb(235,235,235);}
+.gray_table_row {background-color: rgb(230,230,245);}
+.polymorphism_table_row {background-color: rgb(160,255,160);}
+.highlight_table_row {background-color: rgb(192,255,255);}
+.reject_table_row {background-color: rgb(255,200,165);}
+.user_defined_table_row {background-color: rgb(255,255,0);}
+.information_table_row {background-color: rgb(200,255,255);}
+.junction_repeat {background-color: rgb(255,165,0)}
+.junction_gene {}
+.hidden { display: none; }
+.unhidden { display: block; }
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript">
+  function hideTog(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+  function showTog(butID) {
+    var button = document.getElementById(butID);
+    if (button) {
+      button.value=(button.value=='Show')?'Hide':'Show';
+    }
+  }
+</script>
+
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="3">
+<tr>
+<td><a href="http://barricklab.org/breseq"><img src="evidence/breseq_small.png" /></a></td>
+<td width="100%">
+<b><i>breseq</i></b>&nbsp;&nbsp;version 0.38.1&nbsp;&nbsp;revision 0f01f7b949a1
+<br><a href="index.html">mutation predictions</a> | 
+<a href="marginal.html">marginal predictions</a> | 
+<a href="summary.html">summary statistics</a> | 
+<a href="output.gd">genome diff</a> | 
+<a href="log.txt">command line log</a>
+</td></tr></table>
+
+<p>
+<p>
+<table border="0" cellspacing="1" cellpadding="3">
+<tr><th colspan="12" align="left" class="new_junction_header_row">Marginal new junction evidence (sorted from low to high skew)</th></tr>
+<!-- Header Lines for New Junction -->
+<tr>
+<th colspan="2">&nbsp;</th>
+<th>seq&nbsp;id</th>
+<th>position</th>
+<th>reads&nbsp;(cov)</th>
+<th>reads&nbsp;(cov)</th>
+<th>score</th>
+<th>skew</th>
+<th>freq</th>
+<th>annotation</th>
+<th>gene</th>
+<th width="100%">product</th>
+</tr>
+
+<!-- Item Lines for New Junction -->
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_542.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_542.html">?</a></td>
+<td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;2433576</td><td align="center" class="junction_gene">186 (1.060)</td><td rowspan="2" align="center">7 (0.040)</td>
+<td rowspan="2" align="center">4/258</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">3.5%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(&#8209;82/+131)</td>
+<td align="center" class="junction_gene"><i>rplA/rplK</i></td>
+<td class="junction_gene">50S ribosomal protein L1/50S ribosomal protein L11</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_542.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;2433639</td>
+<td align="center" class="junction_gene">209 (1.270)</td><td align="center" class="junction_gene">intergenic&nbsp;(&#8209;145/+68)</td>
+<td align="center" class="junction_gene"><i>rplA/rplK</i></td>
+<td class="junction_gene">50S ribosomal protein L1/50S ribosomal protein L11</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_540.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_540.html">?</a></td>
+<td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;1798419</td><td align="center" class="junction_gene">180 (1.030)</td><td rowspan="2" align="center">3 (0.020)</td>
+<td rowspan="2" align="center">3/248</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">1.8%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(&#8209;623/+182)</td>
+<td align="center" class="junction_gene"><i>dprA/sucD</i></td>
+<td class="junction_gene">DNA&#8209;processing protein DprA/succinate&#8209;&#8209;CoA ligase subunit alpha</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_540.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;1798466</td>
+<td align="center" class="junction_gene">159 (1.000)</td><td align="center" class="junction_gene">intergenic&nbsp;(&#8209;670/+135)</td>
+<td align="center" class="junction_gene"><i>dprA/sucD</i></td>
+<td class="junction_gene">DNA&#8209;processing protein DprA/succinate&#8209;&#8209;CoA ligase subunit alpha</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="2"><a href="evidence/JC_534.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_534.html">?</a></td>
+<td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;1143766</td><td align="center" class="junction_gene">129 (0.740)</td><td rowspan="2" align="center">3 (0.020)</td>
+<td rowspan="2" align="center">3/232</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">2.9%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(+60/+126)</td>
+<td align="center" class="junction_gene"><i>SERP_RS07120/SERP_RS07115</i></td>
+<td class="junction_gene">membrane protein/metal&#8209;dependent hydrolase</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_0">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_534.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;1143776</td>
+<td align="center" class="junction_gene">94 (0.630)</td><td align="center" class="junction_gene">intergenic&nbsp;(+70/+116)</td>
+<td align="center" class="junction_gene"><i>SERP_RS07120/SERP_RS07115</i></td>
+<td class="junction_gene">membrane protein/metal&#8209;dependent hydrolase</td>
+</tr>
+<!-- Side 1 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="2"><a href="evidence/JC_531.html">*</a></td>
+<td rowspan="1"><a href="evidence/JC_SIDE_1_531.html">?</a></td>
+<td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;457953</td><td align="center" class="junction_gene">188 (1.070)</td><td rowspan="2" align="center">4 (0.030)</td>
+<td rowspan="2" align="center">3/240</td>
+<td rowspan="2" align="center">NT</td>
+<td rowspan="2" align="center">2.4%</td>
+<td align="center" class="junction_gene">intergenic&nbsp;(+13/+41)</td>
+<td align="center" class="junction_gene"><i>SERP_RS10590/copZ</i></td>
+<td class="junction_gene">D&#8209;lactate dehydrogenase/copper chaperone CopZ</td>
+</tr>
+<!-- Side 2 Item Lines for New Junction -->
+<tr class="mutation_table_row_1">
+<td rowspan="1"><a href="evidence/JC_SIDE_2_531.html">?</a></td><td rowspan="1" class="junction_gene">NC_002976</td>
+<td align="center" class="junction_gene">=&nbsp;457967</td>
+<td align="center" class="junction_gene">163 (1.060)</td><td align="center" class="junction_gene">intergenic&nbsp;(+27/+27)</td>
+<td align="center" class="junction_gene"><i>SERP_RS10590/copZ</i></td>
+<td class="junction_gene">D&#8209;lactate dehydrogenase/copper chaperone CopZ</td>
+</tr>
+</table>
+</body></html>

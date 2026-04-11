@@ -2,9 +2,11 @@ arguments = $(sample)
 executable = compressBreseqOutputs.sh
 
 log = log/compress_breseq_pop_$(sample).log
+error = err/compress_breseq_pop_$(sample).err
+output = out/compress_breseq_pop_$(sample).out
 
 request_cpus = 16
 request_memory = 48GB
 request_disk = 24GB
 
-queue sample from config/samplesheet.txt
+queue sample from config/samplesheet-full.txt
