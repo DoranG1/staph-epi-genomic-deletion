@@ -228,3 +228,54 @@
 	22  -  MemoryUsage of job (MB)
 	23212  -  ResidentSetSize of job (KB)
 ...
+006 (4914921.003.000) 2026-04-12 00:26:12 Image size of job updated: 265
+	265  -  MemoryUsage of job (MB)
+	271968  -  ResidentSetSize of job (KB)
+...
+006 (4914921.003.000) 2026-04-12 00:31:13 Image size of job updated: 275
+	275  -  MemoryUsage of job (MB)
+	281972  -  ResidentSetSize of job (KB)
+...
+006 (4914921.003.000) 2026-04-12 00:36:14 Image size of job updated: 276
+	276  -  MemoryUsage of job (MB)
+	282904  -  ResidentSetSize of job (KB)
+...
+006 (4914921.003.000) 2026-04-12 00:41:14 Image size of job updated: 310
+	310  -  MemoryUsage of job (MB)
+	318068  -  ResidentSetSize of job (KB)
+...
+006 (4914921.003.000) 2026-04-12 01:06:17 Image size of job updated: 326
+	326  -  MemoryUsage of job (MB)
+	334540  -  ResidentSetSize of job (KB)
+...
+006 (4914921.003.000) 2026-04-12 01:36:20 Image size of job updated: 2913
+	2913  -  MemoryUsage of job (MB)
+	2982912  -  ResidentSetSize of job (KB)
+...
+006 (4914921.003.000) 2026-04-12 02:06:24 Image size of job updated: 3654
+	3654  -  MemoryUsage of job (MB)
+	3742016  -  ResidentSetSize of job (KB)
+...
+040 (4914921.003.000) 2026-04-12 02:32:07 Started transferring output files
+...
+040 (4914921.003.000) 2026-04-12 02:32:07 Finished transferring output files
+...
+005 (4914921.003.000) 2026-04-12 02:32:08 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 02:31:20, Sys 0 08:52:59  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 02:31:20, Sys 0 08:52:59  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	103727  -  Run Bytes Sent By Job
+	437  -  Run Bytes Received By Job
+	103727  -  Total Bytes Sent By Job
+	437  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0       24        24 
+	   Disk (KB)            :      130 67108864  67108864 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :     3654   131072    131072 
+	   TimeExecute (s)      :    15373                    
+	   TimeSlotBusy (s)     :    15376                    
+...
