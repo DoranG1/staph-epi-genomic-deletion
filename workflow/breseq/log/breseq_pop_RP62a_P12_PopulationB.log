@@ -128,3 +128,103 @@
 	   TimeExecute (s)      :        1                    
 	   TimeSlotBusy (s)     :        4                    
 ...
+000 (4907029.002.000) 2026-04-11 16:13:18 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_8274_dab1>
+...
+040 (4907029.002.000) 2026-04-11 16:19:25 Started transferring input files
+	Transferring to host: <128.105.68.153:9618?addrs=128.105.68.153-9618&alias=mem2004.chtc.wisc.edu&noUDP&sock=slot2_5_2850716_0f4d_82533>
+...
+040 (4907029.002.000) 2026-04-11 16:19:25 Finished transferring input files
+...
+001 (4907029.002.000) 2026-04-11 16:19:28 Job executing on host: <128.105.68.153:9618?addrs=128.105.68.153-9618&alias=mem2004.chtc.wisc.edu&noUDP&sock=startd_9423_f903>
+	SlotName: slot2_5@mem2004.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot2/dir_1589101/scratch"
+	Cpus = 24
+	Disk = 67108864
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 131072
+...
+040 (4907029.002.000) 2026-04-11 16:19:29 Started transferring output files
+...
+040 (4907029.002.000) 2026-04-11 16:19:29 Finished transferring output files
+...
+005 (4907029.002.000) 2026-04-11 16:19:30 Job terminated.
+	(0) Abnormal termination (signal 6)
+	(0) No core file
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1682  -  Run Bytes Sent By Job
+	385  -  Run Bytes Received By Job
+	1682  -  Total Bytes Sent By Job
+	385  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.03       24        24 
+	   Disk (KB)            :    76    67108864  67108864 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :            131072    131072 
+	   TimeExecute (s)      :     1                       
+	   TimeSlotBusy (s)     :     4                       
+...
+000 (4907075.002.000) 2026-04-11 16:36:46 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_8274_dab1>
+...
+040 (4907075.002.000) 2026-04-11 17:15:08 Started transferring input files
+	Transferring to host: <128.105.68.153:9618?addrs=128.105.68.153-9618&alias=mem2004.chtc.wisc.edu&noUDP&sock=slot2_2_2850716_0f4d_82643>
+...
+040 (4907075.002.000) 2026-04-11 17:15:08 Finished transferring input files
+...
+001 (4907075.002.000) 2026-04-11 17:15:10 Job executing on host: <128.105.68.153:9618?addrs=128.105.68.153-9618&alias=mem2004.chtc.wisc.edu&noUDP&sock=startd_9423_f903>
+	SlotName: slot2_2@mem2004.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot2/dir_1653617/scratch"
+	Cpus = 24
+	Disk = 67108864
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 131072
+...
+040 (4907075.002.000) 2026-04-11 17:15:11 Started transferring output files
+...
+040 (4907075.002.000) 2026-04-11 17:15:11 Finished transferring output files
+...
+005 (4907075.002.000) 2026-04-11 17:15:12 Job terminated.
+	(0) Abnormal termination (signal 6)
+	(0) No core file
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1682  -  Run Bytes Sent By Job
+	385  -  Run Bytes Received By Job
+	1682  -  Total Bytes Sent By Job
+	385  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.04       24        24 
+	   Disk (KB)            :    76    67108864  67108864 
+	   GPUs                 :                           0 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :            131072    131072 
+	   TimeExecute (s)      :     1                       
+	   TimeSlotBusy (s)     :     4                       
+...
+000 (4914921.002.000) 2026-04-11 20:42:08 Job submitted from host: <128.105.68.113:9618?addrs=128.105.68.113-9618+[2607-f388-2200-100-eaeb-d3ff-fea7-d05e]-9618&alias=ap2002.chtc.wisc.edu&noUDP&sock=schedd_8274_dab1>
+...
+040 (4914921.002.000) 2026-04-11 21:36:53 Started transferring input files
+	Transferring to host: <128.105.68.152:9618?addrs=128.105.68.152-9618&alias=mem2003.chtc.wisc.edu&noUDP&sock=slot2_1_345050_b088_8123>
+...
+040 (4914921.002.000) 2026-04-11 21:36:53 Finished transferring input files
+...
+001 (4914921.002.000) 2026-04-11 21:36:55 Job executing on host: <128.105.68.152:9618?addrs=128.105.68.152-9618&alias=mem2003.chtc.wisc.edu&noUDP&sock=startd_344997_d329>
+	SlotName: slot2_1@mem2003.chtc.wisc.edu
+	CondorScratchDir = "/var/lib/condor/execute/slot2/dir_468121/scratch"
+	Cpus = 24
+	Disk = 67108864
+	GPUs = 0
+	IoHeavy = 0
+	Memory = 131072
+...
+006 (4914921.002.000) 2026-04-11 21:37:03 Image size of job updated: 22
+	22  -  MemoryUsage of job (MB)
+	23224  -  ResidentSetSize of job (KB)
+...
