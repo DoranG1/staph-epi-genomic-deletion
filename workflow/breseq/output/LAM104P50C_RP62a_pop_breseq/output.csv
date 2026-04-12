@@ -1,0 +1,3179 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html>
+<head>
+<title>Mutation Comparison</title>
+<style type = "text/css">
+body {font-family: sans-serif; font-size: 11pt;}
+th {background-color: rgb(0,0,0); color: rgb(255,255,255);}
+table {background-color: rgb(1,0,0); color: rgb(0,0,0);}
+tr {background-color: rgb(255,255,255);}
+.mutation_in_codon {color:red; text-decoration : underline;}
+.snp_type_synonymous{color:green;}
+.snp_type_nonsynonymous{color:blue;}
+.snp_type_nonsense{color:red;}
+.mutation_header_row {background-color: rgb(0,130,0);}
+.read_alignment_header_row {background-color: rgb(255,0,0);}
+.missing_coverage_header_row {background-color: rgb(0,100,100);}
+.new_junction_header_row {background-color: rgb(0,0,155);}
+.copy_number_header_row {background-color: rgb(153,102,0);}
+.alternate_table_row_0 {background-color: rgb(255,255,255);}
+.alternate_table_row_1 {background-color: rgb(235,235,235);}
+.gray_table_row {background-color: rgb(230,230,245);}
+.polymorphism_table_row {background-color: rgb(160,255,160);}
+.highlight_table_row {background-color: rgb(192,255,255);}
+.reject_table_row {background-color: rgb(255,200,165);}
+.user_defined_table_row {background-color: rgb(255,255,0);}
+.information_table_row {background-color: rgb(200,255,255);}
+.junction_repeat {background-color: rgb(255,165,0)}
+.junction_gene {}
+.hidden { display: none; }
+.unhidden { display: block; }
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript">
+  function hideTog(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+  function showTog(butID) {
+    var button = document.getElementById(butID);
+    if (button) {
+      button.value=(button.value=='Show')?'Hide':'Show';
+    }
+  }
+</script>
+
+</head>
+<body>
+<!--Output Html_Mutation_Table_String-->
+<table border="0" cellspacing="1" cellpadding="3">
+<tr><th colspan="6" align="left" class="mutation_header_row">Predicted mutations</th></tr><tr>
+<th>position</th>
+<th>mutation</th>
+<th>freq</th>
+<th>annotation</th>
+<th>gene</th>
+<th width="100%">description</th>
+</tr>
+
+<!-- Item Lines -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">97,992</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center">pseudogene&nbsp;(134/144&nbsp;nt)</td>
+<td align="center"><i>SERP_RS12075</i>&nbsp;&rarr;</td>
+<td align="left">type I restriction&#8209;modification system subunit M  N&#8209;terminal domain&#8209;containing protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">98,212</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center">intergenic&nbsp;(+210/&#8209;775)</td>
+<td align="center"><i>SERP_RS12075</i>&nbsp;&rarr;&nbsp;/&nbsp;&rarr;&nbsp;<i>cas1</i></td>
+<td align="left">type I restriction&#8209;modification system subunit M  N&#8209;terminal domain&#8209;containing protein/type II CRISPR&#8209;associated endonuclease Cas1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">98,665</td><!-- Position -->
+<td align="center">270&nbsp;bp&rarr;TACC</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center">intergenic&nbsp;(+663/&#8209;53)</td>
+<td align="center"><i>SERP_RS12075</i>&nbsp;&rarr;&nbsp;/&nbsp;&rarr;&nbsp;<i>cas1</i></td>
+<td align="left">type I restriction&#8209;modification system subunit M  N&#8209;terminal domain&#8209;containing protein/type II CRISPR&#8209;associated endonuclease Cas1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">329,595</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center">intergenic&nbsp;(&#8209;76/&#8209;223)</td>
+<td align="center"><i>SERP_RS11125</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>SERP_RS11120</i></td>
+<td align="left">beta&#8209;class phenol&#8209;soluble modulin/(S)&#8209;acetoin forming diacetyl reductase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">329,796</td><!-- Position -->
+<td align="center">G&rarr;T</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center">intergenic&nbsp;(&#8209;277/&#8209;22)</td>
+<td align="center"><i>SERP_RS11125</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>SERP_RS11120</i></td>
+<td align="left">beta&#8209;class phenol&#8209;soluble modulin/(S)&#8209;acetoin forming diacetyl reductase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">353,973</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="right">21.0%</td>
+<td align="center">pseudogene&nbsp;(32/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">353,974</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">20.0%</td>
+<td align="center">pseudogene&nbsp;(33/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">353,981</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">19.3%</td>
+<td align="center">pseudogene&nbsp;(40/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">353,982</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">19.3%</td>
+<td align="center">pseudogene&nbsp;(41/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">353,991</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">37.8%</td>
+<td align="center">pseudogene&nbsp;(50/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">353,998</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">38.0%</td>
+<td align="center">pseudogene&nbsp;(57/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,001</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">36.1%</td>
+<td align="center">pseudogene&nbsp;(60/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,003</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">36.9%</td>
+<td align="center">pseudogene&nbsp;(62/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,012</td><!-- Position -->
+<td align="center">G&rarr;C</td><!-- Cell Mutation -->
+<td align="right">65.8%</td>
+<td align="center">pseudogene&nbsp;(71/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,013</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">65.8%</td>
+<td align="center">pseudogene&nbsp;(72/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,031</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">70.6%</td>
+<td align="center">pseudogene&nbsp;(90/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,041</td><!-- Position -->
+<td align="center">G&rarr;T</td><!-- Cell Mutation -->
+<td align="right">71.5%</td>
+<td align="center">pseudogene&nbsp;(100/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,042</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="right">71.5%</td>
+<td align="center">pseudogene&nbsp;(101/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,059</td><!-- Position -->
+<td align="center">C&rarr;A</td><!-- Cell Mutation -->
+<td align="right">77.3%</td>
+<td align="center">pseudogene&nbsp;(118/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,061</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">77.3%</td>
+<td align="center">pseudogene&nbsp;(120/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,064</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">77.5%</td>
+<td align="center">pseudogene&nbsp;(123/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,067</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">77.8%</td>
+<td align="center">pseudogene&nbsp;(126/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,070</td><!-- Position -->
+<td align="center">G&rarr;T</td><!-- Cell Mutation -->
+<td align="right">77.9%</td>
+<td align="center">pseudogene&nbsp;(129/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,085</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">78.5%</td>
+<td align="center">pseudogene&nbsp;(144/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,116</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">77.8%</td>
+<td align="center">pseudogene&nbsp;(175/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,119</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">77.7%</td>
+<td align="center">pseudogene&nbsp;(178/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,121</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">77.2%</td>
+<td align="center">pseudogene&nbsp;(180/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,135</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">77.2%</td>
+<td align="center">pseudogene&nbsp;(194/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,139</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">77.2%</td>
+<td align="center">pseudogene&nbsp;(198/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,157</td><!-- Position -->
+<td align="center">C&rarr;G</td><!-- Cell Mutation -->
+<td align="right">71.6%</td>
+<td align="center">pseudogene&nbsp;(216/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,176:1</td><!-- Position -->
+<td align="center">+A</td><!-- Cell Mutation -->
+<td align="right">67.7%</td>
+<td align="center">pseudogene&nbsp;(235/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,183</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">62.0%</td>
+<td align="center">pseudogene&nbsp;(242/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,192</td><!-- Position -->
+<td align="center">G&rarr;T</td><!-- Cell Mutation -->
+<td align="right">52.2%</td>
+<td align="center">pseudogene&nbsp;(251/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">354,192:1</td><!-- Position -->
+<td align="center">+T</td><!-- Cell Mutation -->
+<td align="right">51.2%</td>
+<td align="center">pseudogene&nbsp;(251/272&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14240</i>&nbsp;&rarr;</td>
+<td align="left">plasmid mobilization protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">358,829</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">6.0%</td>
+<td align="center">intergenic&nbsp;(&#8209;91/+269)</td>
+<td align="center"><i>SERP_RS10990</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS10985</i></td>
+<td align="left">CadD family cadmium resistance transporter/universal stress protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">358,837</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">7.6%</td>
+<td align="center">intergenic&nbsp;(&#8209;99/+261)</td>
+<td align="center"><i>SERP_RS10990</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS10985</i></td>
+<td align="left">CadD family cadmium resistance transporter/universal stress protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">358,853</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">8.2%</td>
+<td align="center">intergenic&nbsp;(&#8209;115/+245)</td>
+<td align="center"><i>SERP_RS10990</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS10985</i></td>
+<td align="left">CadD family cadmium resistance transporter/universal stress protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">358,855</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="right">8.1%</td>
+<td align="center">intergenic&nbsp;(&#8209;117/+243)</td>
+<td align="center"><i>SERP_RS10990</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS10985</i></td>
+<td align="left">CadD family cadmium resistance transporter/universal stress protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">358,878</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">6.7%</td>
+<td align="center">intergenic&nbsp;(&#8209;140/+220)</td>
+<td align="center"><i>SERP_RS10990</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS10985</i></td>
+<td align="left">CadD family cadmium resistance transporter/universal stress protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">359,668</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">86.6%</td>
+<td align="center"><font class="snp_type_synonymous">A223A</font>&nbsp;(GC<font class="mutation_in_codon">G</font>&rarr;GC<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>SERP_RS10980</i>&nbsp;&larr;</td>
+<td align="left">IS6&#8209;like element IS257 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">360,197</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">61.6%</td>
+<td align="center"><font class="snp_type_nonsynonymous">V47I</font>&nbsp;(<font class="mutation_in_codon">G</font>TC&rarr;<font class="mutation_in_codon">A</font>TC)&nbsp;</td>
+<td align="center"><i>SERP_RS10980</i>&nbsp;&larr;</td>
+<td align="left">IS6&#8209;like element IS257 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">360,228</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">77.5%</td>
+<td align="center"><font class="snp_type_synonymous">R36R</font>&nbsp;(AG<font class="mutation_in_codon">G</font>&rarr;AG<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>SERP_RS10980</i>&nbsp;&larr;</td>
+<td align="left">IS6&#8209;like element IS257 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">360,255</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">82.5%</td>
+<td align="center"><font class="snp_type_synonymous">S27S</font>&nbsp;(AG<font class="mutation_in_codon">T</font>&rarr;AG<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>SERP_RS10980</i>&nbsp;&larr;</td>
+<td align="left">IS6&#8209;like element IS257 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">401,478:1</td><!-- Position -->
+<td align="center">+T</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center">intergenic&nbsp;(+75/&#8209;288)</td>
+<td align="center"><i>nrdG</i>&nbsp;&rarr;&nbsp;/&nbsp;&rarr;&nbsp;<i>SERP_RS10805</i></td>
+<td align="left">anaerobic ribonucleoside&#8209;triphosphate reductase  activating protein/anaerobic C4&#8209;dicarboxylate transporter</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">626,695:1</td><!-- Position -->
+<td align="center">+A</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center">intergenic&nbsp;(&#8209;417/+745)</td>
+<td align="center"><i>rsp</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS09835</i></td>
+<td align="left">AraC family transcriptional regulator Rsp/YbgA family protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">891,748</td><!-- Position -->
+<td align="center">&Delta;1&nbsp;bp</td><!-- Cell Mutation -->
+<td align="right">14.5%</td>
+<td align="center">coding&nbsp;(676/1002&nbsp;nt)</td>
+<td align="center"><i>SERP_RS08410</i>&nbsp;&rarr;</td>
+<td align="left">PP2C family protein&#8209;serine/threonine phosphatase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">891,749</td><!-- Position -->
+<td align="center">&Delta;1&nbsp;bp</td><!-- Cell Mutation -->
+<td align="right">15.4%</td>
+<td align="center">coding&nbsp;(677/1002&nbsp;nt)</td>
+<td align="center"><i>SERP_RS08410</i>&nbsp;&rarr;</td>
+<td align="left">PP2C family protein&#8209;serine/threonine phosphatase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">892,039</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">7.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">D323N</font>&nbsp;(<font class="mutation_in_codon">G</font>AT&rarr;<font class="mutation_in_codon">A</font>AT)&nbsp;</td>
+<td align="center"><i>SERP_RS08410</i>&nbsp;&rarr;</td>
+<td align="left">PP2C family protein&#8209;serine/threonine phosphatase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">893,095</td><!-- Position -->
+<td align="center">C&rarr;A</td><!-- Cell Mutation -->
+<td align="right">24.9%</td>
+<td align="center"><font class="snp_type_nonsynonymous">A47D</font>&nbsp;(G<font class="mutation_in_codon">C</font>T&rarr;G<font class="mutation_in_codon">A</font>T)&nbsp;</td>
+<td align="center"><i>sigB</i>&nbsp;&rarr;</td>
+<td align="left">RNA polymerase sigma factor SigB</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,006,623</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">53.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">A95T</font>&nbsp;(<font class="mutation_in_codon">G</font>CA&rarr;<font class="mutation_in_codon">A</font>CA)&nbsp;</td>
+<td align="center"><i>SERP_RS07920</i>&nbsp;&larr;</td>
+<td align="left">IS6&#8209;like element IS257 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,006,669</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">58.3%</td>
+<td align="center"><font class="snp_type_synonymous">Y79Y</font>&nbsp;(TA<font class="mutation_in_codon">C</font>&rarr;TA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>SERP_RS07920</i>&nbsp;&larr;</td>
+<td align="left">IS6&#8209;like element IS257 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,006,855</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">63.5%</td>
+<td align="center"><font class="snp_type_synonymous">A17A</font>&nbsp;(GC<font class="mutation_in_codon">C</font>&rarr;GC<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>SERP_RS07920</i>&nbsp;&larr;</td>
+<td align="left">IS6&#8209;like element IS257 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">1,031,111</td><!-- Position -->
+<td align="center">&Delta;1&nbsp;bp</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center">coding&nbsp;(172/174&nbsp;nt)</td>
+<td align="center"><i>SERP_RS14205</i>&nbsp;&rarr;</td>
+<td align="left">hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,056,841</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">29.3%</td>
+<td align="center"><font class="snp_type_nonsynonymous">V192E</font>&nbsp;(G<font class="mutation_in_codon">T</font>A&rarr;G<font class="mutation_in_codon">A</font>A)&nbsp;</td>
+<td align="center"><i>agrC</i>&nbsp;&larr;</td>
+<td align="left">quorum&#8209;sensing sensor histidine kinase AgrC</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,754</td><!-- Position -->
+<td align="center">C&rarr;A</td><!-- Cell Mutation -->
+<td align="right">88.4%</td>
+<td align="center">intergenic&nbsp;(&#8209;311/+3)</td>
+<td align="center"><i>SERP_RS07385</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>blaZ</i></td>
+<td align="left">YolD&#8209;like family protein/penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,765</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.4%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K280E</font>&nbsp;(<font class="mutation_in_codon">A</font>AA&rarr;<font class="mutation_in_codon">G</font>AA)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,766</td><!-- Position -->
+<td align="center">G&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.4%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N279K</font>&nbsp;(AA<font class="mutation_in_codon">C</font>&rarr;AA<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,769</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.7%</td>
+<td align="center"><font class="snp_type_nonsynonymous">I278M</font>&nbsp;(AT<font class="mutation_in_codon">A</font>&rarr;AT<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,776</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">88.4%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N276S</font>&nbsp;(A<font class="mutation_in_codon">A</font>T&rarr;A<font class="mutation_in_codon">G</font>T)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,799</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.6%</td>
+<td align="center"><font class="snp_type_synonymous">K268K</font>&nbsp;(AA<font class="mutation_in_codon">A</font>&rarr;AA<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,808</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.7%</td>
+<td align="center"><font class="snp_type_synonymous">P265P</font>&nbsp;(CC<font class="mutation_in_codon">T</font>&rarr;CC<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,811</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.5%</td>
+<td align="center"><font class="snp_type_synonymous">K264K</font>&nbsp;(AA<font class="mutation_in_codon">A</font>&rarr;AA<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,852</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.8%</td>
+<td align="center"><font class="snp_type_nonsynonymous">I251V</font>&nbsp;(<font class="mutation_in_codon">A</font>TT&rarr;<font class="mutation_in_codon">G</font>TT)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,869</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.3%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N245S</font>&nbsp;(A<font class="mutation_in_codon">A</font>C&rarr;A<font class="mutation_in_codon">G</font>C)&nbsp;&Dagger;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,870</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N245D</font>&nbsp;(<font class="mutation_in_codon">A</font>AC&rarr;<font class="mutation_in_codon">G</font>AC)&nbsp;&Dagger;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,889</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">88.1%</td>
+<td align="center"><font class="snp_type_synonymous">V238V</font>&nbsp;(GT<font class="mutation_in_codon">A</font>&rarr;GT<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,944</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.8%</td>
+<td align="center"><font class="snp_type_nonsynonymous">Y220C</font>&nbsp;(T<font class="mutation_in_codon">A</font>T&rarr;T<font class="mutation_in_codon">G</font>T)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,954</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">88.9%</td>
+<td align="center"><font class="snp_type_nonsynonymous">P217S</font>&nbsp;(<font class="mutation_in_codon">C</font>CA&rarr;<font class="mutation_in_codon">T</font>CA)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,961</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">89.9%</td>
+<td align="center"><font class="snp_type_synonymous">D214D</font>&nbsp;(GA<font class="mutation_in_codon">T</font>&rarr;GA<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,976</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">90.6%</td>
+<td align="center"><font class="snp_type_synonymous">D209D</font>&nbsp;(GA<font class="mutation_in_codon">C</font>&rarr;GA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,088,983</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">90.8%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N207S</font>&nbsp;(A<font class="mutation_in_codon">A</font>C&rarr;A<font class="mutation_in_codon">G</font>C)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,015</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">90.1%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N196K</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,021</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">90.0%</td>
+<td align="center"><font class="snp_type_synonymous">N194N</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,026</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">89.8%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K193E</font>&nbsp;(<font class="mutation_in_codon">A</font>AA&rarr;<font class="mutation_in_codon">G</font>AA)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,069</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">91.0%</td>
+<td align="center"><font class="snp_type_synonymous">G178G</font>&nbsp;(GG<font class="mutation_in_codon">C</font>&rarr;GG<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,084</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">88.5%</td>
+<td align="center"><font class="snp_type_synonymous">T173T</font>&nbsp;(AC<font class="mutation_in_codon">G</font>&rarr;AC<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,132</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.8%</td>
+<td align="center"><font class="snp_type_synonymous">E157E</font>&nbsp;(GA<font class="mutation_in_codon">A</font>&rarr;GA<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,165</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.4%</td>
+<td align="center"><font class="snp_type_synonymous">L146L</font>&nbsp;(TT<font class="mutation_in_codon">G</font>&rarr;TT<font class="mutation_in_codon">A</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,167</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">87.5%</td>
+<td align="center"><font class="snp_type_synonymous">L146L</font>&nbsp;(<font class="mutation_in_codon">T</font>TG&rarr;<font class="mutation_in_codon">C</font>TG)&nbsp;&Dagger;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,170</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.4%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K145E</font>&nbsp;(<font class="mutation_in_codon">A</font>AA&rarr;<font class="mutation_in_codon">G</font>AA)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,176</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.2%</td>
+<td align="center"><font class="snp_type_synonymous">L143L</font>&nbsp;(<font class="mutation_in_codon">T</font>TA&rarr;<font class="mutation_in_codon">C</font>TA)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,182</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.0%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K141Q</font>&nbsp;(<font class="mutation_in_codon">A</font>AA&rarr;<font class="mutation_in_codon">C</font>AA)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,188</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">I139V</font>&nbsp;(<font class="mutation_in_codon">A</font>TT&rarr;<font class="mutation_in_codon">G</font>TT)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,204</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">87.8%</td>
+<td align="center"><font class="snp_type_synonymous">I133I</font>&nbsp;(AT<font class="mutation_in_codon">C</font>&rarr;AT<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,210</td><!-- Position -->
+<td align="center">G&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.9%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N131K</font>&nbsp;(AA<font class="mutation_in_codon">C</font>&rarr;AA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,246</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">86.1%</td>
+<td align="center"><font class="snp_type_synonymous">K119K</font>&nbsp;(AA<font class="mutation_in_codon">G</font>&rarr;AA<font class="mutation_in_codon">A</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,247</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">85.8%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K119T</font>&nbsp;(A<font class="mutation_in_codon">A</font>G&rarr;A<font class="mutation_in_codon">C</font>G)&nbsp;&Dagger;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,248</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">85.9%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K119E</font>&nbsp;(<font class="mutation_in_codon">A</font>AG&rarr;<font class="mutation_in_codon">G</font>AG)&nbsp;&Dagger;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,347</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">86.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">V86I</font>&nbsp;(<font class="mutation_in_codon">G</font>TA&rarr;<font class="mutation_in_codon">A</font>TA)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,414</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.8%</td>
+<td align="center"><font class="snp_type_synonymous">S63S</font>&nbsp;(TC<font class="mutation_in_codon">A</font>&rarr;TC<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,438</td><!-- Position -->
+<td align="center">G&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.8%</td>
+<td align="center"><font class="snp_type_synonymous">A55A</font>&nbsp;(GC<font class="mutation_in_codon">C</font>&rarr;GC<font class="mutation_in_codon">A</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,440</td><!-- Position -->
+<td align="center">C&rarr;A</td><!-- Cell Mutation -->
+<td align="right">87.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">A55S</font>&nbsp;(<font class="mutation_in_codon">G</font>CC&rarr;<font class="mutation_in_codon">T</font>CC)&nbsp;&Dagger;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,477</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">87.2%</td>
+<td align="center"><font class="snp_type_synonymous">A42A</font>&nbsp;(GC<font class="mutation_in_codon">A</font>&rarr;GC<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,483</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">88.7%</td>
+<td align="center"><font class="snp_type_synonymous">V40V</font>&nbsp;(GT<font class="mutation_in_codon">C</font>&rarr;GT<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,494</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.0%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N37H</font>&nbsp;(<font class="mutation_in_codon">A</font>AT&rarr;<font class="mutation_in_codon">C</font>AT)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">1,089,507</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center"><font class="snp_type_synonymous">K32K</font>&nbsp;(AA<font class="mutation_in_codon">G</font>&rarr;AA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,518</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.7%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N29D</font>&nbsp;(<font class="mutation_in_codon">A</font>AT&rarr;<font class="mutation_in_codon">G</font>AT)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,531</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.3%</td>
+<td align="center"><font class="snp_type_synonymous">A24A</font>&nbsp;(GC<font class="mutation_in_codon">T</font>&rarr;GC<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,544</td><!-- Position -->
+<td align="center">G&rarr;T</td><!-- Cell Mutation -->
+<td align="right">88.1%</td>
+<td align="center"><font class="snp_type_nonsynonymous">T20N</font>&nbsp;(A<font class="mutation_in_codon">C</font>C&rarr;A<font class="mutation_in_codon">A</font>C)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,587</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">86.4%</td>
+<td align="center"><font class="snp_type_nonsynonymous">L6F</font>&nbsp;(<font class="mutation_in_codon">C</font>TT&rarr;<font class="mutation_in_codon">T</font>TT)&nbsp;</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;</td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,607</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">87.3%</td>
+<td align="center">intergenic&nbsp;(&#8209;5/&#8209;102)</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>blaR1</i></td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ/beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">1,089,634</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center">intergenic&nbsp;(&#8209;32/&#8209;75)</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>blaR1</i></td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ/beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,637</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">86.5%</td>
+<td align="center">intergenic&nbsp;(&#8209;35/&#8209;72)</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>blaR1</i></td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ/beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,642</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.1%</td>
+<td align="center">intergenic&nbsp;(&#8209;40/&#8209;67)</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>blaR1</i></td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ/beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,666</td><!-- Position -->
+<td align="center">C&rarr;G</td><!-- Cell Mutation -->
+<td align="right">86.7%</td>
+<td align="center">intergenic&nbsp;(&#8209;64/&#8209;43)</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>blaR1</i></td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ/beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,668</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">86.7%</td>
+<td align="center">intergenic&nbsp;(&#8209;66/&#8209;41)</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>blaR1</i></td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ/beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,675</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">85.9%</td>
+<td align="center">intergenic&nbsp;(&#8209;73/&#8209;34)</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>blaR1</i></td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ/beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,690</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">85.6%</td>
+<td align="center">intergenic&nbsp;(&#8209;88/&#8209;19)</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>blaR1</i></td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ/beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,705</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">86.6%</td>
+<td align="center">intergenic&nbsp;(&#8209;103/&#8209;4)</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>blaR1</i></td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ/beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,706</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">86.3%</td>
+<td align="center">intergenic&nbsp;(&#8209;104/&#8209;3)</td>
+<td align="center"><i>blaZ</i>&nbsp;&larr;&nbsp;/&nbsp;&rarr;&nbsp;<i>blaR1</i></td>
+<td align="left">penicillin&#8209;hydrolyzing class A beta&#8209;lactamase BlaZ/beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,717</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">87.9%</td>
+<td align="center"><font class="snp_type_synonymous">K3K</font>&nbsp;(AA<font class="mutation_in_codon">G</font>&rarr;AA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,721</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.4%</td>
+<td align="center"><font class="snp_type_synonymous">L5L</font>&nbsp;(<font class="mutation_in_codon">T</font>TA&rarr;<font class="mutation_in_codon">C</font>TA)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,733</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">I9V</font>&nbsp;(<font class="mutation_in_codon">A</font>TA&rarr;<font class="mutation_in_codon">G</font>TA)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,766</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.1%</td>
+<td align="center"><font class="snp_type_nonsynonymous">L20V</font>&nbsp;(<font class="mutation_in_codon">T</font>TA&rarr;<font class="mutation_in_codon">G</font>TA)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,780</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">88.1%</td>
+<td align="center"><font class="snp_type_synonymous">Y24Y</font>&nbsp;(TA<font class="mutation_in_codon">C</font>&rarr;TA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,806</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.4%</td>
+<td align="center"><font class="snp_type_nonsynonymous">M33R</font>&nbsp;(A<font class="mutation_in_codon">T</font>G&rarr;A<font class="mutation_in_codon">G</font>G)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,807</td><!-- Position -->
+<td align="center">G&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.6%</td>
+<td align="center"><font class="snp_type_nonsynonymous">M33I</font>&nbsp;(AT<font class="mutation_in_codon">G</font>&rarr;AT<font class="mutation_in_codon">T</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,835</td><!-- Position -->
+<td align="center">C&rarr;G</td><!-- Cell Mutation -->
+<td align="right">86.0%</td>
+<td align="center"><font class="snp_type_nonsynonymous">L43V</font>&nbsp;(<font class="mutation_in_codon">C</font>TT&rarr;<font class="mutation_in_codon">G</font>TT)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,837</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">85.4%</td>
+<td align="center"><font class="snp_type_synonymous">L43L</font>&nbsp;(CT<font class="mutation_in_codon">T</font>&rarr;CT<font class="mutation_in_codon">G</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,843</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">84.6%</td>
+<td align="center"><font class="snp_type_synonymous">A45A</font>&nbsp;(GC<font class="mutation_in_codon">A</font>&rarr;GC<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,858</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">83.6%</td>
+<td align="center"><font class="snp_type_synonymous">F50F</font>&nbsp;(TT<font class="mutation_in_codon">C</font>&rarr;TT<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,864</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">82.9%</td>
+<td align="center"><font class="snp_type_synonymous">P52P</font>&nbsp;(CC<font class="mutation_in_codon">T</font>&rarr;CC<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,880</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">82.9%</td>
+<td align="center"><font class="snp_type_nonsynonymous">F58I</font>&nbsp;(<font class="mutation_in_codon">T</font>TT&rarr;<font class="mutation_in_codon">A</font>TT)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,882</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">83.0%</td>
+<td align="center"><font class="snp_type_nonsynonymous">F58L</font>&nbsp;(TT<font class="mutation_in_codon">T</font>&rarr;TT<font class="mutation_in_codon">A</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,895</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">83.6%</td>
+<td align="center"><font class="snp_type_nonsynonymous">L63V</font>&nbsp;(<font class="mutation_in_codon">T</font>TG&rarr;<font class="mutation_in_codon">G</font>TG)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,907</td><!-- Position -->
+<td align="center">G&rarr;T</td><!-- Cell Mutation -->
+<td align="right">83.8%</td>
+<td align="center"><font class="snp_type_nonsense">E67*</font>&nbsp;(<font class="mutation_in_codon">G</font>AG&rarr;<font class="mutation_in_codon">T</font>AG)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,908</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="right">83.6%</td>
+<td align="center"><font class="snp_type_nonsynonymous">E67A</font>&nbsp;(G<font class="mutation_in_codon">A</font>G&rarr;G<font class="mutation_in_codon">C</font>G)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,926</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">82.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N73S</font>&nbsp;(A<font class="mutation_in_codon">A</font>T&rarr;A<font class="mutation_in_codon">G</font>T)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,927</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">82.4%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N73K</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">G</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,934</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">83.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N76D</font>&nbsp;(<font class="mutation_in_codon">A</font>AT&rarr;<font class="mutation_in_codon">G</font>AT)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,936</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">82.7%</td>
+<td align="center"><font class="snp_type_synonymous">N76N</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">C</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,942</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">80.4%</td>
+<td align="center"><font class="snp_type_synonymous">N78N</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,944</td><!-- Position -->
+<td align="center">C&rarr;A</td><!-- Cell Mutation -->
+<td align="right">81.0%</td>
+<td align="center"><font class="snp_type_nonsynonymous">P79H</font>&nbsp;(C<font class="mutation_in_codon">C</font>T&rarr;C<font class="mutation_in_codon">A</font>T)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,960</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">82.7%</td>
+<td align="center"><font class="snp_type_synonymous">T84T</font>&nbsp;(AC<font class="mutation_in_codon">T</font>&rarr;AC<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,972</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">84.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">H88Q</font>&nbsp;(CA<font class="mutation_in_codon">T</font>&rarr;CA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,978</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">85.6%</td>
+<td align="center"><font class="snp_type_synonymous">F90F</font>&nbsp;(TT<font class="mutation_in_codon">T</font>&rarr;TT<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,089,987</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.7%</td>
+<td align="center"><font class="snp_type_synonymous">D93D</font>&nbsp;(GA<font class="mutation_in_codon">C</font>&rarr;GA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,014</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">89.0%</td>
+<td align="center"><font class="snp_type_synonymous">I102I</font>&nbsp;(AT<font class="mutation_in_codon">A</font>&rarr;AT<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,047</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">86.8%</td>
+<td align="center"><font class="snp_type_synonymous">L113L</font>&nbsp;(TT<font class="mutation_in_codon">A</font>&rarr;TT<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,074</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">86.8%</td>
+<td align="center"><font class="snp_type_synonymous">L122L</font>&nbsp;(TT<font class="mutation_in_codon">A</font>&rarr;TT<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,077</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">86.8%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N123K</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,080</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.0%</td>
+<td align="center"><font class="snp_type_synonymous">S124S</font>&nbsp;(TC<font class="mutation_in_codon">T</font>&rarr;TC<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,095</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">86.6%</td>
+<td align="center"><font class="snp_type_synonymous">K129K</font>&nbsp;(AA<font class="mutation_in_codon">G</font>&rarr;AA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,106</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.1%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K133R</font>&nbsp;(A<font class="mutation_in_codon">A</font>A&rarr;A<font class="mutation_in_codon">G</font>A)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,125</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.8%</td>
+<td align="center"><font class="snp_type_synonymous">N139N</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,131</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.6%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K141N</font>&nbsp;(AA<font class="mutation_in_codon">A</font>&rarr;AA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">1,090,138</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center"><font class="snp_type_nonsynonymous">D144N</font>&nbsp;(<font class="mutation_in_codon">G</font>AT&rarr;<font class="mutation_in_codon">A</font>AT)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,147</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">87.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N147D</font>&nbsp;(<font class="mutation_in_codon">A</font>AC&rarr;<font class="mutation_in_codon">G</font>AC)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,149</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.4%</td>
+<td align="center"><font class="snp_type_synonymous">N147N</font>&nbsp;(AA<font class="mutation_in_codon">C</font>&rarr;AA<font class="mutation_in_codon">T</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,151</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K148T</font>&nbsp;(A<font class="mutation_in_codon">A</font>G&rarr;A<font class="mutation_in_codon">C</font>G)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,164</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">88.2%</td>
+<td align="center"><font class="snp_type_synonymous">N152N</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">1,090,178</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center"><font class="snp_type_nonsynonymous">R157K</font>&nbsp;(A<font class="mutation_in_codon">G</font>A&rarr;A<font class="mutation_in_codon">A</font>A)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,203</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">86.7%</td>
+<td align="center"><font class="snp_type_synonymous">E165E</font>&nbsp;(GA<font class="mutation_in_codon">A</font>&rarr;GA<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,204</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">86.1%</td>
+<td align="center"><font class="snp_type_nonsynonymous">S166T</font>&nbsp;(<font class="mutation_in_codon">T</font>CT&rarr;<font class="mutation_in_codon">A</font>CT)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,212</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">87.4%</td>
+<td align="center"><font class="snp_type_nonsynonymous">H168Q</font>&nbsp;(CA<font class="mutation_in_codon">T</font>&rarr;CA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,236</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">87.8%</td>
+<td align="center"><font class="snp_type_synonymous">G176G</font>&nbsp;(GG<font class="mutation_in_codon">A</font>&rarr;GG<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,257</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.3%</td>
+<td align="center"><font class="snp_type_synonymous">P183P</font>&nbsp;(CC<font class="mutation_in_codon">C</font>&rarr;CC<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,262</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">L185S</font>&nbsp;(T<font class="mutation_in_codon">T</font>A&rarr;T<font class="mutation_in_codon">C</font>A)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,276</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">87.3%</td>
+<td align="center"><font class="snp_type_nonsynonymous">I190V</font>&nbsp;(<font class="mutation_in_codon">A</font>TA&rarr;<font class="mutation_in_codon">G</font>TA)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,280</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N191I</font>&nbsp;(A<font class="mutation_in_codon">A</font>T&rarr;A<font class="mutation_in_codon">T</font>T)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,289</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">87.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K194R</font>&nbsp;(A<font class="mutation_in_codon">A</font>A&rarr;A<font class="mutation_in_codon">G</font>A)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,311</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">86.7%</td>
+<td align="center"><font class="snp_type_synonymous">H201H</font>&nbsp;(CA<font class="mutation_in_codon">C</font>&rarr;CA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,314</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">84.7%</td>
+<td align="center"><font class="snp_type_synonymous">E202E</font>&nbsp;(GA<font class="mutation_in_codon">G</font>&rarr;GA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,332</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.4%</td>
+<td align="center"><font class="snp_type_synonymous">N208N</font>&nbsp;(AA<font class="mutation_in_codon">C</font>&rarr;AA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,344</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">86.6%</td>
+<td align="center"><font class="snp_type_synonymous">L212L</font>&nbsp;(TT<font class="mutation_in_codon">G</font>&rarr;TT<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,360</td><!-- Position -->
+<td align="center">C&rarr;A</td><!-- Cell Mutation -->
+<td align="right">84.7%</td>
+<td align="center"><font class="snp_type_nonsynonymous">H218N</font>&nbsp;(<font class="mutation_in_codon">C</font>AT&rarr;<font class="mutation_in_codon">A</font>AT)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,365</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">84.7%</td>
+<td align="center"><font class="snp_type_synonymous">I219I</font>&nbsp;(AT<font class="mutation_in_codon">T</font>&rarr;AT<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,368</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">84.7%</td>
+<td align="center"><font class="snp_type_synonymous">F220F</font>&nbsp;(TT<font class="mutation_in_codon">T</font>&rarr;TT<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,376</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.6%</td>
+<td align="center"><font class="snp_type_nonsynonymous">A223V</font>&nbsp;(G<font class="mutation_in_codon">C</font>T&rarr;G<font class="mutation_in_codon">T</font>T)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,386</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.1%</td>
+<td align="center"><font class="snp_type_synonymous">Y226Y</font>&nbsp;(TA<font class="mutation_in_codon">T</font>&rarr;TA<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,393</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.6%</td>
+<td align="center"><font class="snp_type_synonymous">L229L</font>&nbsp;(<font class="mutation_in_codon">C</font>TA&rarr;<font class="mutation_in_codon">T</font>TA)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,401</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">Q231H</font>&nbsp;(CA<font class="mutation_in_codon">A</font>&rarr;CA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,419</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">87.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">M237I</font>&nbsp;(AT<font class="mutation_in_codon">G</font>&rarr;AT<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,455</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">87.4%</td>
+<td align="center"><font class="snp_type_synonymous">V249V</font>&nbsp;(GT<font class="mutation_in_codon">C</font>&rarr;GT<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,485</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">88.5%</td>
+<td align="center"><font class="snp_type_synonymous">K259K</font>&nbsp;(AA<font class="mutation_in_codon">G</font>&rarr;AA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,486</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">88.0%</td>
+<td align="center"><font class="snp_type_nonsynonymous">S260T</font>&nbsp;(<font class="mutation_in_codon">T</font>CT&rarr;<font class="mutation_in_codon">A</font>CT)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,498</td><!-- Position -->
+<td align="center">G&rarr;T</td><!-- Cell Mutation -->
+<td align="right">88.7%</td>
+<td align="center"><font class="snp_type_nonsynonymous">A264S</font>&nbsp;(<font class="mutation_in_codon">G</font>CT&rarr;<font class="mutation_in_codon">T</font>CT)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,509</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">88.7%</td>
+<td align="center"><font class="snp_type_synonymous">D267D</font>&nbsp;(GA<font class="mutation_in_codon">T</font>&rarr;GA<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,521</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">85.6%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K271N</font>&nbsp;(AA<font class="mutation_in_codon">A</font>&rarr;AA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,523</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">85.8%</td>
+<td align="center"><font class="snp_type_nonsynonymous">T272I</font>&nbsp;(A<font class="mutation_in_codon">C</font>C&rarr;A<font class="mutation_in_codon">T</font>C)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,524</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">85.7%</td>
+<td align="center"><font class="snp_type_synonymous">T272T</font>&nbsp;(AC<font class="mutation_in_codon">C</font>&rarr;AC<font class="mutation_in_codon">T</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,525</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">85.8%</td>
+<td align="center"><font class="snp_type_nonsynonymous">S273P</font>&nbsp;(<font class="mutation_in_codon">T</font>CA&rarr;<font class="mutation_in_codon">C</font>CA)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,533</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">88.3%</td>
+<td align="center"><font class="snp_type_synonymous">F275F</font>&nbsp;(TT<font class="mutation_in_codon">C</font>&rarr;TT<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,536</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">88.2%</td>
+<td align="center"><font class="snp_type_synonymous">N276N</font>&nbsp;(AA<font class="mutation_in_codon">C</font>&rarr;AA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,572</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.3%</td>
+<td align="center"><font class="snp_type_synonymous">K288K</font>&nbsp;(AA<font class="mutation_in_codon">A</font>&rarr;AA<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,610</td><!-- Position -->
+<td align="center">G&rarr;C</td><!-- Cell Mutation -->
+<td align="right">88.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">G301A</font>&nbsp;(G<font class="mutation_in_codon">G</font>C&rarr;G<font class="mutation_in_codon">C</font>C)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,615</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">88.4%</td>
+<td align="center"><font class="snp_type_synonymous">L303L</font>&nbsp;(<font class="mutation_in_codon">C</font>TG&rarr;<font class="mutation_in_codon">T</font>TG)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">1,090,620</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center"><font class="snp_type_synonymous">K304K</font>&nbsp;(AA<font class="mutation_in_codon">G</font>&rarr;AA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,623</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">87.8%</td>
+<td align="center"><font class="snp_type_synonymous">K305K</font>&nbsp;(AA<font class="mutation_in_codon">G</font>&rarr;AA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,629</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="right">88.2%</td>
+<td align="center"><font class="snp_type_synonymous">S307S</font>&nbsp;(TC<font class="mutation_in_codon">A</font>&rarr;TC<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,640</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">88.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">L311P</font>&nbsp;(C<font class="mutation_in_codon">T</font>A&rarr;C<font class="mutation_in_codon">C</font>A)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,668</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">87.1%</td>
+<td align="center"><font class="snp_type_nonsynonymous">F320L</font>&nbsp;(TT<font class="mutation_in_codon">T</font>&rarr;TT<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,669</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="right">86.8%</td>
+<td align="center"><font class="snp_type_nonsynonymous">I321L</font>&nbsp;(<font class="mutation_in_codon">A</font>TC&rarr;<font class="mutation_in_codon">C</font>TC)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,675</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">87.3%</td>
+<td align="center"><font class="snp_type_nonsynonymous">I323V</font>&nbsp;(<font class="mutation_in_codon">A</font>TA&rarr;<font class="mutation_in_codon">G</font>TA)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,695</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">87.8%</td>
+<td align="center"><font class="snp_type_synonymous">L329L</font>&nbsp;(TT<font class="mutation_in_codon">A</font>&rarr;TT<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,708</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">89.1%</td>
+<td align="center"><font class="snp_type_nonsynonymous">L334I</font>&nbsp;(<font class="mutation_in_codon">T</font>TA&rarr;<font class="mutation_in_codon">A</font>TA)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,740</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">89.1%</td>
+<td align="center"><font class="snp_type_synonymous">Q344Q</font>&nbsp;(CA<font class="mutation_in_codon">A</font>&rarr;CA<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,742</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">89.3%</td>
+<td align="center"><font class="snp_type_nonsynonymous">S345N</font>&nbsp;(A<font class="mutation_in_codon">G</font>C&rarr;A<font class="mutation_in_codon">A</font>C)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,747</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">89.6%</td>
+<td align="center"><font class="snp_type_nonsynonymous">Y347H</font>&nbsp;(<font class="mutation_in_codon">T</font>AC&rarr;<font class="mutation_in_codon">C</font>AC)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,800</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">89.0%</td>
+<td align="center"><font class="snp_type_synonymous">V364V</font>&nbsp;(GT<font class="mutation_in_codon">T</font>&rarr;GT<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,857</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.1%</td>
+<td align="center"><font class="snp_type_synonymous">K383K</font>&nbsp;(AA<font class="mutation_in_codon">A</font>&rarr;AA<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,881</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">88.5%</td>
+<td align="center"><font class="snp_type_synonymous">Y391Y</font>&nbsp;(TA<font class="mutation_in_codon">C</font>&rarr;TA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,896</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.3%</td>
+<td align="center"><font class="snp_type_synonymous">A396A</font>&nbsp;(GC<font class="mutation_in_codon">A</font>&rarr;GC<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,897</td><!-- Position -->
+<td align="center">C&rarr;A</td><!-- Cell Mutation -->
+<td align="right">87.9%</td>
+<td align="center"><font class="snp_type_nonsynonymous">L397M</font>&nbsp;(<font class="mutation_in_codon">C</font>TG&rarr;<font class="mutation_in_codon">A</font>TG)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,913</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">86.7%</td>
+<td align="center"><font class="snp_type_nonsynonymous">R402H</font>&nbsp;(C<font class="mutation_in_codon">G</font>T&rarr;C<font class="mutation_in_codon">A</font>T)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,920</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">86.2%</td>
+<td align="center"><font class="snp_type_synonymous">I404I</font>&nbsp;(AT<font class="mutation_in_codon">T</font>&rarr;AT<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,959</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">87.0%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N417K</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,974</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">87.3%</td>
+<td align="center"><font class="snp_type_nonsynonymous">D422E</font>&nbsp;(GA<font class="mutation_in_codon">T</font>&rarr;GA<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,090,989</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">87.0%</td>
+<td align="center"><font class="snp_type_nonsynonymous">D427E</font>&nbsp;(GA<font class="mutation_in_codon">T</font>&rarr;GA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,004</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">86.4%</td>
+<td align="center"><font class="snp_type_synonymous">T432T</font>&nbsp;(AC<font class="mutation_in_codon">G</font>&rarr;AC<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,010</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">86.0%</td>
+<td align="center"><font class="snp_type_nonsynonymous">I434M</font>&nbsp;(AT<font class="mutation_in_codon">A</font>&rarr;AT<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,016</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">86.7%</td>
+<td align="center"><font class="snp_type_synonymous">N436N</font>&nbsp;(AA<font class="mutation_in_codon">C</font>&rarr;AA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,053</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">88.4%</td>
+<td align="center"><font class="snp_type_nonsynonymous">L449I</font>&nbsp;(<font class="mutation_in_codon">T</font>TA&rarr;<font class="mutation_in_codon">A</font>TA)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,056</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">88.4%</td>
+<td align="center"><font class="snp_type_nonsynonymous">S450P</font>&nbsp;(<font class="mutation_in_codon">T</font>CA&rarr;<font class="mutation_in_codon">C</font>CA)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,071</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">87.1%</td>
+<td align="center"><font class="snp_type_nonsynonymous">S455A</font>&nbsp;(<font class="mutation_in_codon">T</font>CT&rarr;<font class="mutation_in_codon">G</font>CT)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,073</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">87.5%</td>
+<td align="center"><font class="snp_type_synonymous">S455S</font>&nbsp;(TC<font class="mutation_in_codon">T</font>&rarr;TC<font class="mutation_in_codon">G</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,075</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.1%</td>
+<td align="center"><font class="snp_type_nonsynonymous">D456A</font>&nbsp;(G<font class="mutation_in_codon">A</font>T&rarr;G<font class="mutation_in_codon">C</font>T)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,104</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K466E</font>&nbsp;(<font class="mutation_in_codon">A</font>AA&rarr;<font class="mutation_in_codon">G</font>AA)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,109</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">88.7%</td>
+<td align="center"><font class="snp_type_synonymous">N467N</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,125</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">87.7%</td>
+<td align="center"><font class="snp_type_nonsynonymous">A473T</font>&nbsp;(<font class="mutation_in_codon">G</font>CC&rarr;<font class="mutation_in_codon">A</font>CC)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,126</td><!-- Position -->
+<td align="center">C&rarr;G</td><!-- Cell Mutation -->
+<td align="right">86.9%</td>
+<td align="center"><font class="snp_type_nonsynonymous">A473G</font>&nbsp;(G<font class="mutation_in_codon">C</font>C&rarr;G<font class="mutation_in_codon">G</font>C)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,134</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">88.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">L476M</font>&nbsp;(<font class="mutation_in_codon">T</font>TG&rarr;<font class="mutation_in_codon">A</font>TG)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,181</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">88.7%</td>
+<td align="center"><font class="snp_type_nonsynonymous">L491F</font>&nbsp;(TT<font class="mutation_in_codon">A</font>&rarr;TT<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,220</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">88.1%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N504K</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,222</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="right">88.4%</td>
+<td align="center"><font class="snp_type_nonsynonymous">E505A</font>&nbsp;(G<font class="mutation_in_codon">A</font>A&rarr;G<font class="mutation_in_codon">C</font>A)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,229</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">88.9%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K507N</font>&nbsp;(AA<font class="mutation_in_codon">A</font>&rarr;AA<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,244</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">89.2%</td>
+<td align="center"><font class="snp_type_synonymous">S512S</font>&nbsp;(TC<font class="mutation_in_codon">G</font>&rarr;TC<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">1,091,255</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center"><font class="snp_type_nonsynonymous">R516K</font>&nbsp;(A<font class="mutation_in_codon">G</font>A&rarr;A<font class="mutation_in_codon">A</font>A)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,256</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.3%</td>
+<td align="center"><font class="snp_type_synonymous">R516R</font>&nbsp;(AG<font class="mutation_in_codon">A</font>&rarr;AG<font class="mutation_in_codon">G</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,268</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">88.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N520K</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,275</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">88.9%</td>
+<td align="center"><font class="snp_type_synonymous">L523L</font>&nbsp;(<font class="mutation_in_codon">T</font>TG&rarr;<font class="mutation_in_codon">C</font>TG)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,313</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">89.1%</td>
+<td align="center"><font class="snp_type_synonymous">K535K</font>&nbsp;(AA<font class="mutation_in_codon">A</font>&rarr;AA<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,371</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">86.3%</td>
+<td align="center"><font class="snp_type_nonsynonymous">S555A</font>&nbsp;(<font class="mutation_in_codon">T</font>CT&rarr;<font class="mutation_in_codon">G</font>CT)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,390</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">85.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">E561G</font>&nbsp;(G<font class="mutation_in_codon">A</font>A&rarr;G<font class="mutation_in_codon">G</font>A)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">1,091,394</td><!-- Position -->
+<td align="center">(A)<sub>5&rarr;4</sub></td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center">coding&nbsp;(1686/1758&nbsp;nt)</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,397:1</td><!-- Position -->
+<td align="center">+G</td><!-- Cell Mutation -->
+<td align="right">85.1%</td>
+<td align="center">coding&nbsp;(1689/1758&nbsp;nt)</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,403</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">85.5%</td>
+<td align="center"><font class="snp_type_synonymous">G565G</font>&nbsp;(GG<font class="mutation_in_codon">T</font>&rarr;GG<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,404</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">85.1%</td>
+<td align="center"><font class="snp_type_nonsynonymous">E566K</font>&nbsp;(<font class="mutation_in_codon">G</font>AA&rarr;<font class="mutation_in_codon">A</font>AA)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,413</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">86.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">K569E</font>&nbsp;(<font class="mutation_in_codon">A</font>AA&rarr;<font class="mutation_in_codon">G</font>AA)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,418</td><!-- Position -->
+<td align="center">C&rarr;A</td><!-- Cell Mutation -->
+<td align="right">84.9%</td>
+<td align="center"><font class="snp_type_nonsynonymous">F570L</font>&nbsp;(TT<font class="mutation_in_codon">C</font>&rarr;TT<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,421</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="right">85.0%</td>
+<td align="center"><font class="snp_type_synonymous">I571I</font>&nbsp;(AT<font class="mutation_in_codon">A</font>&rarr;AT<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,423</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">84.9%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N572S</font>&nbsp;(A<font class="mutation_in_codon">A</font>T&rarr;A<font class="mutation_in_codon">G</font>T)&nbsp;</td>
+<td align="center"><i>blaR1</i>&nbsp;&rarr;</td>
+<td align="left">beta&#8209;lactam sensor/signal transducer BlaR1</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,516</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">87.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N21D</font>&nbsp;(<font class="mutation_in_codon">A</font>AT&rarr;<font class="mutation_in_codon">G</font>AT)&nbsp;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,554</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">86.8%</td>
+<td align="center"><font class="snp_type_synonymous">E33E</font>&nbsp;(GA<font class="mutation_in_codon">G</font>&rarr;GA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,564</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">86.4%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N37Y</font>&nbsp;(<font class="mutation_in_codon">A</font>AT&rarr;<font class="mutation_in_codon">T</font>AT)&nbsp;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,584</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">86.3%</td>
+<td align="center"><font class="snp_type_synonymous">K43K</font>&nbsp;(AA<font class="mutation_in_codon">G</font>&rarr;AA<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,602</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">86.7%</td>
+<td align="center"><font class="snp_type_synonymous">I49I</font>&nbsp;(AT<font class="mutation_in_codon">T</font>&rarr;AT<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,635</td><!-- Position -->
+<td align="center">C&rarr;A</td><!-- Cell Mutation -->
+<td align="right">86.5%</td>
+<td align="center"><font class="snp_type_synonymous">R60R</font>&nbsp;(CG<font class="mutation_in_codon">C</font>&rarr;CG<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,638</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">85.7%</td>
+<td align="center"><font class="snp_type_synonymous">Y61Y</font>&nbsp;(TA<font class="mutation_in_codon">T</font>&rarr;TA<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,643</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="right">82.8%</td>
+<td align="center"><font class="snp_type_nonsynonymous">Y63S</font>&nbsp;(T<font class="mutation_in_codon">A</font>T&rarr;T<font class="mutation_in_codon">C</font>T)&nbsp;&Dagger;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,644</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">82.9%</td>
+<td align="center"><font class="snp_type_nonsense">Y63*</font>&nbsp;(TA<font class="mutation_in_codon">T</font>&rarr;TA<font class="mutation_in_codon">A</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,645</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">82.5%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N64D</font>&nbsp;(<font class="mutation_in_codon">A</font>AT&rarr;<font class="mutation_in_codon">G</font>AT)&nbsp;&Dagger;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,647</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">82.6%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N64K</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">G</font>)&nbsp;&Dagger;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,670</td><!-- Position -->
+<td align="center">T&rarr;A</td><!-- Cell Mutation -->
+<td align="right">85.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">I72N</font>&nbsp;(A<font class="mutation_in_codon">T</font>T&rarr;A<font class="mutation_in_codon">A</font>T)&nbsp;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,683</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">87.5%</td>
+<td align="center"><font class="snp_type_synonymous">D76D</font>&nbsp;(GA<font class="mutation_in_codon">T</font>&rarr;GA<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,723</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">86.8%</td>
+<td align="center"><font class="snp_type_synonymous">L90L</font>&nbsp;(<font class="mutation_in_codon">T</font>TG&rarr;<font class="mutation_in_codon">C</font>TG)&nbsp;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,737</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">88.6%</td>
+<td align="center"><font class="snp_type_synonymous">D94D</font>&nbsp;(GA<font class="mutation_in_codon">T</font>&rarr;GA<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,755</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">87.2%</td>
+<td align="center"><font class="snp_type_synonymous">L100L</font>&nbsp;(CT<font class="mutation_in_codon">T</font>&rarr;CT<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,833</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">81.6%</td>
+<td align="center"><font class="snp_type_synonymous">K126K</font>&nbsp;(AA<font class="mutation_in_codon">A</font>&rarr;AA<font class="mutation_in_codon">G</font>)&nbsp;</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;</td>
+<td align="left">penicillinase repressor BlaI</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,837</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">81.7%</td>
+<td align="center">intergenic&nbsp;(+1/+87)</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS14185</i></td>
+<td align="left">penicillinase repressor BlaI/hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,842</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">77.9%</td>
+<td align="center">intergenic&nbsp;(+6/+82)</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS14185</i></td>
+<td align="left">penicillinase repressor BlaI/hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,846</td><!-- Position -->
+<td align="center">G&rarr;T</td><!-- Cell Mutation -->
+<td align="right">79.5%</td>
+<td align="center">intergenic&nbsp;(+10/+78)</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS14185</i></td>
+<td align="left">penicillinase repressor BlaI/hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,848</td><!-- Position -->
+<td align="center">G&rarr;T</td><!-- Cell Mutation -->
+<td align="right">79.4%</td>
+<td align="center">intergenic&nbsp;(+12/+76)</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS14185</i></td>
+<td align="left">penicillinase repressor BlaI/hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,867</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">74.3%</td>
+<td align="center">intergenic&nbsp;(+31/+57)</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS14185</i></td>
+<td align="left">penicillinase repressor BlaI/hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,872</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">65.8%</td>
+<td align="center">intergenic&nbsp;(+36/+52)</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS14185</i></td>
+<td align="left">penicillinase repressor BlaI/hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,877</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">56.1%</td>
+<td align="center">intergenic&nbsp;(+41/+47)</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS14185</i></td>
+<td align="left">penicillinase repressor BlaI/hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,882</td><!-- Position -->
+<td align="center">A&rarr;C</td><!-- Cell Mutation -->
+<td align="right">42.4%</td>
+<td align="center">intergenic&nbsp;(+46/+42)</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS14185</i></td>
+<td align="left">penicillinase repressor BlaI/hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,883</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">43.6%</td>
+<td align="center">intergenic&nbsp;(+47/+41)</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS14185</i></td>
+<td align="left">penicillinase repressor BlaI/hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,885</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">44.0%</td>
+<td align="center">intergenic&nbsp;(+49/+39)</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS14185</i></td>
+<td align="left">penicillinase repressor BlaI/hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,897</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">18.6%</td>
+<td align="center">intergenic&nbsp;(+61/+27)</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS14185</i></td>
+<td align="left">penicillinase repressor BlaI/hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,091,901</td><!-- Position -->
+<td align="center">T&rarr;G</td><!-- Cell Mutation -->
+<td align="right">19.4%</td>
+<td align="center">intergenic&nbsp;(+65/+23)</td>
+<td align="center"><i>blaI</i>&nbsp;&rarr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS14185</i></td>
+<td align="left">penicillinase repressor BlaI/hypothetical protein</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">1,964,107</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">41.7%</td>
+<td align="center"><font class="snp_type_nonsynonymous">I106T</font>&nbsp;(A<font class="mutation_in_codon">T</font>A&rarr;A<font class="mutation_in_codon">C</font>A)&nbsp;</td>
+<td align="center"><i>purN</i>&nbsp;&larr;</td>
+<td align="left">phosphoribosylglycinamide formyltransferase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="normal_table_row">
+<td align="right">2,067,791</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">100%</td>
+<td align="center"><font class="snp_type_nonsense">Q24*</font>&nbsp;(<font class="mutation_in_codon">C</font>AA&rarr;<font class="mutation_in_codon">T</font>AA)&nbsp;</td>
+<td align="center"><i>SERP_RS02860</i>&nbsp;&larr;</td>
+<td align="left">IS110&#8209;like element ISSep2 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">2,358,681</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">76.5%</td>
+<td align="center">intergenic&nbsp;(&#8209;422/+27)</td>
+<td align="center"><i>SERP_RS01435</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS01430</i></td>
+<td align="left">GNAT family N&#8209;acetyltransferase/IS6 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">2,358,700</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">84.5%</td>
+<td align="center">intergenic&nbsp;(&#8209;441/+8)</td>
+<td align="center"><i>SERP_RS01435</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS01430</i></td>
+<td align="left">GNAT family N&#8209;acetyltransferase/IS6 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">2,358,707</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">85.8%</td>
+<td align="center">intergenic&nbsp;(&#8209;448/+1)</td>
+<td align="center"><i>SERP_RS01435</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS01430</i></td>
+<td align="left">GNAT family N&#8209;acetyltransferase/IS6 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">2,358,744</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">36.7%</td>
+<td align="center"><font class="snp_type_synonymous">S213S</font>&nbsp;(TC<font class="mutation_in_codon">C</font>&rarr;TC<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>SERP_RS01430</i>&nbsp;&larr;</td>
+<td align="left">IS6 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">2,358,771</td><!-- Position -->
+<td align="center">G&rarr;A</td><!-- Cell Mutation -->
+<td align="right">90.7%</td>
+<td align="center"><font class="snp_type_synonymous">R204R</font>&nbsp;(CG<font class="mutation_in_codon">C</font>&rarr;CG<font class="mutation_in_codon">T</font>)&nbsp;</td>
+<td align="center"><i>SERP_RS01430</i>&nbsp;&larr;</td>
+<td align="left">IS6 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">2,358,820</td><!-- Position -->
+<td align="center">T&rarr;C</td><!-- Cell Mutation -->
+<td align="right">31.2%</td>
+<td align="center"><font class="snp_type_nonsynonymous">N188S</font>&nbsp;(A<font class="mutation_in_codon">A</font>T&rarr;A<font class="mutation_in_codon">G</font>T)&nbsp;</td>
+<td align="center"><i>SERP_RS01430</i>&nbsp;&larr;</td>
+<td align="left">IS6 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">2,358,891</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">89.6%</td>
+<td align="center"><font class="snp_type_synonymous">N164N</font>&nbsp;(AA<font class="mutation_in_codon">T</font>&rarr;AA<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>SERP_RS01430</i>&nbsp;&larr;</td>
+<td align="left">IS6 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">2,359,275</td><!-- Position -->
+<td align="center">C&rarr;T</td><!-- Cell Mutation -->
+<td align="right">9.3%</td>
+<td align="center"><font class="snp_type_synonymous">R36R</font>&nbsp;(AG<font class="mutation_in_codon">G</font>&rarr;AG<font class="mutation_in_codon">A</font>)&nbsp;</td>
+<td align="center"><i>SERP_RS01430</i>&nbsp;&larr;</td>
+<td align="left">IS6 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">2,359,302</td><!-- Position -->
+<td align="center">A&rarr;G</td><!-- Cell Mutation -->
+<td align="right">9.1%</td>
+<td align="center"><font class="snp_type_synonymous">S27S</font>&nbsp;(AG<font class="mutation_in_codon">T</font>&rarr;AG<font class="mutation_in_codon">C</font>)&nbsp;</td>
+<td align="center"><i>SERP_RS01430</i>&nbsp;&larr;</td>
+<td align="left">IS6 family transposase</td>
+</tr>
+<!-- End Table Row -->
+
+<!-- Print The Table Row -->
+<tr class="polymorphism_table_row">
+<td align="right">2,359,412</td><!-- Position -->
+<td align="center">A&rarr;T</td><!-- Cell Mutation -->
+<td align="right">67.0%</td>
+<td align="center">intergenic&nbsp;(&#8209;30/+181)</td>
+<td align="center"><i>SERP_RS01430</i>&nbsp;&larr;&nbsp;/&nbsp;&larr;&nbsp;<i>SERP_RS01425</i></td>
+<td align="left">IS6 family transposase/TetR/AcrR family transcriptional regulator</td>
+</tr>
+<!-- End Table Row -->
+</table></body></html>
