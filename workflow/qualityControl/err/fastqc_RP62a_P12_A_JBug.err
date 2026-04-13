@@ -18,20 +18,6 @@ Approx 80% complete for RP62a_P12_A_JBug_S78_R1_001.fastq.gz
 Approx 85% complete for RP62a_P12_A_JBug_S78_R1_001.fastq.gz
 Approx 90% complete for RP62a_P12_A_JBug_S78_R1_001.fastq.gz
 Approx 95% complete for RP62a_P12_A_JBug_S78_R1_001.fastq.gz
-Failed to process file RP62a_P12_A_JBug_S78_R1_001.fastq.gz
-java.util.zip.ZipException: ZipFile invalid LOC header (bad signature)
-	at java.base/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(ZipFile.java:1009)
-	at java.base/java.util.zip.ZipFile$ZipFileInputStream.read(ZipFile.java:1019)
-	at java.base/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:469)
-	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:159)
-	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
-	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.unzipZipFile(HTMLReportArchive.java:213)
-	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.<init>(HTMLReportArchive.java:185)
-	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.analysisComplete(OfflineRunner.java:189)
-	at uk.ac.babraham.FastQC.Analysis.AnalysisRunner.run(AnalysisRunner.java:123)
-	at java.base/java.lang.Thread.run(Thread.java:829)
 Started analysis of RP62a_P12_A_JBug_S78_R2_001.fastq.gz
 Approx 5% complete for RP62a_P12_A_JBug_S78_R2_001.fastq.gz
 Approx 10% complete for RP62a_P12_A_JBug_S78_R2_001.fastq.gz
@@ -52,15 +38,3 @@ Approx 80% complete for RP62a_P12_A_JBug_S78_R2_001.fastq.gz
 Approx 85% complete for RP62a_P12_A_JBug_S78_R2_001.fastq.gz
 Approx 90% complete for RP62a_P12_A_JBug_S78_R2_001.fastq.gz
 Approx 95% complete for RP62a_P12_A_JBug_S78_R2_001.fastq.gz
-Failed to process file RP62a_P12_A_JBug_S78_R2_001.fastq.gz
-java.io.EOFException: Unexpected end of ZLIB input stream
-	at java.base/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(ZipFile.java:467)
-	at java.base/java.util.zip.InflaterInputStream.read(InflaterInputStream.java:159)
-	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
-	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
-	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
-	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.unzipZipFile(HTMLReportArchive.java:213)
-	at uk.ac.babraham.FastQC.Report.HTMLReportArchive.<init>(HTMLReportArchive.java:185)
-	at uk.ac.babraham.FastQC.Analysis.OfflineRunner.analysisComplete(OfflineRunner.java:189)
-	at uk.ac.babraham.FastQC.Analysis.AnalysisRunner.run(AnalysisRunner.java:123)
-	at java.base/java.lang.Thread.run(Thread.java:829)
